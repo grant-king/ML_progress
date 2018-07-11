@@ -96,7 +96,21 @@ Day 8: July 9, 2018
 I found a course on Coursera called Applied Machine Learning in Python that seems to be right around my current level of understanding. This course has some prerequisites that I have met on DataCamp. It looks like I will be learning about regression in module 2, so expect to be able to complete these MOI coding challenges by then.
 
 **Link to work:**
+c
 
+Day 9: July 10, 2018
+
+**Today's Progress:**
+Finished week 1 in Applied Machine Learning. Followed videos with Jupyter notebook.
+
+**Thoughts:** Applied Machine Learning module 1 was some review but good to go over. It looks like the next module might not get into the mathematic particulars of regression, but more of how to use python to do so easily.
+
+I will take the one that gets more into the math behind these machine learning methods, taught by Andrew Ng and just called 'Machine Learning': https://www.coursera.org/learn/machine-learning. I have heard of this class elsewhere as well, so am encouraged that it is the right choice.
+
+I am going to finish watching lectures for this applied ml course to get a higher-level understanding of what I'm trying to achieve. I expect it will help in Ng's course and working through MOI.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress/blob/master/week_1/simple_classification.ipynb
 <!---
 Day x: July x, 2018
 
