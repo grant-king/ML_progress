@@ -96,7 +96,7 @@ Day 8: July 9, 2018
 I found a course on Coursera called Applied Machine Learning in Python that seems to be right around my current level of understanding. This course has some prerequisites that I have met on DataCamp. It looks like I will be learning about regression in module 2, so expect to be able to complete these MOI coding challenges by then.
 
 **Link to work:**
-c
+https://github.com/grant-king/MOI_progress/blob/master/week_1/main.ipynb
 
 Day 9: July 10, 2018
 
@@ -111,7 +111,20 @@ I am going to finish watching lectures for this applied ml course to get a highe
 
 **Link to work:**
 https://github.com/grant-king/MOI_progress/blob/master/week_1/simple_classification.ipynb
+
+Day x: July x, 2018
+
+**Today's Progress:** Continued studying Coursera's Applied Machine Learning. Finished yesterday's notebook and made new Jupyter notebook for this module.
+
+**Thoughts:** Yesterday's notebook was missing the last few lines for the knn classifier to work.
+
+Started watching new lectures and started a new notebook to work through concepts in this module.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress
+
 <!---
+
 Day x: July x, 2018
 
 **Today's Progress:**
