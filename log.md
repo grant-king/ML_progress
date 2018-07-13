@@ -112,7 +112,7 @@ I am going to finish watching lectures for this applied ml course to get a highe
 **Link to work:**
 https://github.com/grant-king/MOI_progress/blob/master/week_1/simple_classification.ipynb
 
-Day x: July x, 2018
+Day 10: July 11, 2018
 
 **Today's Progress:** Continued studying Coursera's Applied Machine Learning. Finished yesterday's notebook and made new Jupyter notebook for this module.
 
@@ -123,6 +123,14 @@ Started watching new lectures and started a new notebook to work through concept
 **Link to work:**
 https://github.com/grant-king/MOI_progress
 
+Day 11: July 12, 2018
+
+**Today's Progress:** Fiddled with datasets from module 2 of Applied Machine Learning.
+
+**Thoughts:** I wish I had more time today to work on module 2. I wanted to zip through but spent time trying to setup all required datasets in notebook. Not all data available on coursera course site will be easily reproducable so may have to look for alternative datasets for some of the example classification problems.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress
 <!---
 
 Day x: July x, 2018
