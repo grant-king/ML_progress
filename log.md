@@ -149,6 +149,16 @@ Day 13: July 14, 2018
 
 **Link to work:**
 https://github.com/grant-king/MOI_progress
+
+Day 14: July 15, 2018
+
+**Today's Progress:** Continued module 2 of Applied Machine Learning Coursera course
+
+**Thoughts:** This course is visiting many semi-familiar concepts and explaining the reasoning behind them. This section covered logistic regression and SVM linear classifiers.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress
+
 <!---
 
 Day x: July x, 2018
