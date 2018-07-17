@@ -159,6 +159,15 @@ Day 14: July 15, 2018
 **Link to work:**
 https://github.com/grant-king/MOI_progress
 
+Day 15: July 16, 2018
+
+**Today's Progress:** CodeWars practice, continuing through module 2 of Applied Machine Learning Coursera course, continuing DataCamp course on Bokeh library
+
+**Thoughts:** The Coursera course is getting to be a little monotonous so added CodeWars and DataCamp activities today. Coursera is covering multi-class classification using linear models. DataCamp was pleasantly light in comparison and gave me an idea to work on the Transcription notebook as a Bokeh app, but still debating if that would be useful. CodeWars gave a simple word reversing exercise that went quickly. 
+
+**Link to work:**
+https://www.codewars.com/kata/reviews/55401901b8a14241e4000048/groups/5b4d7bd29d2b0bfbf7000fd6
+
 <!---
 
 Day x: July x, 2018
