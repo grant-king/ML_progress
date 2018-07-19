@@ -172,7 +172,16 @@ Day 16: July 17, 2018
 
 **Today's Progress:** Finished module 2 of Applied Machine Learning Coursera course. Continued Bokeh tutorial at DataCamp.
 
-**Thoughts:** I hoped to work on more today, but am glad to be pushing through the Coursera course. Bokeh isn't the most exciting thing right now, should work on incorporating something into Transcription notebook tomorrow.
+**Thoughts:** I hoped to work on more today, but am glad to be getting through the Coursera course. Bokeh isn't the most exciting thing right now, should work on incorporating something into Transcription notebook tomorrow.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress
+
+Day 17: July 18, 2018
+
+**Today's Progress:** Examining NYC police data for potential project.  Continued Bokeh tutorial on DataCamp.
+
+**Thoughts:** Downloaded 2006 NYC stop and frisk data; planning a potential project that uses some features of this set. 2003-2016 available if features are useful. I should be browsing datasets more regularly to get some intuitive sense of what I could do with each dataset. Didn't work on Transcription today but want to finish Bokeh tutorial first, will then have better idea about what I can improve.
 
 **Link to work:**
 https://github.com/grant-king/MOI_progress
