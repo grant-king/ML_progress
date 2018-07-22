@@ -185,6 +185,32 @@ Day 17: July 18, 2018
 
 **Link to work:**
 https://github.com/grant-king/MOI_progress
+
+Day 18: July 19, 2018
+
+**Today's Progress:** Reviewed module 2, started on module 3 of Applied Machine Learning Coursera course. Continued Bokeh tutorial at DataCamp.
+
+**Thoughts:** I found an additional resource for module 2 that illustrates how changing certain parameters affects the classification outcome. Added this to week_2 notebook.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress
+
+Day 19: July 20, 2018
+
+**Today's Progress:** Quickly reviewed DataCamp skills with quiz.
+
+**Thoughts:** Not enough time to spend on this today.
+
+**Link to work:**
+
+Day 20: July 21, 2018
+
+**Today's Progress:** Continuing in module 3 of Applied Machine Learning at Coursera. Also went back to explore the additional resource and better integrate it into the 'week_2\\SupervisedML' notebook.
+
+**Thoughts:** I want to use Bokeh with this additional resource to help dynamically visualize how tweaking different parameters of each ML method can alter the outcome.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress
 <!---
 
 Day x: July x, 2018
