@@ -211,6 +211,12 @@ Day 20: July 21, 2018
 
 **Link to work:**
 https://github.com/grant-king/MOI_progress
+
+**Today's Progress:** Continued Bokeh tutorial at DataCamp
+
+**Thoughts:** Quick day of studying how to use Bokeh
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
