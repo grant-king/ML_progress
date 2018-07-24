@@ -220,6 +220,16 @@ https://github.com/grant-king/MOI_progress
 
 **Link to work:**
 https://github.com/grant-king/MOI_progress
+
+Day 22: July 23, 2018
+
+**Today's Progress:** Continued DataCamp tutorial on Bokeh. Began planning how to integrate some bokeh features into *Transcription*.
+
+**Thoughts:** Stuck to Bokeh today to try to get through the last bit.
+Have half of the case study left to do there.
+
+**Link to work:**
+https://github.com/grant-king/MOI_progress
 <!---
 
 Day x: July x, 2018
