@@ -230,6 +230,14 @@ Have half of the case study left to do there.
 
 **Link to work:**
 https://github.com/grant-king/MOI_progress
+
+Day 23: July 24, 2018
+
+**Today's Progress:** Finished Bokeh tutorial and resumed Seaborn tutorial at DataCamp.
+
+**Thoughts:** Bokeh looks very useful but probably not for using in *Transcription* notebook.
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
