@@ -235,9 +235,20 @@ Day 23: July 24, 2018
 
 **Today's Progress:** Finished Bokeh tutorial and resumed Seaborn tutorial at DataCamp.
 
-**Thoughts:** Bokeh looks very useful but probably not for using in *Transcription* notebook.
+**Thoughts:** Bokeh looks very useful but probably not as helpful as I had hoped for using in *Transcription* notebook.
 
 **Link to work:**
+
+Day 24: July 25, 2018
+
+**Today's Progress:** Continued Seaborn tutorial and restarted statistical thinking course at DataCamp. Researching candidate planning tools.
+
+**Thoughts:** I think that more formal planning would help with coming up with showcase projects and outlining out a clear path for navigating this ML curriculum. I'm hoping to learn a new tool for project planning that could help with this. I found one called Mavenlink and works as an app in Chrome. Changing the plan slightly at this point, I would like to put extra emphasis on finishing the remaining relevant DataCamp courses, and use Coursera Applied Machine Learning to supplement this content until I can confidently approach all concepts required to complete Math Of Intelligence series. After this enroll for Udacity paid certificate for autonomous flight.
+
+I have been staying away from CodeWars or other generalized practice sites for some reason.
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
