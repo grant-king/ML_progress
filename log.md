@@ -249,6 +249,14 @@ I have been staying away from CodeWars or other generalized practice sites for s
 
 **Link to work:**
 
+Day 25: July 26, 2018
+
+**Today's Progress:** Started statistical Thinking in Python at Datacamp. Watched some of Siraj's videos for direction and ideas.
+
+**Thoughts:** I am anxious to get on to more exciting ML projects but feel like I should try to push through the rest of DataCamp lessons as soon as possible. Watching some of Siraj's videos today helped me think more about my curriculum plan; it seems the quickest way to reaching the point where I am comfortable with ML may be through completing my remaining courses on DataCamp. I made a lot of progress in the course today but know my speed of progress will slow down with more difficult content coming up. I want to make daily progress there a priority, and am revising my approach to studying to get through the content more quickly. Once I get through the remainder of this track I should be comfortable enough with the concepts to start working on more tangible projects.
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
