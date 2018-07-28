@@ -257,6 +257,14 @@ Day 25: July 26, 2018
 
 **Link to work:**
 
+Day 26: July 27, 2018
+
+**Today's Progress:** Continued in Statistical Thinking at DataCamp. Worked in new Mavenlink project planning app to build curriculum plan.
+
+**Thoughts:** Statistical Thinking was slow today. I really like the Mavenlink app for project planning. I've added some DataCamp, Coursera, and YT courses as tasks and milestones in the project I've named 'curriculum'.
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
