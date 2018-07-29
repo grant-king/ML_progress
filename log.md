@@ -265,6 +265,14 @@ Day 26: July 27, 2018
 
 **Link to work:**
 
+Day 27: July 28, 2018
+
+**Today's Progress:** Continued Statistical Thinking at DataCamp
+
+**Thoughts:** I couldn't get through much at DC today. Frustrated by silly mistakes.
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
