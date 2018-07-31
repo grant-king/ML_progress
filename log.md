@@ -273,6 +273,22 @@ Day 27: July 28, 2018
 
 **Link to work:**
 
+Day 28: July 29, 2018
+
+**Today's Progress:**
+
+**Thoughts:** Day off for off day.
+
+**Link to work:**
+
+Day 29: July 30, 2018
+
+**Today's Progress:** Continued Statistical Thinking at DataCamp
+
+**Thoughts:** Today I finished the 3rd of 4 total modules for the first course of Statistical Thinking in Python at DataCamp. This course has extensively used numpy and np.random and included functions for creating various types of distributed variables. I feel comfortable with basic Statistics but am having a hard time grasping the utility of some of these functons. I may be overcomplicating things and these could just be intentionally vague and general ways to generate randomized data. Hopefully the next section makes this more clear.
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
