@@ -289,6 +289,15 @@ Day 29: July 30, 2018
 
 **Link to work:**
 
+Day 30: July 31, 2018
+
+**Today's Progress:** Continued Statistical Thinking at DataCamp. Started investigating side project to add to *Transcription*.
+
+**Thoughts:** Wanted to work on Transcription but ran out of time today. Almost through the first half of Statistical Thinking. After the second half I will be very excited to jump into the ML tutorials at DataCamp and elsewhere. 
+
+**Link to work:**
+
+
 <!---
 
 Day x: July x, 2018
