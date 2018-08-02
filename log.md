@@ -293,10 +293,17 @@ Day 30: July 31, 2018
 
 **Today's Progress:** Continued Statistical Thinking at DataCamp. Started investigating side project to add to *Transcription*.
 
-**Thoughts:** Wanted to work on Transcription but ran out of time today. Almost through the first half of Statistical Thinking. After the second half I will be very excited to jump into the ML tutorials at DataCamp and elsewhere. 
+**Thoughts:** Wanted to work on Transcription but ran out of time today. Almost through the first half of Statistical Thinking. After the second half I will be very excited to jump into the ML tutorials at DataCamp and elsewhere.
 
 **Link to work:**
 
+Day 31: August 1, 2018
+
+**Today's Progress:** Briefly worked on Statistical Thinking at DataCamp. Watched some Siraj on different cloud providers and their services.
+
+**Thoughts:** Sluggish on the Statistical Thinking today but very close to through. Siraj has some new videos on cloud providers. I had been keeping an eye on PC parts that might go into an ML build but am very glad to see that all extra computational power can be outsourced. Siraj videos covered some of the many Google Cloud services and AWS. I have also recently seen him do some things with FloydHub, which is apparently better for beginners so probably where I will start.
+
+**Link to work:**
 
 <!---
 
