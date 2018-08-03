@@ -305,6 +305,14 @@ Day 31: August 1, 2018
 
 **Link to work:**
 
+Day 32: August 2, 2018
+
+**Today's Progress:** Finished part 1 of Statistical Thinking and started part 2. Also returned to unfinished Data Visualization in Python at DataCamp.
+
+**Thoughts:** I was happy to get through a good chunk today. I am trying to regularly return to work on to complete any unfinished DataCamp modules, like Data Visualization in Python and the SQL modules that bored me to a halt.  Still itching to start working on actual ML projects. Visualization is fine to learn again now that brain gets used while reviewing theory and statistical operations.
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
