@@ -313,6 +313,17 @@ Day 32: August 2, 2018
 
 **Link to work:**
 
+Day 33: August 3, 2018
+
+**Today's Progress:** Finished Data Visualization in Python at DataCamp. Continued in Statistical Thinking II. Resumed interactive python textbook "Problem Solving with Algorithms and Data Structures"
+
+**Thoughts:** Happy to get Data Visualization in Python module at DataCamp out of the way. I have been adding more curriculum to the Mavenlink project tracking app to keep perspective on how much I have learned and how far there is to go. I hope to use this app to plan other projects as well. I went back to the interactive python textbook Runestone site and picked up where I left off learning all about how to generate Python classes to represent abstract data types, and various OOP capabilities. I didn't particulaly like the fraction class example offered at Runestone and examples of overriding builtin methods, so I am grateful for youtube and other interactive tutorial sites as lighter alternative examples to solidify these ideas.
+https://runestone.academy/runestone/static/pythonds/index.html
+http://python-textbok.readthedocs.io/en/1.0/Classes.html
+https://youtu.be/BJ-VvGyQxho
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
