@@ -324,6 +324,15 @@ https://youtu.be/BJ-VvGyQxho
 
 **Link to work:**
 
+Day 34: August 4, 2018
+
+**Today's Progress:** Continued in Statistical thinking at DataCamp. Continued Runestone interactive textbook, Problem Solving with Algorithms and Data Structures. Researched potential projects using Facebook graph API.
+
+**Thoughts:** Made good progress today and got sidetracked by some ideas about using FB to find names for unlabeled faces. The data seems so accessible I may be missing something that prevents this. I found a list of fb profile URLs from 2010 as an example of publicly accessible data; it looks like people weren't happy with someone making the list. Maybe this vital step of collecting all profile names is now prohibitively difficult? Privacy is probably not something worth putting time into at this point but the research helped me find tools that I can use to get data for other ML projects.
+
+**Link to work:**
+https://github.com/grant-king/FaceGrab
+
 <!---
 
 Day x: July x, 2018
