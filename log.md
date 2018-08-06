@@ -333,6 +333,14 @@ Day 34: August 4, 2018
 **Link to work:**
 https://github.com/grant-king/FaceGrab
 
+Day 35: August 5, 2018
+
+**Today's Progress:** Continued at Runestone interactive, finished additional related resources.
+
+**Thoughts:** Finished class review at Runestone and followed several youtube tutorials all about abstract data types in Python. I needed a refresher on how to use classes properly; I finally feel comfortable with the ideas and am excited to start implementing these OOP tools to come up with more sensible code. I should find some CodeWars exercises tomorrow to practice these ideas.
+
+**Link to work:**
+
 <!---
 
 Day x: July x, 2018
