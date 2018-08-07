@@ -341,6 +341,15 @@ Day 35: August 5, 2018
 
 **Link to work:**
 
+Day 36: August 6, 2018
+
+**Today's Progress:** Followed exercises on interactive textbook at python-textbok.readthedocs.io. More review of how classes are implemented in Python.
+
+**Thoughts:** Followed an example exercise for how classes work in Python. Attempting to implement the idea of a music library with classes for album, artist, songs, playlist. Put in repository with infinite monkey exercise from runestone textbook, which I will rename to 'exercises' or something.
+
+**Link to work:**
+https://github.com/grant-king/exercises/blob/master/Music_library.ipynb
+
 <!---
 
 Day x: July x, 2018
