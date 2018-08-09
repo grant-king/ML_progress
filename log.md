@@ -349,7 +349,21 @@ Day 36: August 6, 2018
 
 **Link to work:**
 https://github.com/grant-king/exercises/blob/master/Music_library.ipynb
+Day 37: August 7, 2018
 
+**Today's Progress:** Family stuff
+
+**Thoughts:** Day off
+
+**Link to work:**
+
+Day 38: August 8, 2018
+
+**Today's Progress:** Continued in Statistical Thinking at DataCamp. Watched series on AI in RTS games and another delving further into Python class use. Signed up (again) for improved exercism.io site and browsed some tracks. Researching ML projects, opportunities, and AI applications.
+
+**Thoughts:** Statistical thinking went almost nowhere today. Studying other things proved productive and tried to get a better idea of when/how to make money in this field, this guided by new Siraj video. I'm going back to things that were recently way over my head and am so happy to understand more of the concepts and theory of ML discussed in the instruction. exercism.io has a new site and interface that I may switch to in place of CodeWars.
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
