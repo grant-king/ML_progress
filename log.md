@@ -364,6 +364,14 @@ Day 38: August 8, 2018
 **Thoughts:** Statistical thinking went almost nowhere today. Studying other things proved productive and tried to get a better idea of when/how to make money in this field, this guided by new Siraj video. I'm going back to things that were recently way over my head and am so happy to understand more of the concepts and theory of ML discussed in the instruction. exercism.io has a new site and interface that I may switch to in place of CodeWars.
 
 **Link to work:**
+
+Day 39: August 9, 2018
+
+**Today's Progress:** Followed along videos by Corey on advanced string operations that I certainly need a refresher on. Completed several exercism.io tests.
+
+**Thoughts:** I really like alternating learning sources for these advanced Python topics. A channel by Corey Schafer is a recent discovery for me on YouTube; he has great tutorials on several Python specialties. I think his instruction is generally oriented for software engineers. This is a good alternative to the interactive textbooks I have been working through at Runestone and python-textbok. Today I had fun working through some of the basic exercism.io exercises. I really like this new design and the cli interface they've built. It is easy to download exercises and work on them locally. This is opposed to how I do exercises on CodeWars, always copying instructions into Jupyter and using snippets to solve the problem, then refining back on their site, which provides an environment with inconsistent Python versions.
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
