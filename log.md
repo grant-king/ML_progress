@@ -372,6 +372,17 @@ Day 39: August 9, 2018
 **Thoughts:** I really like alternating learning sources for these advanced Python topics. A channel by Corey Schafer is a recent discovery for me on YouTube; he has great tutorials on several Python specialties. I think his instruction is generally oriented for software engineers. This is a good alternative to the interactive textbooks I have been working through at Runestone and python-textbok. Today I had fun working through some of the basic exercism.io exercises. I really like this new design and the cli interface they've built. It is easy to download exercises and work on them locally. This is opposed to how I do exercises on CodeWars, always copying instructions into Jupyter and using snippets to solve the problem, then refining back on their site, which provides an environment with inconsistent Python versions.
 
 **Link to work:**
+
+Day 40: August 10, 2018
+
+**Today's Progress:** Worked through a some Kaggle Learn exercises.
+
+**Thoughts:** I don't know why I haven't been working on Kaggle every day; it is an amazingly sleek site and helpful community. I am glad to find more helpful alternatives to supplement my Python data science topics. I am going through their Pandas content.
+
+**Link to work:**
+https://kaggle.com/grking/creating-reading-and-writing-workbook
+
+https://www.kaggle.com/grking/indexing-selecting-assigning
 <!---
 
 Day x: July x, 2018
