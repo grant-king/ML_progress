@@ -379,10 +379,20 @@ Day 40: August 10, 2018
 
 **Thoughts:** I don't know why I haven't been working on Kaggle every day; it is an amazingly sleek site and helpful community. I am glad to find more helpful alternatives to supplement my Python data science topics. I am going through their Pandas content.
 
+
 **Link to work:**
 https://kaggle.com/grking/creating-reading-and-writing-workbook
 
 https://www.kaggle.com/grking/indexing-selecting-assigning
+
+Day 41: August 11, 2018
+
+**Today's Progress:** Worked through some Kaggle exercises. Finished this Kaggle section. Looked through datasets to use for upcoming projects.
+
+**Thoughts:** I like revisiting the kaggle site now that I know more about how to use Python for EDA.
+
+**Link to work:**
+https://www.kaggle.com/grking/indexing-selecting-assigning?scriptVersionId=5048943
 <!---
 
 Day x: July x, 2018
