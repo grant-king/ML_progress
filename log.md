@@ -393,6 +393,16 @@ Day 41: August 11, 2018
 
 **Link to work:**
 https://www.kaggle.com/grking/indexing-selecting-assigning?scriptVersionId=5048943
+
+Day 42: August 12, 2018
+
+**Today's Progress:** Returned to Statistical Thinking at DataCamp. Started "Supervised Learning with scikit-learn" course.
+
+**Thoughts:** I was avoiding DataCamp for the current Statistical Thinking II course. Tried to return but it was difficult to progress through it without just getting through it. Although the material is familiar from my theoretical understanding of stats, I'm having a hard time figuring out the purpose of some exercises and why the instructor is explaining something that seems simple & familiar in such a convoluted way. I Decided to come back to that topic later and start in on the ML content. I had taken about half of the first chapter 6mo ago or so, so I restarted my course progress. Again I am noticing that some familiar topics are explained in a way that isn't as helpful as how I would like to hear them explained, so I plan to work through the nearly-parallel Applied Machine Learning course at Coursera to supplement the theory part. 
+
+DataCamp is good to quickly get going with many libraries but I need to remember to treat it as an incredibly helpful Python library reference and not something that will explain why I'm doing the things it is showing me how to do.
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
