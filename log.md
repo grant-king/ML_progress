@@ -412,6 +412,13 @@ Day 43: August 13, 2018
 
 **Link to work:**
 
+Day 44: August 14, 2018
+
+**Today's Progress:** Worked with Twitter API. Followed Siraj Video.
+
+**Thoughts:** There is very little documentation or examples for this API and Python tweepy library so this is frustrating. I got it to connect, authenticate, and return a search query. I'm not putting it on GitHub as it has my authentication keys.
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
