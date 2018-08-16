@@ -419,6 +419,14 @@ Day 44: August 14, 2018
 **Thoughts:** There is very little documentation or examples for this API and Python tweepy library so this is frustrating. I got it to connect, authenticate, and return a search query. I'm not putting it on GitHub as it has my authentication keys.
 
 **Link to work:**
+
+Day 45: August 15, 2018
+
+**Today's Progress:** Experimented with Twitter API. Found some additional Python libraries that work with it. Continued with Supervised Learning at DataCamp.
+
+**Thoughts:** The Twitter API is pretty restrictive. Searches can only go back a week for non-premium API accounts like mine. I got through the basics involving authentication and searching for a topic, and worked with some of the available methods from tweepy and Twython. I can see this being helpful in the future if I ever need to look for something simple in recent Twitter data. For now the API is underwhelming but I'm glad to be familiar with how to access the service.
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
