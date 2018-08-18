@@ -427,6 +427,22 @@ Day 45: August 15, 2018
 **Thoughts:** The Twitter API is pretty restrictive. Searches can only go back a week for non-premium API accounts like mine. I got through the basics involving authentication and searching for a topic, and worked with some of the available methods from tweepy and Twython. I can see this being helpful in the future if I ever need to look for something simple in recent Twitter data. For now the API is underwhelming but I'm glad to be familiar with how to access the service.
 
 **Link to work:**
+Day 46: August 16, 2018
+
+**Today's Progress:** Twitter API experimentation. Watched Siraj live stream on gradient descent and explored notebook for week one challenge of MOI.
+
+**Thoughts:** Today I went back to explore the old notebook for Math of Intelligence week 1 coding challenge. It all makes a lot more sense than before and I think I can rewrite and implement somewhere. I want to look at datasets on Kaggle to see what to use.
+
+**Link to work:**
+
+Day 47: August, 17 2018
+
+**Today's Progress:** Continued working with tweepy in unpublished notebook. Worked on exercism.io, researching Django through Sentdex on YouTube, continued researching Youtube API.
+
+**Thoughts:** I keep going back to add onto my notebook about the Twitter libraries and API, but I'm still seeing limited use for anything in the near future. I think that learning to work with the YouTube API will be more worthwhile considering the data they make available. Django doesn't seem like something I should pursue for now either. 
+
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
