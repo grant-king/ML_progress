@@ -439,8 +439,23 @@ Day 47: August, 17 2018
 
 **Today's Progress:** Continued working with tweepy in unpublished notebook. Worked on exercism.io, researching Django through Sentdex on YouTube, continued researching Youtube API.
 
-**Thoughts:** I keep going back to add onto my notebook about the Twitter libraries and API, but I'm still seeing limited use for anything in the near future. I think that learning to work with the YouTube API will be more worthwhile considering the data they make available. Django doesn't seem like something I should pursue for now either. 
+**Thoughts:** I keep going back to add onto my notebook about the Twitter libraries and API, but I'm still seeing limited use for anything in the near future. I think that learning to work with the YouTube API will be more worthwhile considering the data they make available. Django doesn't seem like something I should pursue for now either.
 
+
+**Link to work:**
+Day 48: August 18, 2018
+
+**Today's Progress:** Researched Flask. Continued on exercism.io
+
+**Thoughts:** Found a series on YouTube by Corey Schafer about Flask. I really like the Exercism exercises.
+
+**Link to work:**
+
+Day 49: August 19, 2018
+
+**Today's Progress:** Continued on exercism.io
+
+**Thoughts:** Just did these practice exercises Today. It is really helpful. 
 
 **Link to work:**
 <!---
