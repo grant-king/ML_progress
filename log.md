@@ -466,6 +466,22 @@ Day 50: August 20, 2018
 **Thoughts:** I need to get back on track working daily at DataCamp and get the career track off the list so I can move on. After this I think that it would be a good idea to find another paid course, likely one of the automated transportation courses at Udacity.
 
 **Link to work:**
+
+Day 51: August 21, 2018
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:**
+
+Day 52: August 22, 2018
+
+**Today's Progress:** Started new video series by Siraj.
+
+**Thoughts:** I found an older video series by Siraj covering Python for data science. It starts with scikit learn so seems to be at the right level. I don't see why I couldn't do this concurrently with the MOI series but I think that I will have more perspective if I do this first. 
+
+**Link to work:**
 <!---
 
 Day x: July x, 2018
