@@ -469,19 +469,30 @@ Day 50: August 20, 2018
 
 Day 51: August 21, 2018
 
-**Today's Progress:**
+**Today's Progress:** Continued Supervised Learning at DataCamp
 
 **Thoughts:**
-
-**Link to work:**
 
 Day 52: August 22, 2018
 
 **Today's Progress:** Started new video series by Siraj.
 
-**Thoughts:** I found an older video series by Siraj covering Python for data science. It starts with scikit learn so seems to be at the right level. I don't see why I couldn't do this concurrently with the MOI series but I think that I will have more perspective if I do this first. 
+**Thoughts:** I found an older video series by Siraj covering Python for data science. It starts with scikit learn so seems to be at the right level. I don't see why I couldn't do this concurrently with the MOI series but I think that I will have more perspective if I do this first. Completed the first coding challenge.
 
 **Link to work:**
+https://github.com/grant-king/ML_progress/blob/master/PDS_challenges/week_1.ipynb
+
+Day 53: August 23, 2018
+
+**Today's Progress:** Kaggle Pandas exercises. More experimentation with YouTube API.
+
+**Thoughts:**
+
+Day 54: August 24, 2018
+
+**Today's Progress:** Continued with YouTube API.
+
+**Thoughts:** Some of the code samples on the YouTube Python API documentation is outdated and won't run in Python 3. There aren't any examples clear enough to recreate easily so I am trying to convert the whole script to Python 3 in order to debug and have a better idea of what is happening.
 <!---
 
 Day x: July x, 2018
