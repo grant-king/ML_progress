@@ -490,9 +490,16 @@ Day 53: August 23, 2018
 
 Day 54: August 24, 2018
 
-**Today's Progress:** Continued with YouTube API.
+**Today's Progress:** Continued captions project with YouTube API. Continued with Kaggle Pandas exercises.
 
 **Thoughts:** Some of the code samples on the YouTube Python API documentation is outdated and won't run in Python 3. There aren't any examples clear enough to recreate easily so I am trying to convert the whole script to Python 3 in order to debug and have a better idea of what is happening.
+
+Day 55: August 25, 2018
+
+**Today's Progress:** Exercism exercises. Continued in Supervised Machine Learning at DataCamp. Revisiting mortality dataset parsing project in local folder, downloaded new mortality data from CDC interface.
+
+**Thoughts:** I downloaded cause of death data from the CDC interface at https://wonder.cdc.gov/controller/datarequest/D77. I found a folder called mortality data in my python project folder, so put the data there. The downloaded data seems like it might already be in this file with accompanying scripts to work with it. I have almost no memory of writing these. I want to upload the data and my analysis to Kaggle when I have it in a form that is easier to inspect.
+
 <!---
 
 Day x: July x, 2018
