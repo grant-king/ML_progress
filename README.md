@@ -1,6 +1,8 @@
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/grant-king/ML_progress/master)
+
 # ML_progress
 
-This repository is to log learning progress and work on small ML projects. This is organized into folders by discrete topics from various learning resources. These 'course' folders are described here:
+This repository is to log learning progress and work on small ML projects. This is organized into folders by topic and learning resource. These 'course' folders are described here:
 
 Applied_ML - Notes and exercises from University of Michigan's Applied Machine Learning course available for audit on Coursera
 
