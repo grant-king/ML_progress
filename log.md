@@ -500,6 +500,14 @@ Day 55: August 25, 2018
 
 **Thoughts:** I downloaded cause of death data from the CDC interface at https://wonder.cdc.gov/controller/datarequest/D77. I found a folder called mortality data in my python project folder, so put the data there. The downloaded data seems like it might already be in this file with accompanying scripts to work with it. I have almost no memory of writing these. I want to upload the data and my analysis to Kaggle when I have it in a form that is easier to inspect.
 
+Day 56: August 26, 2018
+
+**Today's Progress:** Continued mortality dataset investigation. Completed second coding challenge for Python for Data Science YouTube series.
+
+**Thoughts:** The mortality dataset that I downloaded is not what I was wanting. Preparing that dataset might be a task for later when I need to figure out complicated imports. I followed week 2 video for PDS series and completed the coding challenge. This was a simple sentiment analysis using tweepy and textblob.
+
+**Link to work:**
+https://github.com/grant-king/ML_progress/blob/master/PDS_challenges/week_2.ipynb
 <!---
 
 Day x: July x, 2018
