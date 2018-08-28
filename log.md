@@ -508,6 +508,13 @@ Day 56: August 26, 2018
 
 **Link to work:**
 https://github.com/grant-king/ML_progress/blob/master/PDS_challenges/week_2.ipynb
+
+Day 57: August 27, 2018
+
+**Today's Progress:** Continued in Supervised Learning at DataCamp. Explored Cannabis Reports API documentation and Python wrapper.
+
+**Thoughts:** Supervised Learning at DataCamp seems to be a good background activity for in betwix less guided projects. I Found a very exciting dataset prospect with the Cannabis Reports API.  https://developers.cannabisreports.com/v1.0/docs I'm not exactly sure where i'm going with it but have requested an API key to start exploring the dataset outside of their interface, with the help of a Python wrapper. The wrapper seems like it isn't being maintained so this could be a good opportunity to contribute to that library.
+
 <!---
 
 Day x: July x, 2018
