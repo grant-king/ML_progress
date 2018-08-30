@@ -515,9 +515,21 @@ Day 57: August 27, 2018
 
 **Thoughts:** Supervised Learning at DataCamp seems to be a good background activity for in betwix less guided projects. I Found a very exciting dataset prospect with the Cannabis Reports API.  https://developers.cannabisreports.com/v1.0/docs I'm not exactly sure where i'm going with it but have requested an API key to start exploring the dataset outside of their interface, with the help of a Python wrapper. The wrapper seems like it isn't being maintained so this could be a good opportunity to contribute to that library.
 
+Day 58: August 28, 2018
+
+**Today's Progress:** Added two new methods to week_2 notebook that allows for getting tweets by user; with and without authentication. Experimented with pillow to get image geotag. Continued in Supervised Learning at DataCamp. Rediscovered nlp course and started prerequisite at DataCamp.
+
+**Thoughts:** I feel better about working with the Twitter API. Expeimenting with finding geotags in photos.  
+
+Day 59: August 29, 2018
+
+**Today's Progress:** Worked through week 3 of PDS. Started week 4. Continued NLP Fundamentals in Python at DataCamp. Kaggle.
+
+**Thoughts:** Spent unnecessary time trying to figure out a bug in a kernel on Kaggle. In general browsing all of the datasets on there is getting to be more fun than frustrating, which is nice.  Week 3 of python for data science is fairly straightforward but I will come back to complete it when I need practice like that. The instructions are a little vague so try to see how others completed. Week 4 is ok but theory is hard to connect to how behind-the-scenes works to apply to this particular problem. Also, 'slightly better than random' isn't something I want to spend too much time trying to understand the intricacies of how it functions.  I'm excited to get to next week so will do the minimum and move on.
+
 <!---
 
-Day x: July x, 2018
+Day x: August x, 2018
 
 **Today's Progress:**
 
