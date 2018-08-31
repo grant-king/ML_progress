@@ -527,6 +527,14 @@ Day 59: August 29, 2018
 
 **Thoughts:** Spent unnecessary time trying to figure out a bug in a kernel on Kaggle. In general browsing all of the datasets on there is getting to be more fun than frustrating, which is nice.  Week 3 of python for data science is fairly straightforward but I will come back to complete it when I need practice like that. The instructions are a little vague so try to see how others completed. Week 4 is ok but theory is hard to connect to how behind-the-scenes works to apply to this particular problem. Also, 'slightly better than random' isn't something I want to spend too much time trying to understand the intricacies of how it functions.  I'm excited to get to next week so will do the minimum and move on.
 
+Day 60: August 30, 2018
+
+**Today's Progress:** Started week 5 of the Python for Data Science series. Continued with NLP Fundamentals. Researching job opportunities.
+
+**Thoughts:** Excited with everything.
+
+**Link to work:**
+
 <!---
 
 Day x: August x, 2018
