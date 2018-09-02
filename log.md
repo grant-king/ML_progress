@@ -535,9 +535,24 @@ Day 60: August 30, 2018
 
 **Link to work:**
 
+Day 61: August 31, 2018
+
+**Today's Progress:** Friday off
+
+**Thoughts:**
+
+**Link to work:**
+
+Day 62: September 1, 2018
+
+**Today's Progress:** Worked with infinite-monkey repository and made script to make text file into tts mp3
+
+**Thoughts:** Not directly related to studies, but good to have.
+
+**Link to work:**
 <!---
 
-Day x: August x, 2018
+Day x: September x, 2018
 
 **Today's Progress:**
 
