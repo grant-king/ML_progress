@@ -558,6 +558,14 @@ Day 63: September 2, 2018
 **Thoughts:** Not a ton of time to work on stuff today but am glad to get the practice in. I am bouncing between a few courses lately but not making great headway in them. I need to figure out if focused tenacity or distract and return is a better plan there.
 
 **Link to work:**
+
+Day 64: September 3, 2018
+
+**Today's Progress:** Continued with NLP Fundamentals at DataCamp.
+
+**Thoughts:**
+
+**Link to work:**
 <!---
 
 Day x: September x, 2018
