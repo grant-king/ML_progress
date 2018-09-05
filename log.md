@@ -563,9 +563,10 @@ Day 64: September 3, 2018
 
 **Today's Progress:** Continued with NLP Fundamentals at DataCamp.
 
-**Thoughts:**
+Day 65: September 4, 2018
 
-**Link to work:**
+**Today's Progress:** Continued with NLP Fundamentals at DataCamp.
+
 <!---
 
 Day x: September x, 2018
