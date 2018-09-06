@@ -567,6 +567,11 @@ Day 65: September 4, 2018
 
 **Today's Progress:** Continued with NLP Fundamentals at DataCamp.
 
+Day 66: September 5, 2018
+
+**Today's Progress:** Continued with NLP Fundamentals and Supervised Learning at DataCamp.  
+
+**Thoughts:** Researching remote contract jobs, signed up with freelancer as it seems like a slightly easier site to find relevant job postings, compared to upwork.
 <!---
 
 Day x: September x, 2018
