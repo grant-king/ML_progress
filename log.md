@@ -572,6 +572,14 @@ Day 66: September 5, 2018
 **Today's Progress:** Continued with NLP Fundamentals and Supervised Learning at DataCamp.  
 
 **Thoughts:** Researching remote contract jobs, signed up with freelancer as it seems like a slightly easier site to find relevant job postings, compared to upwork.
+
+Day 67: September 6, 2018
+
+**Today's Progress:** Continued with Supervised Learning at DataCamp. Followed tutorial and published a simple app to Google Cloud Platform.
+
+**Thoughts:** Trying to figure out a way to publish app using script in Transcription repository as a test. GCP was easy enough when following the tutorial but I will look elsewhere for something that is more straightforward for this simple project. Google Cloud seems like it would be a great option for hosting a large project that requires significant resources.
+
+**Link to work:**
 <!---
 
 Day x: September x, 2018
