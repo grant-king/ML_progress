@@ -579,7 +579,20 @@ Day 67: September 6, 2018
 
 **Thoughts:** Trying to figure out a way to publish app using script in Transcription repository as a test. GCP was easy enough when following the tutorial but I will look elsewhere for something that is more straightforward for this simple project. Google Cloud seems like it would be a great option for hosting a large project that requires significant resources.
 
+Day 68: September 7, 2018
+
+**Today's Progress:** Followed Heroku tutorial and published simple Django app to their service.  
+
+**Thoughts:** I want to get Transcription online so that someone can use it from their work and I can go through the motions of publishing and maintaining an app. I'd like to get comfortable with using some cloud provider to showcase work, likely Heroku, before moving on from DataCamp studies. I will certainly have more interest in learning about postgresql and databases when I go back to those courses there.
+
 **Link to work:**
+https://fierce-thicket-98294.herokuapp.com/
+
+Day 69: September 8, 2018
+
+**Today's Progress:** Django introduction tutorials one and two at djangoproject.com. Scrapy introduction at scrapy.org.
+
+**Thoughts:** Going through the Django tutorials on their main site. Tutorials are working so far but some of the content goes beyond what I want to spend time learning about right now. I am able to gloss over some things here without forfeiting much utility. Scrapy is a web scraping framework that was mentioned on awesome-django.com resource list, I think will be extremely useful.
 <!---
 
 Day x: September x, 2018
