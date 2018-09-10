@@ -593,6 +593,14 @@ Day 69: September 8, 2018
 **Today's Progress:** Django introduction tutorials one and two at djangoproject.com. Scrapy introduction at scrapy.org.
 
 **Thoughts:** Going through the Django tutorials on their main site. Tutorials are working so far but some of the content goes beyond what I want to spend time learning about right now. I am able to gloss over some things here without forfeiting much utility. Scrapy is a web scraping framework that was mentioned on awesome-django.com resource list, I think will be extremely useful.
+
+Day 70: September 9, 2018
+
+**Today's Progress:** Second and third Django introduction tutorials.
+
+**Thoughts:** This is doing more than I want to with Django right now but I hope breezing through the more-advanced steps in the tutorial will at least give me a better understanding of how things work within the framework.
+
+**Link to work:**
 <!---
 
 Day x: September x, 2018
