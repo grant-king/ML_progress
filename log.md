@@ -600,7 +600,12 @@ Day 70: September 9, 2018
 
 **Thoughts:** This is doing more than I want to with Django right now but I hope breezing through the more-advanced steps in the tutorial will at least give me a better understanding of how things work within the framework.
 
-**Link to work:**
+Day 71: September 10, 2018
+
+**Today's Progress:** Part 1 and 2 Django beginner's tutorial at simpleisbetterthancomplex.
+
+**Thoughts:** The third Django introduction tutorial at the Django official documentation got to be more abstract than I was comfortable with. I switched over to a more detailed explanation at this simpleisbetterthancomplex blog. I really like the tutorial and will continue making the sample discussion board app.
+
 <!---
 
 Day x: September x, 2018
