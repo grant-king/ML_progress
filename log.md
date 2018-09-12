@@ -610,6 +610,8 @@ Day 72: September 11, 2018
 
 **Today's Progress:** Continued Django tutorial at simpleisbetterthancomplex
 
+**Thoughts:** This Django tutorial is moving along, although I got caught up trying to restart everything after changing an unrelated Windows setting. I am glad to have installed Django in an Anaconda environment as it was very easy to create another environment, repeat all my steps and realize where the error was. Complicating this discovery was another error having to do with a required keyword argument in the ForeignKey method within models definition file. the method was missing a now-required on_delete argument, here corrected for example: models.ForeignKey(User, related_name='topics', on_delete=models.CASCADE)
+
 <!---
 
 Day x: September x, 2018
