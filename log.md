@@ -606,6 +606,10 @@ Day 71: September 10, 2018
 
 **Thoughts:** The third Django introduction tutorial at the Django official documentation got to be more abstract than I was comfortable with. I switched over to a more detailed explanation at this simpleisbetterthancomplex blog. I really like the tutorial and will continue making the sample discussion board app.
 
+Day 72: September 11, 2018
+
+**Today's Progress:** Continued Django tutorial at simpleisbetterthancomplex
+
 <!---
 
 Day x: September x, 2018
