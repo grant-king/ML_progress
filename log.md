@@ -617,6 +617,11 @@ Day 72: September 12, 2018
 **Today's Progress:** Continued Django tutorial at simpleisbetterthancomplex
 
 **Thoughts:** Now learning about testing features in second Django tutorial. Django's template system looks like it will be very useful as well.
+
+Day 73: September 13, 2018
+
+**Today's Progress:** Continued Django tutorial and finished second installment. Started part 3.
+
 <!---
 
 Day x: September x, 2018
