@@ -622,6 +622,14 @@ Day 73: September 13, 2018
 
 **Today's Progress:** Continued Django tutorial and finished second installment. Started part 3.
 
+Day 74: September 14, 2018
+
+**Today's Progress:** Researched serial number analysis methods and implemented in pyhton.
+
+**Thoughts:** Added a notebook with this script to exercises repository. I don't have enough serial numbers to test what I made this for yet but it seems like it will work when I do.
+
+**Link to work:**
+https://github.com/grant-king/exercises
 <!---
 
 Day x: September x, 2018
