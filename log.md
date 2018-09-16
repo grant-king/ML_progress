@@ -630,6 +630,12 @@ Day 74: September 14, 2018
 
 **Link to work:**
 https://github.com/grant-king/exercises
+
+Day 75: September 15, 2018
+
+**Today's Progress:** Continued with third Django tutorial at simpleisbetterthancomplex.
+
+**Thoughts:** This segment is covering how Django handles URL routing and how to use tests.
 <!---
 
 Day x: September x, 2018
