@@ -636,6 +636,13 @@ Day 75: September 15, 2018
 **Today's Progress:** Continued with third Django tutorial at simpleisbetterthancomplex.
 
 **Thoughts:** This segment is covering how Django handles URL routing and how to use tests.
+
+Day 76: September 16, 2018
+
+**Today's Progress:** Initial stages of planning project.
+
+**Thoughts:** Thinking to make an OCR application that can read titles of movies from picture of a collection and add each to an online service that keeps track of purchased titles.
+
 <!---
 
 Day x: September x, 2018
