@@ -656,11 +656,19 @@ Day 77: September 18, 2018
 **Thoughts:** With progress snailing in the Django realm I need to pick back up with DataCamp, Kaggle, and Exercism or similar practice.  
 
 
-Day x: September 19, 2018
+Day 78: September 19, 2018
 
 **Today's Progress:** Continued with Supervised Learning at DataCamp
 
 **Thoughts:**
+
+Days off: September 20-26, 2018
+
+Day 79: September 27, 2018
+
+**Today's Progress:** Continued with Django video tutorials by Corey Schafer.
+
+**Thoughts:** I'm excited to jump back into Django. The latest video shows how templates work in Django and how to add bootstrap.
 <!---
 
 Day x: September x, 2018
