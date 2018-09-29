@@ -669,6 +669,12 @@ Day 79: September 27, 2018
 **Today's Progress:** Continued with Django video tutorials by Corey Schafer.
 
 **Thoughts:** I'm excited to jump back into Django. The latest video shows how templates work in Django and how to add bootstrap.
+
+Day 80: September 28, 2018
+
+**Today's Progress:** Continued with Django video tutorials by Corey Schafer.
+
+**Thoughts:** The videos today finished with templating and got into Django backend and database management. 
 <!---
 
 Day x: September x, 2018
