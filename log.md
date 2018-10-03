@@ -674,7 +674,20 @@ Day 80: September 28, 2018
 
 **Today's Progress:** Continued with Django video tutorials by Corey Schafer.
 
-**Thoughts:** The videos today finished with templating and got into Django backend and database management. 
+**Thoughts:** The videos today finished with templating and got into Django backend and database management.
+
+Day 81: September 29, 2018
+
+**Today's Progress:** Continued with Django video tutorials by Corey Schafer.
+
+**Thoughts:** The videos today covered how to create the infrastructure for a user registration feature and related setup for user authentication.
+
+
+Day 82: October 1, 2018
+
+**Today's Progress:** Continued Django tutorial, researching potential sites to convert
+
+**Thoughts:** Videos covered user authentication and related features. Also considering what content to use for a test Django site.
 <!---
 
 Day x: September x, 2018
