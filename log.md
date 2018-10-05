@@ -688,9 +688,29 @@ Day 82: October 1, 2018
 **Today's Progress:** Continued Django tutorial, researching potential sites to convert
 
 **Thoughts:** Videos covered user authentication and related features. Also considering what content to use for a test Django site.
+
+Day 83: October 2, 2018
+
+**Today's Progress:** Continued Django video tutorials
+
+**Thoughts:** custom user content
+
+Day 84: October 3, 2018
+
+**Today's Progress:** Continued Django tutorial, restarted old and found additional tutorials.
+
+**Thoughts:** Finding the common instructions from many different tutorials, I am putting together a new site. This is in django_three repository now.
+
+Day 85: October 4, 2018
+
+**Today's Progress:** Continued building custom Django site.
+
+**Thoughts:** Worked on several apps and connecting templates to each. The first is just the homepage view using the template from Corey's video tutorials. There is also a landing page and page that will be a movie showcase, starting with the item detail view. There is a polls app as well that I used to confirm early things were working, I will remove that.
+
+
 <!---
 
-Day x: September x, 2018
+Day x: October x, 2018
 
 **Today's Progress:**
 
