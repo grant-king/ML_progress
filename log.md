@@ -707,7 +707,17 @@ Day 85: October 4, 2018
 
 **Thoughts:** Worked on several apps and connecting templates to each. The first is just the homepage view using the template from Corey's video tutorials. There is also a landing page and page that will be a movie showcase, starting with the item detail view. There is a polls app as well that I used to confirm early things were working, I will remove that.
 
+Day 86: October 5, 2018
 
+**Today's Progress:** Continued custom Django site, django_three. Added movies library app and am done planning layout for item detail page.
+
+**Thoughts:** I found another theme from Start Bootstrap called Grayscale: https://startbootstrap.com/template-overviews/grayscale/ . I am building the templates so that the image behind the gradient background will change with every new movie. The header button will link to the trailer or initiate the pop-out and play if I can find the right scripts and styles for that. Title, poster, and tagline follow. Then Synopsys paired with featured image followed by two more copies paired with smaller images.  I forgot how to do so much with CSS as it has been years since I've looked at it. I'm worse with HTML but luckily all of the tags are already there for me to just rearrange, copy and modify.
+
+Day x: October x, 2018
+
+**Today's Progress:** Working with tmdbsimple library to interact with the movie database api at tmbd.org and Django templating engine to prepare dynamic pages given a movie's imdb or tmdb id #.
+
+**Thoughts:** Today had many hiccups but eventually I got the view to fetch data using the tmdbsimple library and have the templating engine refer to movie data to generate the page content.
 <!---
 
 Day x: October x, 2018
