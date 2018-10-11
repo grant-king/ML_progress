@@ -725,6 +725,17 @@ Day 88: October 7, 2018
 
 **Thoughts:** The movies item page is fully connected to the tmdb database. I have the test server deliver one of several titles when navigating to /movies/item.
 
+Day 89: October 8, 2018
+
+**Today's Progress:** Continued django_three and started new project
+
+**Thoughts:** I am still following along the Django tutorial series, but am repeating everything again with another project.
+
+Day 90: October 9, 2018
+
+**Today's Progress:** Continued replicating steps for new community project, returned to previous project, Movie app
+
+**Thoughts:** I was haivng a hard time planning the class for the new community project so have returned to the movie app where the objects are pretty obvious. I am building the models and database for the Movies app while following Corey's videos of the simplified process. Instead of having convoluted views handle storing movie information, I now have the site populating from the Movie model, built from methods using tmdbsimple. 
 <!---
 
 Day x: October x, 2018
