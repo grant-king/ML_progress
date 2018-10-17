@@ -735,7 +735,13 @@ Day 90: October 9, 2018
 
 **Today's Progress:** Continued replicating steps for new community project, returned to previous project, Movie app
 
-**Thoughts:** I was haivng a hard time planning the class for the new community project so have returned to the movie app where the objects are pretty obvious. I am building the models and database for the Movies app while following Corey's videos of the simplified process. Instead of having convoluted views handle storing movie information, I now have the site populating from the Movie model, built from methods using tmdbsimple. 
+**Thoughts:** I was haivng a hard time planning the class for the new community project so have returned to the movie app where the objects are pretty obvious. I am building the models and database for the Movies app while following Corey's videos of the simplified process. Instead of having convoluted views handle storing movie information, I now have the site populating from the Movie model, built from methods using tmdbsimple.
+
+Day : October 16, 2018
+
+**Today's Progress:** Continued following Corey's Django video series.
+
+**Thoughts:** I have been focusing nonstop on learning Django this week. I am following each video using the examples provided, then going back to repeat with a couple of custom sites. One is a site with the Movies app that I have been working on the most. This seems to be helping me grasp the concepts and I feel able to repeat this entire process on my own once I am through with them all. The rush to learn Django is based in my need to have some way to serve my work to future employers. 
 <!---
 
 Day x: October x, 2018
