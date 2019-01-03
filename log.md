@@ -3,11 +3,18 @@ Day 1: January 2, 2019
 
 **Today's Progress:** Watched introduction videos again. Watched videos for first chapter, on datetimes. Wrote detailed notes and example code in a Jupyter notebook.
 
-**Thoughts:** It seems like there isn't a very distinct day 2, so I will start writing the coding challenge tomorrow and finish it on the third day. 
+**Thoughts:** It seems like there isn't a very distinct day 2, so I will start writing the coding challenge tomorrow and finish it on the third day.
 
+Day 2: January 3, 2019
+
+**Today's Progress:** Completed Python practice challenge, calculating datetimes within a server log on Python Bytes site. Fiddled with datetimes, os, and logging libraries in the notebook.
+
+**Thoughts:** It turns out there is a very distinct day 2. Today's TPTM plan involved completing a coding practice challenge on Python Bytes website. After first use, I am already not a fan of the Python Bytes experience. If it continues to be terrible to work with I can search exercism, codewars, or other alternative for relevant exercises.
+
+**Link to work:**
 <!---
 
-Day x: October x, 2018
+Day x: January x, 2019
 
 **Today's Progress:**
 
