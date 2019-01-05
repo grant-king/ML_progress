@@ -11,6 +11,12 @@ Day 2: January 3, 2019
 
 **Thoughts:** It turns out there is a very distinct day 2. Today's TPTM plan involved completing a coding practice challenge on Python Bytes website. After first use, I am already not a fan of the Python Bytes experience. If it continues to be terrible to work with I can search exercism, codewars, or other alternative for relevant exercises.
 
+Day 3: January 4, 2019
+
+**Today's Progress:** Made small logging script using datetimes, logging, and os.
+
+**Thoughts:** Found Corey Schafer YouTube video to help understand basics of logging and os modules. Used datetimes to add readable datetime log entries instead of unreadable timestamp.
+
 **Link to work:**
 <!---
 
