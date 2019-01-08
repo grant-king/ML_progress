@@ -17,6 +17,12 @@ Day 3: January 4, 2019
 
 **Thoughts:** Found Corey Schafer YouTube video to help understand basics of logging and os modules. Used datetimes to add readable datetime log entries instead of unreadable timestamp.
 
+Day 4: January 7, 2019
+
+**Today's Progress:** Learned about collections module.
+
+**Thoughts:** I will certainly start using namedtuple where it makes sense in my code.
+
 **Link to work:**
 <!---
 
