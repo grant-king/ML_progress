@@ -19,9 +19,15 @@ Day 3: January 4, 2019
 
 Day 4: January 7, 2019
 
-**Today's Progress:** Learned about collections module.
+**Today's Progress:** Started investigating beginning steps and potential project paths for working with Python in Blender. Learned about collections module.
 
-**Thoughts:** I will certainly start using namedtuple where it makes sense in my code.
+**Thoughts:** I am happy to be getting started with the scripting process in Blender. I have 3d data in the Gradient Descent notebook I am working on, it might be fun to use Python to try and map objects to that data in Blender. As for the collections module, I will certainly start using the namedtuple where it makes sense in my code.
+
+Day 5: January 8, 2019
+
+**Today's Progress:** Reviewed file operations. Day two of learning about collections module.
+
+**Thoughts:** The code challenge for this module is more involved. Because of frustration last time I am working from a notebook rather than the PyBites environment. I couldn't remember the best way to open files but reviewed with a Corey Schafer video. It is important to know how to open most files using a context manager but since this challenge is working with CSV data I think it is best for me to use the familiar Pandas functionality.
 
 **Link to work:**
 <!---
