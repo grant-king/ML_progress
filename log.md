@@ -29,6 +29,12 @@ Day 5: January 8, 2019
 
 **Thoughts:** The code challenge for this module is more involved. Because of frustration last time I am working from a notebook rather than the PyBites environment. I couldn't remember the best way to open files but reviewed with a Corey Schafer video. It is important to know how to open most files using a context manager but since this challenge is working with CSV data I think it is best for me to use the familiar Pandas functionality.
 
+Day 6: January 9, 2019
+
+**Today's Progress:** Started an app to render a small picture in Blender.
+
+**Thoughts:** I'm using namedtuple to store pixel color data in app that takes small jpg and writes blender script that will be able to translate pixel data from the picture into a 3d plane of appropriately colored solid cubes.
+
 **Link to work:**
 <!---
 
