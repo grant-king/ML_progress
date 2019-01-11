@@ -36,6 +36,15 @@ Day 6: January 9, 2019
 **Thoughts:** I'm using namedtuple to store pixel color data in app that takes small jpg and writes blender script that will be able to translate pixel data from the picture into a 3d plane of appropriately colored solid cubes.
 
 **Link to work:**
+
+Day 7: January 10, 2019
+
+**Today's Progress:** TPTM course reviewed basic data structures. Continued learning Blender API.
+
+**Thoughts:** Glad to review basics of lists, dictionaries, and tuples. The Blender script is difficult to get to work consistently.
+
+**Link to work:**
+
 <!---
 
 Day x: January x, 2019
