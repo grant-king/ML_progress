@@ -43,8 +43,13 @@ Day 7: January 10, 2019
 
 **Thoughts:** Glad to review basics of lists, dictionaries, and tuples. The Blender script is difficult to get to work consistently.
 
-**Link to work:**
+Day 8: January 11, 2019
 
+**Today's Progress:** TPTM data structures day 2 featured a PyBite on lists and dictionaries. Also found a related Exercism exercise. Continued learning Blender API. Restarting unfinished Coursera project planning course.
+
+**Thoughts:** I liked the Pybite but am having trouble finding a good reason to want to submit it to their system. The embedded interpreter is not helpful to work in and only validates that I was able to submit passable code using their awkward system. In contrast, Exercism's command line interface, exhaustive prewritten tests, and clean website makes for much more fruitful exercises. I appreciate that I can easily search, browse, and immediately recognize the content of different exercises. Working on a file locally and then submitting through the CLI app is really nice. It is especially nice that there aren't any preloaded environment variables to worry about. I think PyBites would be better for learning if it had more distinction between the information, testing environment, and submittal interfaces.
+
+**Link to work:**
 <!---
 
 Day x: January x, 2019
