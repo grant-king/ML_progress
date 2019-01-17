@@ -33,7 +33,7 @@ Day 6: January 9, 2019
 
 **Today's Progress:** Started an app to render a small picture in Blender.
 
-**Thoughts:** I'm using namedtuple to store pixel color data in app that takes small jpg and writes blender script that will be able to translate pixel data from the picture into a 3d plane of appropriately colored solid cubes.
+**Thoughts:** I'm using namedtuple to store pixel color data in app that takes small jpg and writes blender script that will be able to translate pixel data from the picture into a flat plane within the 3d environment of appropriately colored solid cubes.
 
 Day 7: January 10, 2019
 
@@ -57,13 +57,13 @@ Day 10: January 15, 2019
 
 **Today's Progress:** TPTM pytest day 1. Two text-oriented Exercism exercises. Started working through Scrapy Documentation so that i'll be able to add a new 'movie-madness' Django app component that will scrape a user collection from blu-ray.com in order to import collections.
 
-**Thoughts:** TPTM feels like it is moving a little slow so I am glad to work on the scraping component for the movie-madness app that I was working on.
+**Thoughts:** TPTM feels like it is moving a little slow so I am glad to work on the scraping component for the movie-madness app that I had been working on a couple of months ago.
 
 Day 11: January 16, 2019
 
-**Today's Progress:** TPTM day 2. 
+**Today's Progress:** TPTM pytest day 2. More progress with Scrapy. Worked on an Exercism using Pytest instead of builtin unittest for TDD exercise.
 
-**Thoughts:**
+**Thoughts:** Finally figured out how to setup and run simple Scrapy spider for blu-ray site. It is fun to think that I can store the pages locally to figure out my parse operations before running on all collection pages. This would be especially useful for sites like this that have restrictive data access policies. Also am having to learn about xpath, a way to access the data in the stored request.
 
 **Link to work:**
 
