@@ -61,9 +61,15 @@ Day 10: January 15, 2019
 
 Day 11: January 16, 2019
 
-**Today's Progress:** TPTM pytest day 2. More progress with Scrapy. Worked on an Exercism using Pytest instead of builtin unittest for TDD exercise.
+**Today's Progress:** TPTM pytest day 2. More progress with Scrapy. Worked on an Exercism using Pytest instead of builtin unittest for Test Driven Development exercise.
 
-**Thoughts:** Finally figured out how to setup and run simple Scrapy spider for blu-ray site. It is fun to think that I can store the pages locally to figure out my parse operations before running on all collection pages. This would be especially useful for sites like this that have restrictive data access policies. Also am having to learn about xpath, a way to access the data in the stored request.
+**Thoughts:** Finally figured out how to setup and run simple Scrapy spider for blu-ray site. It is fun to think that I can store the pages locally to figure out my parse operations before running on all collection pages. This would be especially useful for sites like this that have restrictive data access policies. Also am getting to learn about xpath, a way to access the data in the stored request.
+
+Day 12: January 17, 2019
+
+**Today's Progress:** TPTM pytest day 3 working with fixtures. Exercism Bank account exercise to continue working with pytest for TDD, while reviewing class implementation.
+
+**Thoughts:** I'm not sure who this Talk Python training is trying to teach. Some days have been surprisingly basic while others require significant experience with all of the language, including the very topics that are being covered. It is ok when I treat it as a review of basic concepts that have components that I may have missed, but is otherwise disjointed and pretty drudgerous. Today's topic rushes to cover a major component of pytest: fixtures. I have no experience setting up or breaking down data structures in unittest, so I have no idea what this man is talking about. I'm glad that other resources have been able to fill in the gaps and give work that keeps me motivated to continue logging this 100 days.
 
 **Link to work:**
 
