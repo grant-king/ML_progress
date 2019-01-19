@@ -73,6 +73,13 @@ Day 12: January 17, 2019
 
 **Link to work:**
 
+Day 13: January 18, 2019
+
+**Today's Progress:** TPTM classes day 1.
+
+**Thoughts:**
+
+**Link to work:**
 <!---
 
 Day x: January x, 2019
