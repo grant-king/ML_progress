@@ -71,15 +71,18 @@ Day 12: January 17, 2019
 
 **Thoughts:** I'm not sure who this Talk Python training is trying to teach. Some days have been surprisingly basic while others require significant experience with all of the language, including the very topics that are being covered. It is ok when I treat it as a review of basic concepts that have components that I may have missed, but is otherwise disjointed and pretty drudgerous. Today's topic rushes to cover a major component of pytest: fixtures. I have no experience setting up or breaking down data structures in unittest, so I have no idea what this man is talking about. I'm glad that other resources have been able to fill in the gaps and give work that keeps me motivated to continue logging this 100 days.
 
-**Link to work:**
 
 Day 13: January 18, 2019
 
 **Today's Progress:** TPTM classes day 1.
 
-**Thoughts:**
 
-**Link to work:**
+Day 14: January 21, 2019
+
+**Today's Progress:** TPTM classes day 2 exercise. Rewatching Corey Schafer OOP series as supplement. Continued pygame basics.
+
+**Thoughts:** I liked the exercise planned by Talk Python today. I followed instructions to build a textual rock, paper, scissors game. I found areas where I could use both class methods and static methods. I am using a class method as an alternative constructor to handle the interactive creation of a player, while normal initialization will allow for objects to be created without assigning a name. The static method is like a normal method that has some logical tie to a class, so it can be included with that class without passing default self or cls values.
+
 <!---
 
 Day x: January x, 2019
