@@ -79,10 +79,18 @@ Day 13: January 18, 2019
 
 Day 14: January 21, 2019
 
-**Today's Progress:** TPTM classes day 2 exercise. Rewatching Corey Schafer OOP series as supplement. Continued pygame basics.
+**Today's Progress:** TPTM classes day 2 exercise. Rewatching Corey Schafer OOP series as supplement. Continued learning about pygame while following OOP examples.
 
 **Thoughts:** I liked the exercise planned by Talk Python today. I followed instructions to build a textual rock, paper, scissors game. I found areas where I could use both class methods and static methods. I am using a class method as an alternative constructor to handle the interactive creation of a player, while normal initialization will allow for objects to be created without assigning a name. The static method is like a normal method that has some logical tie to a class, so it can be included with that class without passing default self or cls values.
+I have started setting up test classes in a pygame script. I am modeling these classes around real-life elements as that seems like a simple, familiar object with distinct attributes and behavior that I could edutainingly incorporate into this project.
 
+Day 15: January 22, 2019
+
+**Today's Progress:** TPTM classes day 3. Researching TDD and other software development frameworks.
+
+**Thoughts:** I really liked the day 3 challenge planned by TPTM training. Today's exercise makes it easy to see the benefit of using an object oriented paradigm. Michael asks for us to extend yesterday's work into a version with 15 plays/categories instead of just the 3. I'm glad that the structure of the code makes this as simple as adding a new Roll class method that can be called on to construct the roll types of the new game according to the rules of a local csv file. The file contains roll type names and distinguishes between the outcome of that roll winning when pit against each of the other roll types. I got really confused by the wording for some reason and ended up having to just code it one way and read what the output was to determine if my code was logically sound.  
+
+**Link to work:**
 <!---
 
 Day x: January x, 2019
