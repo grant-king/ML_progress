@@ -90,7 +90,14 @@ Day 15: January 22, 2019
 
 **Thoughts:** I really liked the day 3 challenge planned by TPTM training. Today's exercise makes it easy to see the benefit of using an object oriented paradigm. Michael asks for us to extend yesterday's work into a version with 15 plays/categories instead of just the 3. I'm glad that the structure of the code makes this as simple as adding a new Roll class method that can be called on to construct the roll types of the new game according to the rules of a local csv file. The file contains roll type names and distinguishes between the outcome of that roll winning when pit against each of the other roll types. I got really confused by the wording for some reason and ended up having to just code it one way and read what the output was to determine if my code was logically sound.  
 
+Day 16: January 23, 2019
+
+**Today's Progress:** TPTM lists and generators day 1. Started looking at some old code that would be good for OOP rewrite.
+
+**Thoughts:** I like the videos for today, I didn't know how generators could be created with yield.
+
 **Link to work:**
+
 <!---
 
 Day x: January x, 2019
