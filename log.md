@@ -96,8 +96,13 @@ Day 16: January 23, 2019
 
 **Thoughts:** I like the videos for today, I didn't know how generators could be created with yield.
 
-**Link to work:**
+Day 17: January 24, 2019
 
+**Today's Progress:** TPTM lists and generators day 2. Continued planning refactor. Worked through a simple Exercism exercise.
+
+**Thoughts:** The TPTM topic for this chapter isn't very new or exciting, although I understand generator objects better now.
+
+**Link to work:**
 <!---
 
 Day x: January x, 2019
