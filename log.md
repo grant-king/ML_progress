@@ -102,7 +102,14 @@ Day 17: January 24, 2019
 
 **Thoughts:** The TPTM topic for this chapter isn't very new or exciting, although I understand generator objects better now.
 
+Day 18: January 25, 2019
+
+**Today's Progress:** TPTM lists and generators day 3. Dictionary comprehensions. Exercism 'tournament' exercise. Resuming Scrapy basics
+
+**Thoughts:** I remember learning about dictionary comprehensions in some DataCamp course last year but I couldn't find the same activity. I found a helpful tutorial article at https://www.datacamp.com/community/tutorials/python-dictionary-comprehension. Returning to working through Scrapy tutorial but for scraping blu-ray collections for movie site project.
+
 **Link to work:**
+
 <!---
 
 Day x: January x, 2019
