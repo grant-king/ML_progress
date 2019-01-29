@@ -106,9 +106,16 @@ Day 18: January 25, 2019
 
 **Today's Progress:** TPTM lists and generators day 3. Dictionary comprehensions. Exercism 'tournament' exercise. Resuming Scrapy basics
 
-**Thoughts:** I remember learning about dictionary comprehensions in some DataCamp course last year but I couldn't find the same activity. I found a helpful tutorial article at https://www.datacamp.com/community/tutorials/python-dictionary-comprehension. Returning to working through Scrapy tutorial but for scraping blu-ray collections for movie site project.
+**Thoughts:** I remember learning about dictionary comprehensions in some DataCamp course last year but I couldn't find the same activity. I found a helpful tutorial article at https://www.datacamp.com/community/tutorials/python-dictionary-comprehension. Returning to working through Scrapy tutorial but for scraping blu-ray collections for movie-madness Django site project.
+
+Day 19: January 26, 2019
+
+**Today's Progress:** TPTM itertools day 1. Continued Scrapy project. Corey Schafer itertools tutorial.
+
+**Thoughts:** I'm really glad to be going over iterators, iterables, and the tools in itertools. I have a vague concept of how these things function behind the scenes so it is good to supplement my understanding with the TPTM training videos and Corey Schafer's YouTube videos. Scrapy is taking some time to learn but I have gotten to a point where I was able to figure out how to scrape all movie names from the blu-ray.com collection. The collected data is heavily duplicated b/c of my poor understanding of the system. I think I can capture the parts of the page I need if I use Scrapy's "item" system.
 
 **Link to work:**
+
 
 <!---
 
