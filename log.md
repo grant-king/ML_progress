@@ -118,10 +118,15 @@ Day 20: January 29, 2019
 
 **Today's Progress:** TPTM itertools day 2.
 
-**Thoughts:** Worked on parsing and tabulating Exercism using itertools and watched more Corey Schafer on the subject. 
+**Thoughts:** Worked on parsing and tabulating Exercism using itertools and watched more Corey Schafer on the subject.
+
+Day 21: January 30, 2019
+
+**Today's Progress:** TPTM itertools day 3. Continued Scrapy project.
+
+**Thoughts:** Going through spider building process again, this time using Scrapy's item interface to avoid unwanted duplicates. 
 
 **Link to work:**
-
 <!---
 
 Day x: January x, 2019
