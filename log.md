@@ -124,7 +124,13 @@ Day 21: January 30, 2019
 
 **Today's Progress:** TPTM itertools day 3. Continued Scrapy project.
 
-**Thoughts:** Going through spider building process again, this time using Scrapy's item interface to avoid unwanted duplicates. 
+**Thoughts:** Going through spider building process again, this time using Scrapy's item interface to avoid unwanted duplicates.
+
+Day 22: January 31, 2019
+
+**Today's Progress:** TPTM Decorators day 1. Continued working with Scrapy. Continued investigating OOD/A/P best practices.
+
+**Thoughts:** I came across a really good talk outlining the proper use of classes in Python. Stop Writing Classes: https://youtu.be/o9pEzgHorH0 . The Talk Python Training videos gave a good overview of decorators and when to use \*args and \*\*kwargs. For more practice I watched a video by Corey Schafer which gave an in depth view of the utility of and mechanisms behind decorators and star arguments.
 
 **Link to work:**
 <!---
