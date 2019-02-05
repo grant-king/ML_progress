@@ -136,13 +136,18 @@ Day 23: February 1, 2019
 
 **Today's Progress:** TPTM Decorators day 2. Continued with OOP videos and started watching backlog of instructional videos collected in my 100-days Tasks list.
 
-**Thoughts:** Today's TPTM progress involved more watching than much coding but will use the weekend to catch up and get more practice with decorators. I have some general programming topics to catch up on this weekend which will start with a list of videos I've collected in Gmail Tasks, made by Corey Schafer. Glad to finally be back to visiting the Pythonista Cafe community after while of avoiding that interaction.
+**Thoughts:** Today's TPTM progress involved more watching than much coding but will use the weekend to catch up and get more practice with decorators. I have some general programming topics to catch up on this weekend which will start with a list of videos I've collected in Gmail Tasks, most are by Corey Schafer. Glad to finally be back to visiting the Pythonista Cafe community after a while of not visiting.
+
+Day 24: February 4, 2019
+
+**Today's Progress:** TPTM Decorators day 3. More catching up on related concepts and terms.
+
+**Thoughts:** More practice with decorators and their function in object oriented design.
 
 **Link to work:**
-
 <!---
 
-Day x: January x, 2019
+Day x: February x, 2019
 
 **Today's Progress:**
 
