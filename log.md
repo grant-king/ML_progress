@@ -144,6 +144,12 @@ Day 24: February 4, 2019
 
 **Thoughts:** More practice with decorators and their function in object oriented design.
 
+Day 25: February 5, 2019
+
+**Today's Progress:** TPTM error handiling day 1. Decorator catch-up
+
+**Thoughts:** I am glad to hear Michael back today. Also continued decorator practice as I still don't feel comfortable leaving that chapter yet.
+
 **Link to work:**
 <!---
 
