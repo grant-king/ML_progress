@@ -150,6 +150,12 @@ Day 25: February 5, 2019
 
 **Thoughts:** I am glad to hear Michael back today. Also continued decorator practice as I still don't feel comfortable leaving that chapter yet.
 
+Day 26: February 6, 2019
+
+**Today's Progress:** TPTM errors day 2. Exercism Tournament exercise wit error handling.
+
+**Thoughts:** Need to find supplemental error content to reinforce TPTM chapter. Refactoring Exercism Tournament exercise considering error handling. Also I still need to sort output table by team with most points, then alphabetically to pass majority of tests that are left. It also needs to be able to handle a few special cases including the ability to recognize and alert for incomplete tournaments.
+
 **Link to work:**
 <!---
 
