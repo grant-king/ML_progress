@@ -51,7 +51,7 @@ Day 9: January 14, 2019
 
 **Today's Progress:** TPTM data structures day 3. Reviwed/continued Natural simulaitons course on KhanAcademy using JS, started playing with Python mode on Processing IDE. Started exploring Pygame as a more powerful animation alternative. Reviewed simple OOP structure and list operations with high_scores exercise on Exercism.
 
-**Thoughts:** I didn't do the Pybite assigned by TPTM but found something similar on Exercism. I was very glad to be reminded of Processing, and to be able to inspect the Python interface and some examples now that I have been using so much Python. Processing in JS on KhanAcademy was my original introduction to programming so long ago, it is interesting to pick up where I left off without too much trouble switching back into JS. I also found some alternative animation libraries in Python and started playing around with Pygame. It is also an old project but has an active community and seems more promising than returning to Processing for my stuff.
+**Thoughts:** I didn't do the Pybite assigned by TPTM but found something similar on Exercism. I was very glad to be reminded of Processing, and to be able to inspect the Python interface and some examples now that I have been using so much Python. Processing in JS on KhanAcademy was my original introduction to programming so long ago, it is nice to pick up where I left off without too much trouble switching back into JS. I also found some alternative animation libraries in Python and started playing around with Pygame. It is also an old project but has an active community and seems more promising than returning to Processing for my stuff.
 
 Day 10: January 15, 2019
 
@@ -152,11 +152,27 @@ Day 25: February 5, 2019
 
 Day 26: February 6, 2019
 
-**Today's Progress:** TPTM errors day 2. Exercism Tournament exercise wit error handling.
+**Today's Progress:** TPTM errors day 2. Exercism Tournament exercise with error handling.
 
-**Thoughts:** Need to find supplemental error content to reinforce TPTM chapter. Refactoring Exercism Tournament exercise considering error handling. Also I still need to sort output table by team with most points, then alphabetically to pass majority of tests that are left. It also needs to be able to handle a few special cases including the ability to recognize and alert for incomplete tournaments.
+**Thoughts:** Need to find supplemental error content to reinforce TPTM chapter. Refactoring Exercism Tournament exercise considering error handling. Also I still need to sort output table by team with most points, then alphabetically to pass majority of tests that are left. It also needs to be able to handle a few special cases.
 
-**Link to work:**
+Day 27: February 7, 2019
+
+**Today's Progress:** TPTM errors day 3. Exercism Matrix exercise.
+
+**Thoughts:** 
+
+# **Links to work:**
+## Exercism exercises
+#### Tournament
+https://exercism.io/tracks/python/exercises/tournament/solutions/16a3d12389a84d918344ec6f87ac3caa
+
+#### High Scores
+https://exercism.io/tracks/python/exercises/high-scores/solutions/1225821f040548419cf06c30954780ba
+
+#### Bank account
+https://exercism.io/tracks/python/exercises/bank-account/solutions/2ef97a17222f482cb0e30be054505e0f
+
 <!---
 
 Day x: February x, 2019
