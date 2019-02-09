@@ -160,7 +160,11 @@ Day 27: February 7, 2019
 
 **Today's Progress:** TPTM errors day 3. Exercism Matrix exercise.
 
-**Thoughts:** 
+Day 28: February 8, 2019
+
+**Today's Progress:** TPTM regular expressions day 1. Exercism exercise.
+
+**Thoughts:** I'm glad to be going over re module again. I usually avoid re but know they would be useful if I could use them easily.
 
 # **Links to work:**
 ## Exercism exercises
