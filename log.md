@@ -162,9 +162,15 @@ Day 27: February 7, 2019
 
 Day 28: February 8, 2019
 
-**Today's Progress:** TPTM regular expressions day 1. Exercism exercise.
+**Today's Progress:** TPTM regular expressions day 1. Exercism exercises.
 
 **Thoughts:** I'm glad to be going over re module again. I usually avoid re but know they would be useful if I could use them easily.
+
+Day 29: February 11, 2019
+
+**Today's Progress:** TPTM regular expressions day 2.
+
+**Thoughts:** More re chapter.
 
 # **Links to work:**
 ## Exercism exercises
