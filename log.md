@@ -172,6 +172,12 @@ Day 29: February 11, 2019
 
 **Thoughts:** More re chapter.
 
+Day 30: February 12, 2019
+
+**Today's Progress:** Last day for TPTM regular expressions.
+
+**Thoughts:** Final day for re chapter. More Exercism exercises. I was able to greatly reduce code for an exercise, compared to other built in string operations, using re module to easily find all instances of a pattern with findall. 
+
 # **Links to work:**
 ## Exercism exercises
 #### Tournament
