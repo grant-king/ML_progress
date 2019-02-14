@@ -176,7 +176,13 @@ Day 30: February 12, 2019
 
 **Today's Progress:** Last day for TPTM regular expressions.
 
-**Thoughts:** Final day for re chapter. More Exercism exercises. I was able to greatly reduce code for an exercise, compared to other built in string operations, using re module to easily find all instances of a pattern with findall. 
+**Thoughts:** Final day for re chapter. More Exercism exercises. I was able to greatly reduce code for an exercise, compared to other built in string operations, using re module to easily find all instances of a pattern with findall.
+
+Day 31: February 13, 2019
+
+**Today's Progress:** TPTM logging day 1.
+
+**Thoughts:** Learning how to log with logbook. I've tried the builtin way in the past but this will let me keep logs organized when making more complicated apps.
 
 # **Links to work:**
 ## Exercism exercises
