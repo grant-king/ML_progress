@@ -69,13 +69,11 @@ Day 12: January 17, 2019
 
 **Today's Progress:** TPTM pytest day 3 working with fixtures. Exercism Bank account exercise to continue working with pytest for TDD, while reviewing class implementation.
 
-**Thoughts:** I'm not sure who this Talk Python training is trying to teach. Some days have been surprisingly basic while others require significant experience with all of the language, including the very topics that are being covered. It is ok when I treat it as a review of basic concepts that have components that I may have missed, but is otherwise disjointed and pretty drudgerous. Today's topic rushes to cover a major component of pytest: fixtures. I have no experience setting up or breaking down data structures in unittest, so I have no idea what this man is talking about. I'm glad that other resources have been able to fill in the gaps and give work that keeps me motivated to continue logging this 100 days.
-
+**Thoughts:** I'm not sure what audience the Talk Python training is targeted at. Some days have been surprisingly basic while others require significant experience with all of the language, sometimes even the topic that is being covered. It is ok when I treat it as a review of basic concepts that have components that I may have missed. Today's topic covers a major component of pytest: fixtures. I don't have any experience setting up or breaking down data structures in unittest yet, so I don't really understand how it is preferable to the alternative. I'm glad that other resources have been able to fill in some gaps and supplement these exercises.
 
 Day 13: January 18, 2019
 
 **Today's Progress:** TPTM classes day 1.
-
 
 Day 14: January 21, 2019
 
@@ -148,7 +146,7 @@ Day 25: February 5, 2019
 
 **Today's Progress:** TPTM error handiling day 1. Decorator catch-up
 
-**Thoughts:** I am glad to hear Michael back today. Also continued decorator practice as I still don't feel comfortable leaving that chapter yet.
+**Thoughts:** Hearing Michael back today talking about error handling. Also continued decorator practice as I still don't feel comfortable leaving that chapter yet.
 
 Day 26: February 6, 2019
 
@@ -182,7 +180,13 @@ Day 31: February 13, 2019
 
 **Today's Progress:** TPTM logging day 1.
 
-**Thoughts:** Learning how to log with logbook. I've tried the builtin way in the past but this will let me keep logs organized when making more complicated apps.
+**Thoughts:** Learning how to log with logbook. I've tried the built in way in the past but this will let me keep logs organized when making more complicated apps.
+
+Day 32: February 13, 2019
+
+**Today's Progress:** TPTM logging with logbook day 2. Continued planning MassCalculator.py refactor. Exercism kindergarten garden exercise with OOP.
+
+**Thoughts:** Adding logging to chem-cli to help plan refactor.
 
 # **Links to work:**
 ## Exercism exercises
