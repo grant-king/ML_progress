@@ -182,11 +182,18 @@ Day 31: February 13, 2019
 
 **Thoughts:** Learning how to log with logbook. I've tried the built in way in the past but this will let me keep logs organized when making more complicated apps.
 
-Day 32: February 13, 2019
+Day 32: February 14, 2019
 
 **Today's Progress:** TPTM logging with logbook day 2. Continued planning MassCalculator.py refactor. Exercism kindergarten garden exercise with OOP.
 
 **Thoughts:** Adding logging to chem-cli to help plan refactor.
+
+
+Day 33: February 15, 2019
+
+**Today's Progress:** TPTM logging with logbook day 3.
+
+**Thoughts:** Had a hard time adding logbook as environments and libraries kept breaking today. I hope it is about to start working but other things are now broken so I can't tell yet.
 
 # **Links to work:**
 ## Exercism exercises
