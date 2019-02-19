@@ -195,6 +195,12 @@ Day 33: February 15, 2019
 
 **Thoughts:** Had a hard time adding logbook as environments and libraries kept breaking today. I hope it is about to start working but other things are now broken so I can't tell yet.
 
+Day 34: February 18, 2019
+
+**Today's Progress:** TPTM Refactoring day 1. Catching up on logging with builtin logging.
+
+**Thoughts:** Really, really frustrated trying to figure out why logbook won't work. Have uninstalled all traces and am on to refactoring chapter. Now trying to refactor notebook from Transcription repository while using builtin logging to make up for lost effort with Logbook.
+
 # **Links to work:**
 ## Exercism exercises
 #### Tournament
