@@ -201,6 +201,18 @@ Day 34: February 18, 2019
 
 **Thoughts:** Really, really frustrated trying to figure out why logbook won't work. Have uninstalled all traces and am on to refactoring chapter. Now trying to refactor notebook from Transcription repository while using builtin logging to make up for lost effort with Logbook.
 
+Day 35: February 19, 2019
+
+**Today's Progress:** TPTM refactor chapter day 2. Refactoring Transcription notebook for readability and with object orientated design. Gathering resources for next phase of learning.
+
+**Thoughts:** It is funny to see how awful my code was less than a year ago. I'm sure I will think the same in some months if I look back at my present output. I'm glad to be going back through the Transcription repository to clarify the unfinished mess. I still haven't deployed anything that a non-developer could run, but I am much closer to being able to produce a usable app than when I started this project last year. Once this is working, I could immediately figure out the best way to get it to someone who will use it. Today I finally deciphered and rewrote the most wasteful portion of the notebook, so that client objects hold all source info rather than a convoluted and mostly unnecessary iteration over the source before calculating and storing the needed info per client.
+
+Day 36: February 20, 2019
+
+**Today's Progress:** TPTM refactor day 3. Exercism exercise.
+
+**Thoughts:** Continuing to refactor Transcription and an Exercism exercise.
+
 # **Links to work:**
 ## Exercism exercises
 #### Tournament
