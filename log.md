@@ -213,6 +213,12 @@ Day 36: February 20, 2019
 
 **Thoughts:** Continuing to refactor Transcription and an Exercism exercise.
 
+Day 37: February 21, 2019
+
+**Today's Progress:** TPTM CSV data day 1. Exercism.  
+
+**Thoughts:** I like watching the CSV data tutorial get a reminder of what is happening behind the scenes in Pandas, but will probably stick to using Pandas for things as involved as what's in the example.
+
 # **Links to work:**
 ## Exercism exercises
 #### Tournament
