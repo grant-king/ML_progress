@@ -219,6 +219,12 @@ Day 37: February 21, 2019
 
 **Thoughts:** I like watching the CSV data tutorial get a reminder of what is happening behind the scenes in Pandas, but will probably stick to using Pandas for things as involved as what's in the example.
 
+Day x: February x, 2019
+
+**Today's Progress:** TPTM CSV chapter day 2.  
+
+**Thoughts:** Need to get back to Scrapy and then Movie database project before I forget what I've done. Also anxious to get as many Exercism done as possible, although finishing it shouldn't be priority.
+
 # **Links to work:**
 ## Exercism exercises
 #### Tournament
