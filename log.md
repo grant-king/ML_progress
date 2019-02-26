@@ -219,11 +219,17 @@ Day 37: February 21, 2019
 
 **Thoughts:** I like watching the CSV data tutorial get a reminder of what is happening behind the scenes in Pandas, but will probably stick to using Pandas for things as involved as what's in the example.
 
-Day x: February x, 2019
+Day 38: February 22, 2019
 
 **Today's Progress:** TPTM CSV chapter day 2.  
 
 **Thoughts:** Need to get back to Scrapy and then Movie database project before I forget what I've done. Also anxious to get as many Exercism done as possible, although finishing it shouldn't be priority.
+
+Day 39: February 25, 2019
+
+**Today's Progress:** TPTM CSV chapter day 3. Continued refactoring Transcription notebook. Started EDX OOP/algorithms course.
+
+**Thoughts:** Final day reviewing CSV operations. Transcription is slowly getting less confusing and is a good place to try new structure practices. I would like to learn more about OOP and improve my general knowledge of algorithms, so I found a course on EDX that goes through both with Python. 
 
 # **Links to work:**
 ## Exercism exercises
