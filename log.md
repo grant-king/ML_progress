@@ -229,7 +229,13 @@ Day 39: February 25, 2019
 
 **Today's Progress:** TPTM CSV chapter day 3. Continued refactoring Transcription notebook. Started EDX OOP/algorithms course.
 
-**Thoughts:** Final day reviewing CSV operations. Transcription is slowly getting less confusing and is a good place to try new structure practices. I would like to learn more about OOP and improve my general knowledge of algorithms, so I found a course on EDX that goes through both with Python. 
+**Thoughts:** Final day reviewing CSV operations. Transcription is slowly getting less confusing and is a good place to try new structure practices. I would like to learn more about OOP and improve my general knowledge of algorithms, so I found a course on EDX that goes through both with Python.
+
+Day 40: February 26, 2019
+
+**Today's Progress:** TPTM JSON chapter day 1. Continued Scrapy movie scraping project.
+
+**Thoughts:** Trying to be better about documenting project tasks. I hope that when I come back to projects after a while I won't have to go through everything again to pick it up again. 
 
 # **Links to work:**
 ## Exercism exercises
