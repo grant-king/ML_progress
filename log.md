@@ -241,13 +241,19 @@ Day 41: February 27, 2019
 
 **Today's Progress:** TPTM JSON day 2. Continued Scrapy project. Started scraping course at DataCamp.
 
-**Thoughts:** Successfully generated some JSON data to practice with for TPTM chapter. My Scrapy spider is barely functional, but at least to the point that it can scrape all movie titles from the 27 pages of movies from S's collection on bluray site. I then made a notebook to do some EDA on the titles.  
+**Thoughts:** Successfully generated some JSON data to practice with for TPTM chapter. My Scrapy spider is barely functional, but at least to the point that it can scrape all movie titles from the 27 pages of movies from S's collection on bluray site. I made a notebook to do some basic EDA on the titles.  
 
 I need to learn Scrapy basics more formally than I am with YouTube. Luckily DataCamp just came out with a course for exactly what I have been trying to do. The first quarter is review from trying to get up to speed with the revived scraping project yesterday, but also covered key xpath details that are immediately useful. Last year while doing other  courses at DataCamp, I felt like I wasn't able to retain the content of many exercises without a real-world, personal problem to practice on. I think this is how I should use DataCamp going forward; I think things are most likely to stick if I have a project to immediately apply new tools to.  
 
+Day 42: February 28, 2019
+
+**Today's Progress:** TPTM JSON day 3. Continued Scrapy course.
+
+**Thoughts:** Xpath and CSS selectors make sense now. Finished first half of course and half of the third-quarter chapter.
+
 # **Links to work:**
-#Jupyter Notebooks
-#Movie JSON EDA
+## Jupyter Notebooks
+#### Movie JSON EDA
 https://github.com/grant-king/report/blob/master/TPTM_challenges/movie_JSON_EDA.ipynb
 
 ## Exercism exercises
