@@ -251,6 +251,13 @@ Day 42: February 28, 2019
 
 **Thoughts:** Xpath and CSS selectors make sense now. Finished first half of course and half of the third-quarter chapter.
 
+Day 43: February 29, 2019
+
+**Today's Progress:** TPTM HTTP services day 1. Continued Scrapy course on DataCamp.
+
+**Thoughts:** This module on consuming http services also goes well with Scrapy course and movies project.
+
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
