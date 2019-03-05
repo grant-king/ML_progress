@@ -257,6 +257,12 @@ Day 43: February 29, 2019
 
 **Thoughts:** This module on consuming http services also goes well with Scrapy course and movies project.
 
+Day 44: February 30, 2019
+
+**Today's Progress:** TPTM HTTP services day 2. Finished Scrapy course on DataCamp.
+
+**Thoughts:** Even though DataCamp can get through a topic quickly, it comes at the cost of deeper understanding. As long as I use it as an intermediate learning step I think it is still worth using. 
+
 
 # **Links to work:**
 ## Jupyter Notebooks
