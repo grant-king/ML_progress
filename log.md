@@ -251,18 +251,23 @@ Day 42: February 28, 2019
 
 **Thoughts:** Xpath and CSS selectors make sense now. Finished first half of course and half of the third-quarter chapter.
 
-Day 43: February 29, 2019
+Day 43: March 1, 2019
 
 **Today's Progress:** TPTM HTTP services day 1. Continued Scrapy course on DataCamp.
 
 **Thoughts:** This module on consuming http services also goes well with Scrapy course and movies project.
 
-Day 44: February 30, 2019
+Day 44: March 4, 2019
 
 **Today's Progress:** TPTM HTTP services day 2. Finished Scrapy course on DataCamp.
 
-**Thoughts:** Even though DataCamp can get through a topic quickly, it comes at the cost of deeper understanding. As long as I use it as an intermediate learning step I think it is still worth using. 
+**Thoughts:** Even though DataCamp can get through a topic quickly, it comes at the cost of deeper understanding. As long as I use it as an intermediate learning step I think it is still worth using.
 
+Day 45: March 5, 2019
+
+**Today's Progress:** TPTM HTTP services day 3. Continued working on Scrapy project.
+
+**Thoughts:** I'm having a hard time categorizing the scraped titles as the associated elements aren't directly related. Trying to figure out what to do in this situation.
 
 # **Links to work:**
 ## Jupyter Notebooks
