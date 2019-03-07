@@ -269,6 +269,12 @@ Day 45: March 5, 2019
 
 **Thoughts:** I'm having a hard time categorizing the scraped titles as the associated elements aren't directly related. Trying to figure out what to do in this situation.
 
+Day 46: February 6, 2019
+
+**Today's Progress:** TPTM BeautifulSoup4 module day 1. Working on email notification script.
+
+**Thoughts:** Attempting to set up an automated process to check for a movie on a particular page and send an email if it finds a match. Scraping is simple but I don't remember how to set it up as a job to check automatically and email. For these things I'm following a recent Corey Schafer tutorial that covers these tasks.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
