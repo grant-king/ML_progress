@@ -275,6 +275,12 @@ Day 46: February 6, 2019
 
 **Thoughts:** Attempting to set up an automated process to check for a movie on a particular page and send an email if it finds a match. Scraping is simple but I don't remember how to set it up as a job to check automatically and email. For these things I'm following a recent Corey Schafer tutorial that covers these tasks.
 
+Day 47: February 7, 2019
+
+**Today's Progress:** TPTM bs4 chapter day 2. Continued notification script.
+
+**Thoughts:** Still working on notification notebook. Saving gmail credentials in environment variables to send notification email.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
