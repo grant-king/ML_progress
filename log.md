@@ -281,6 +281,12 @@ Day 47: February 7, 2019
 
 **Thoughts:** Still working on notification notebook. Saving gmail credentials in environment variables to send notification email.
 
+Day 48: February 15, 2019
+
+**Today's Progress:** TPTM bs4 day 3. Continued movie notification script.
+
+**Thoughts:** Notification script now scrapes, checks and sends and email under the right conditions. The script is inefficient in that it checks two pages to make sure the movie has moved to another location before sending the confirmation email. The script is running from a shell script to launch it every hour that my comp is in use. I need to save something to file in order to keep the script from continuing to send emails every hour after the movie moves to the right page. I will use JSON library to save the state of a class that will indicate if an email has already been sent as well as prevent redundant checking of both movie pages each time. 
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
