@@ -269,23 +269,29 @@ Day 45: March 5, 2019
 
 **Thoughts:** I'm having a hard time categorizing the scraped titles as the associated elements aren't directly related. Trying to figure out what to do in this situation.
 
-Day 46: February 6, 2019
+Day 46: March 6, 2019
 
 **Today's Progress:** TPTM BeautifulSoup4 module day 1. Working on email notification script.
 
 **Thoughts:** Attempting to set up an automated process to check for a movie on a particular page and send an email if it finds a match. Scraping is simple but I don't remember how to set it up as a job to check automatically and email. For these things I'm following a recent Corey Schafer tutorial that covers these tasks.
 
-Day 47: February 7, 2019
+Day 47: March 7, 2019
 
 **Today's Progress:** TPTM bs4 chapter day 2. Continued notification script.
 
 **Thoughts:** Still working on notification notebook. Saving gmail credentials in environment variables to send notification email.
 
-Day 48: February 15, 2019
+Day 48: March 15, 2019
 
 **Today's Progress:** TPTM bs4 day 3. Continued movie notification script.
 
-**Thoughts:** Notification script now scrapes, checks and sends and email under the right conditions. The script is inefficient in that it checks two pages to make sure the movie has moved to another location before sending the confirmation email. The script is running from a shell script to launch it every hour that my comp is in use. I need to save something to file in order to keep the script from continuing to send emails every hour after the movie moves to the right page. I will use JSON library to save the state of a class that will indicate if an email has already been sent as well as prevent redundant checking of both movie pages each time. 
+**Thoughts:** Notification script now scrapes, checks and sends and email under the right conditions. The script is inefficient in that it checks two pages to make sure the movie has moved to another location before sending the confirmation email. The script is running from a shell script to launch it every hour that my comp is in use. I need to save something to file in order to keep the script from continuing to send emails every hour after the movie moves to the right page. I will use JSON library to save the state of a class that will indicate if an email has already been sent as well as prevent redundant checking of both movie pages each time.
+
+Day 49: March 18, 2019
+
+**Today's Progress:** TPTM performance profiling day 1. TDD tutorial at Real Python.
+
+**Thoughts:** I'm not a fan of this TPTM module but will try to find areas of another tutorial on TDD to apply related lessons to. I'm very happy that Real Python suddenly has hundreds of new tutorials. It seems like a better supplementary resource than some I've been using, especially while going through certain sections of TPTM training course. 
 
 # **Links to work:**
 ## Jupyter Notebooks
