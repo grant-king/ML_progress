@@ -291,7 +291,13 @@ Day 49: March 18, 2019
 
 **Today's Progress:** TPTM performance profiling day 1. TDD tutorial at Real Python.
 
-**Thoughts:** I'm not a fan of this TPTM module but will try to find areas of another tutorial on TDD to apply related lessons to. I'm very happy that Real Python suddenly has hundreds of new tutorials. It seems like a better supplementary resource than some I've been using, especially while going through certain sections of TPTM training course. 
+**Thoughts:** I'm not a fan of this TPTM module but will try to find areas of another tutorial on TDD to apply related lessons to. I'm very happy that Real Python suddenly has hundreds of new tutorials. It seems like a better supplementary resource than some I've been using, especially while going through certain sections of TPTM training course.
+
+Day 50: March 19, 2019
+
+**Today's Progress:** Performance monitoring. Continued TDD tutorial.
+
+**Thoughts:** I'm glad to be reviewing TDD again. I hope to apply some of these techniques to the chemistry cli app soon.
 
 # **Links to work:**
 ## Jupyter Notebooks
@@ -310,7 +316,7 @@ https://exercism.io/tracks/python/exercises/bank-account/solutions/2ef97a17222f4
 
 <!---
 
-Day x: February x, 2019
+Day x: March x, 2019
 
 **Today's Progress:**
 
