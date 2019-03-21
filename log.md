@@ -299,6 +299,12 @@ Day 50: March 19, 2019
 
 **Thoughts:** I'm glad to be reviewing TDD again. I hope to apply some of these techniques to the chemistry cli app soon.
 
+Day 51: March 20, 2019
+
+**Today's Progress:** Applying performance monitoring and TDD to new version of Opera movie scraping script.
+
+**Thoughts:** Having a hard time with environments acting as they shouldn't. There is an error somewhere but too many things are malfunctioning to be able to figure out what is happening. Traceback doesn't really make sense. Can't import any non-built-in packages or run the script. 
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
