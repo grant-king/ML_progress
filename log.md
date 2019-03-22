@@ -303,7 +303,13 @@ Day 51: March 20, 2019
 
 **Today's Progress:** Applying performance monitoring and TDD to new version of Opera movie scraping script.
 
-**Thoughts:** Having a hard time with environments acting as they shouldn't. There is an error somewhere but too many things are malfunctioning to be able to figure out what is happening. Traceback doesn't really make sense. Can't import any non-built-in packages or run the script. 
+**Thoughts:** Having a hard time with environments acting as they shouldn't. There is an error somewhere but too many things are malfunctioning to be able to figure out what is happening. Traceback doesn't really make sense. Can't import any non-built-in packages or run the script. Something is being thrown out of whack by the testing setup.
+
+Day 52: March 21, 2019
+
+**Today's Progress:** Movie scraping script is functional again. TPTM RSS feed parser module day 1.
+
+**Thoughts:** Implementing better code organization with class approach in this new version of the Opera movie scraping script. It is difficult to get the Testing structure and functionality down... it is still having side effect issues but at least my main environment is able to run a script again. Also getting started in a new notebook for feed_parser library to parse RSS feeds.
 
 # **Links to work:**
 ## Jupyter Notebooks
