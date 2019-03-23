@@ -311,6 +311,13 @@ Day 52: March 21, 2019
 
 **Thoughts:** Implementing better code organization with class approach in this new version of the Opera movie scraping script. It is difficult to get the Testing structure and functionality down... it is still having side effect issues but at least my main environment is able to run a script again. Also getting started in a new notebook for feed_parser library to parse RSS feeds.
 
+
+Day 53: March 22, 2019
+
+**Today's Progress:** TPTM feed parser day 2. Continued working on Opera movie notification project. Working with JSON and encoding custom objects.
+
+**Thoughts:** Working through the final parts of JSON tutorial at RealPython, in order to save custom objects to disk for later retrieval and processing. Implementing in both Opera scraping notebook and new RSS notebook. RSS notebook will save movie objects for later processing. 
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
