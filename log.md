@@ -316,7 +316,13 @@ Day 53: March 22, 2019
 
 **Today's Progress:** TPTM feed parser day 2. Continued working on Opera movie notification project. Working with JSON and encoding custom objects.
 
-**Thoughts:** Working through the final parts of JSON tutorial at RealPython, in order to save custom objects to disk for later retrieval and processing. Implementing in both Opera scraping notebook and new RSS notebook. RSS notebook will save movie objects for later processing. 
+**Thoughts:** Working through the final parts of JSON tutorial at RealPython, in order to save custom objects to disk for later retrieval and processing. Implementing in both Opera scraping notebook and new RSS notebook. RSS notebook will save movie objects for later processing.
+
+Day 54: March 26, 2019
+
+**Today's Progress:** Continued RSS feed parsing and JSON custom transcoding notebook for TPTM feed parser day 3. Exercism twelve-days exercise.
+
+**Thoughts:**
 
 # **Links to work:**
 ## Jupyter Notebooks
