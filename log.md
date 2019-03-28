@@ -320,9 +320,17 @@ Day 53: March 22, 2019
 
 Day 54: March 26, 2019
 
-**Today's Progress:** Continued RSS feed parsing and JSON custom transcoding notebook for TPTM feed parser day 3. Exercism twelve-days exercise.
+**Today's Progress:** Continued RSS feed parsing and JSON custom object transcoding notebook for TPTM feed parser day 3. Exercism twelve-days exercise.
 
-**Thoughts:**
+Day 55: March 27, 2019
+
+**Today's Progress:** Exercism grade-school exercise. TPTM working with APIs in Python with Uplink library day 1. Dunder method tutorial at Real Python.
+
+**Thoughts:** Started a new Exercism for creating a class roster; using a simple school model involving a Student class holding name and grade. This is mostly practice but am having to work out how to set up the Student class so that elements within School class roster attribute order themselves according to grade and then their name when a list of instances is passed to sorted.
+
+I needed to learn more about Dunder methods \_\_str\_\_ and \_\_repr\_\_ to start to figure this out. Real Python was a big help. Now I need to learn about the other dunders that can be manipulated to determine default ordering and comparison between instances of a class.
+
+Uplink library looks very useful. I may want to check out Blink cameras API again to see if this is something I could use for that. Otherwise I will find another API that requires a lot of structure within the request but doesn't have an official Python implementation.
 
 # **Links to work:**
 ## Jupyter Notebooks
