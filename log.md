@@ -332,6 +332,10 @@ I needed to learn more about Dunder methods \_\_str\_\_ and \_\_repr\_\_ to star
 
 Uplink library looks very useful. I may want to check out Blink cameras API again to see if this is something I could use for that. Otherwise I will find another API that requires a lot of structure within the request but doesn't have an official Python implementation.
 
+Day 56: March 28, 2019
+
+**Today's Progress:** Continued Exercism. More practice with dunder methods for custom object comparison, iteration, and selection. More API stuff with Uplink.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
