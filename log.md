@@ -336,6 +336,12 @@ Day 56: March 28, 2019
 
 **Today's Progress:** Continued Exercism. More practice with dunder methods for custom object comparison, iteration, and selection. More API stuff with Uplink.
 
+Day 57: March 29, 2019
+
+**Today's Progress:** More Exercism. Last day of Uplink.
+
+**Thoughts:** Mostly exercisms today. Working on robot-simulator exercise to help with exploring graph theory. Need to plan to cover more of these missed or not-yet-reached aspects of cs.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
