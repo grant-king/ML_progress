@@ -342,6 +342,17 @@ Day 57: March 29, 2019
 
 **Thoughts:** Mostly exercisms today. Working on robot-simulator exercise to help with exploring graph theory. Need to plan to cover more of these missed or not-yet-reached aspects of cs.
 
+
+Day 58: April 1, 2019
+
+**Today's Progress:** Working through two new involved courses. TPTM Twitter data analysis day 1. Exercism run-length-encoding exercise.
+
+**Thoughts:** I have started following my revised plan for the next phase of learning. I need more CS theory background before I feel comfortable moving forward with the projects I have in mind. One new course is to learn to maximize the time I have to learn this stuff, called mindshift: https://www.coursera.org/learn/mindshift/home/welcome
+
+The other course is more of an interactive textbook that I will use to guide me through learning this next level of CS concepts in an ideal order. I've already covered a lot of the concepts but in piecemeal to get through projects. I need to properly learn these concepts for a better overall comprehension. Although it uses modern python in the examples, the textbook has some major navigation, style, and clarity drawbacks so I hope to mostly use it to track my overall progress through these topics: https://runestone.academy/runestone/static/pythonds/index.html
+
+Today is the first day of twitter data analysis in the TPTM training course. So far mostly setup. I finally realized a better way to install packages in Anaconda. I don't know why it has taken me this long to realize what was happening. I will remember to add conda-forge to the sources of new environments for easy community package installations. I think using pip when conda comes up blank may have caused all of those frustrating package errors previously.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
