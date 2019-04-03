@@ -353,6 +353,19 @@ The other course is more of an interactive textbook that I will use to guide me 
 
 Today is the first day of twitter data analysis in the TPTM training course. So far mostly setup. I finally realized a better way to install packages in Anaconda. I don't know why it has taken me this long to realize what was happening. I will remember to add conda-forge to the sources of new environments for easy community package installations. I think using pip when conda comes up blank may have caused all of those frustrating package errors previously.
 
+Day 59: April 2, 2019
+
+**Today's Progress:**  Continued courses at coursera and runestone. Learned more about itertools to work runestone examples. Very little with TPTM twitter day 2.
+
+**Thoughts:** I really like the mindshift course. It has a lot of good reminders about how people learn, and I'm excited to get into all the stuff I have no idea about, like working with a mentor.
+
+I am getting a little frustrated with how convoluted the coding examples are in the runestone book. Although if I don't try to untangle and understand the flow of the default code, is good practice to rewrite the examples from the functional description in a way that makes sense.
+
+I am similarly frustrated with the current TPTM module, in that the author seems to be showing something for the sake of recording it, without regard for how unnecessary many of the stumbling points would be for the less-informed.
+
+In rewriting the four approaches to determining if two words are anagrams, I had to look into itertools. I am glad to get more experiene with this library and learn about the iterator algebra that combine the tools to construct more capable functions.
+
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
@@ -370,7 +383,7 @@ https://exercism.io/tracks/python/exercises/bank-account/solutions/2ef97a17222f4
 
 <!---
 
-Day x: March x, 2019
+Day x: April x, 2019
 
 **Today's Progress:**
 
