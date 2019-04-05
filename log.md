@@ -366,6 +366,20 @@ I am similarly frustrated with the current TPTM module, in that the author seems
 In rewriting the four approaches to determining if two words are anagrams, I had to look into itertools. I am glad to get more experiene with this library and learn about the iterator algebra that combine the tools to construct more capable functions.
 
 
+Day 60: April 3, 2019
+
+**Today's Progress:** Worked on a new project for Transcription repository. Continued runestone and mindshift courses.
+
+**Thoughts:** It made things a lot easier to try and plan the program logic out before jumping into things that I still need to read code documentation to set up. I'm really glad I've been improving auxiliary programming skills to keep the code more organized and logical. I can see that combining OOP structures with what I do with data science tools will help me write things that have a simple, easy-to-follow program flow.
+
+Day 61: April 4, 2019
+
+**Today's Progress:** Continued new Transcription project. "Intermediate Data Science" practice at DataCamp. "Reading and Writing CSV Files in Python" at Real Python for review. Runestone course supplemented by Khan Academy computer science course.
+
+**Thoughts:** It has been too many months since I've tried anything in Pandas, so I needed some reminders from DataCamp and Real Python. Luckily it is still in my head, just hard to recall onto an empty editor line. I made good progress with notebook today. Harvest CSV can be loaded into custom objects, now just need to order and reassemble the table, and then format excel output to specifications.
+
+Finished analysis chapter on Runestone site.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
