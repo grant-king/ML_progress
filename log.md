@@ -380,6 +380,12 @@ Day 61: April 4, 2019
 
 Finished analysis chapter on Runestone site.
 
+Day 62: April 9, 2019
+
+**Today's Progress:** Continued Harvest transcription project. VS Code tutorials. Packaging article and CLI app tutorial both at Real Python.
+
+**Thoughts:**
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
