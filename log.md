@@ -386,6 +386,20 @@ Day 62: April 9, 2019
 
 **Thoughts:**
 
+
+Day 63: April 11, 2019
+
+**Today's Progress:** Freezing python apps using pyinstaller. TPTM smtp mailer day 1. Continued work on Harvest script.
+
+**Thoughts:** account setup for mailer... setup app passwords and multifactor authentication for smtplib practice.
+
+
+Day 63: April 11, 2019
+
+**Today's Progress:** More Harvest invoice generator script. DataCamp practice. Seaborn review.  TPTM mailer day 2.
+
+**Thoughts:** Trying to figure out some visualizations for Harvest app. Reviewed Seaborn basics and added some examples to think about. SMTPlib is fun to play around with. I'm glad I recently did some of this or I'd maybe have a harder time. I'm hoping to try and set up the Harvest output to be sent by email until I can figure out a secure way to deliver a usable app.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
