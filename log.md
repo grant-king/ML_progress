@@ -400,6 +400,13 @@ Day 63: April 11, 2019
 
 **Thoughts:** Trying to figure out some visualizations for Harvest app. Reviewed Seaborn basics and added some examples to think about. SMTPlib is fun to play around with. I'm glad I recently did some of this or I'd maybe have a harder time. I'm hoping to try and set up the Harvest output to be sent by email until I can figure out a secure way to deliver a usable app.
 
+
+Day 64: April 15, 2019
+
+**Today's Progress:** TPTM mailer day 3. Supplement with Corey Schafer Python mailing review. DataCamp practice. Continued coursera Mindshift week 2. UI automation library with Pywinauto, very brief intro to MS UIA accessibility API. 
+
+**Thoughts:** I need to automate some things, and would like to have some custom accessibility tools at some point. I completely missed staying on top of some things last week so trying to catch up on various items. I am preparing to plan steering my cirriculum to get back into some computer vision projects after I finish some of these current items.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
