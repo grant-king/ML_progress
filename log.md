@@ -407,6 +407,15 @@ Day 64: April 15, 2019
 
 **Thoughts:** I need to automate some things, and would like to have some custom accessibility tools at some point. I completely missed staying on top of some things last week so trying to catch up on various items. I am preparing to plan steering my cirriculum to get back into some computer vision projects after I finish some of these current items.
 
+
+April 17, 2019
+
+**Today's Progress:** More smtplib practice supplemented by CoreyMS videos. TPTM pyperclip module day 1. Continued Coursera Mindshift week 2. Continued data structures/algorithm book. 
+
+**Thoughts:** I am switching to one 3-day TPTM training module per week, so will just stop counting days here. Doing one per day is fine but breaking a module over a weekend isn't efficent. It will also be nice to be able to dive deeper into modules that I need to. I will have extra time on two days each week to work on other things.
+
+Pyperclip seems like it may come in handy for improving productivity in some things I work on, but it doesn't seem like a module I'd include in anything meant for someone else to use. 
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
