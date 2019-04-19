@@ -1,4 +1,4 @@
-# 100 Days Of Code - Log
+s# 100 Days Of Code - Log
 Day 1: January 2, 2019
 
 **Today's Progress:** Watched introduction videos again. Watched videos for first chapter, on datetimes. Wrote detailed notes and example code in a Jupyter notebook.
@@ -410,11 +410,23 @@ Day 64: April 15, 2019
 
 April 17, 2019
 
-**Today's Progress:** More smtplib practice supplemented by CoreyMS videos. TPTM pyperclip module day 1. Continued Coursera Mindshift week 2. Continued data structures/algorithm book. 
+**Today's Progress:** More smtplib practice supplemented by CoreyMS videos. TPTM pyperclip module day 1. Continued Coursera Mindshift week 2. Continued data structures/algorithm book.
 
 **Thoughts:** I am switching to one 3-day TPTM training module per week, so will just stop counting days here. Doing one per day is fine but breaking a module over a weekend isn't efficent. It will also be nice to be able to dive deeper into modules that I need to. I will have extra time on two days each week to work on other things.
 
-Pyperclip seems like it may come in handy for improving productivity in some things I work on, but it doesn't seem like a module I'd include in anything meant for someone else to use. 
+Yesterday and today I worked through CoreyMS video on smtplib. I much prefer the content I find outside of the TPTM course, but I feel like it is good to get exposure to both approaches to instruction. I just have to be sure not to let myself get stuck trying to work out problems that arise from the TPTM content, as the problems generally don't occur when following more careful sources of instruction. Sometimes just following the documentation associated with a library can be more informative and less frustrating than the paid course's catered instruction.
+
+No problems yet in this section though. Pyperclip seems like it may come in handy for improving productivity in some things I work on, but it doesn't seem like a module I'd include in anything meant for someone else to use. 
+
+Continued the interactive runestone book called Problem Solving with Algorithms and Data Structures. This chapter is still mostly review, 27 sections covering different basic data structures like stack, queue, and lists and several others. The chapter will cover where these can best be used and how they are implemented.
+
+April 18, 2019
+
+**Today's Progress:** Continued cousera Mindshift course 2nd week. Continued ALgorithms/Data Structures chapter 3. Continued with smtplib. Reviewing scrapy for small project. 
+
+**Thoughts:** I am preparing to work on a small project that will involve using scrapy to scrape each section from the hard-to-navigate runestone interactive Problem Solving with Algorithms and Data Structures site and then email them to myself with smtplib. This will be an easier way to track my progress with the course and not have to lament the site's navigation and tracking difficulties. 
+
+Also need to return to the transcription project to see if using an email interface is a good option for quickly getting it to people who can use it. There are also easy hosted notebook/script options I need to investigate. At some point soon I hope I can wrap it up in a Django app or something else cross platform, functional, and pretty.
 
 # **Links to work:**
 ## Jupyter Notebooks
