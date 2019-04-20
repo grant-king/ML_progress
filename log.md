@@ -428,6 +428,12 @@ April 18, 2019
 
 Also need to return to the transcription project to see if using an email interface is a good option for quickly getting it to people who can use it. There are also easy hosted notebook/script options I need to investigate. At some point soon I hope I can wrap it up in a Django app or something else cross platform, functional, and pretty.
 
+April 19, 2019
+
+**Today's Progress:** Continued Mindshift, finished week 2. Continued Algorithm study. TPTM pyperclip day 3. Hackerrank practice. 
+
+**Thoughts:**
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
