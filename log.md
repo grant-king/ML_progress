@@ -432,7 +432,12 @@ April 19, 2019
 
 **Today's Progress:** Continued Mindshift, finished week 2. Continued Algorithm study. TPTM pyperclip day 3. Hackerrank practice. 
 
-**Thoughts:**
+
+April 22, 2019
+
+**Today's Progress:** Mindshift week 3. Continued Algorithm study. TPTM openpyxl Excel automation library. 
+
+**Thoughts:** Reviewing recursion and applicable problems, like recursive art and Towers of Hanoi. 
 
 # **Links to work:**
 ## Jupyter Notebooks
