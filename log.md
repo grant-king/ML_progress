@@ -437,7 +437,13 @@ April 22, 2019
 
 **Today's Progress:** Mindshift week 3. Continued Algorithm study. TPTM openpyxl Excel automation library. 
 
-**Thoughts:** Reviewing recursion and applicable problems, like recursive art and Towers of Hanoi. 
+**Thoughts:** Reviewing recursion and applicable problems, like recursive art and Towers of Hanoi.
+
+April 23, 2019
+
+**Today's Progress:** TPTM openpyxl day 2/3. Exercism exercise. Continued mindshift course. Continued researching CLI options for Harvest app.
+
+**Thoughts:** I'm still trying to figure out the easiest way to set up the Harvest invoice generating app for others to use. 
 
 # **Links to work:**
 ## Jupyter Notebooks
