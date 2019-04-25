@@ -445,6 +445,12 @@ April 23, 2019
 
 **Thoughts:** I'm still trying to figure out the easiest way to set up the Harvest invoice generating app for others to use. 
 
+April 24, 2019
+
+**Today's Progress:** Continued mindshift course. Investigating hosted notebook options. Colab introduction. Published Harvest notebook to Colab. Continued algorithm study.
+
+**Thoughts:** Colab looks like it is the quickest option to getting the script somewhere accessible to others. It actually has a lot of great features, and I can connect it to a local kernel if I use it for more computationally intense things.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
