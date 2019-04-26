@@ -451,6 +451,12 @@ April 24, 2019
 
 **Thoughts:** Colab looks like it is the quickest option to getting the script somewhere accessible to others. It actually has a lot of great features, and I can connect it to a local kernel if I use it for more computationally intense things.
 
+April x, 2019
+
+**Today's Progress:**Finished mindshift week 3. Continued polishing colab script. Started scrapy review. Pygame review.
+
+**Thoughts:**
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
