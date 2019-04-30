@@ -459,6 +459,11 @@ April 26, 2019
 
 **Today's Progress:** Started runestone site scraping project. 
 
+April 29, 2019
+
+**Today's Progress:** TPTM Selenium automation day 1. Started final week of mindshift course. Continued scrapy Problem Solvinng book project. Datacamp practice.
+
+**Thoughts:**  I should continue doing Scrapy scraping projects right after this one. It takes a lot of time to reintroduce a topic, although I know I have to sometimes. I'm glad that I'm already familiar enough with the components of Scrapy that it doesn't take long. Still, I think I'm to a certain point of familiarity with it that it wouldn't be difficult to get lots of practice in order to commit the operating specifics to memory.
 
 # **Links to work:**
 ## Jupyter Notebooks
