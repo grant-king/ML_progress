@@ -465,6 +465,12 @@ April 29, 2019
 
 **Thoughts:**  I should continue doing Scrapy scraping projects right after this one. It takes a lot of time to reintroduce a topic, although I know I have to sometimes. I'm glad that I'm already familiar enough with the components of Scrapy that it doesn't take long. Still, I think I'm to a certain point of familiarity with it that it wouldn't be difficult to get lots of practice in order to commit the operating specifics to memory.
 
+April 30, 2019
+
+**Today's Progress:** Continued Scrapy project. Reviewing DataCamp Scrapy course. Continued Mindshift week 4. TPTM Selenium day II. 
+
+**Thoughts:** It looks like Scrapy has a way to interact with Javascript pages using something called Splash. This is an alternative to what TPTM course talks about with Selenium. I think my time will be better spent sticking to Scrapy methods for now.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
