@@ -471,6 +471,12 @@ April 30, 2019
 
 **Thoughts:** It looks like Scrapy has a way to interact with Javascript pages using something called Splash. This is an alternative to what TPTM course talks about with Selenium. I think my time will be better spent sticking to Scrapy methods for now.
 
+May 1, 2019
+
+**Today's Progress:** Continued book scraping project. Started new scrapy project for plants.
+
+**Thoughts:** The book worked out. Trying again to build a database of plants.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
