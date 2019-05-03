@@ -477,6 +477,13 @@ May 1, 2019
 
 **Thoughts:** The book worked out. Trying again to build a database of plants.
 
+
+May 2, 2019
+
+**Today's Progress:** Continued working with plant Scrapy project. DataCamp practice sessions. Continued Mindshift course. Continued algorithm study.
+
+**Thoughts:** I'm finally using Postman a little to find proper class names to use in the selector method on a response object in Scrapy. 
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
@@ -494,7 +501,7 @@ https://exercism.io/tracks/python/exercises/bank-account/solutions/2ef97a17222f4
 
 <!---
 
-Day x: April x, 2019
+Day x: May x, 2019
 
 **Today's Progress:**
 
