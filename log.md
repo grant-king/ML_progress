@@ -477,12 +477,21 @@ May 1, 2019
 
 **Thoughts:** The book worked out. Trying again to build a database of plants.
 
-
 May 2, 2019
 
 **Today's Progress:** Continued working with plant Scrapy project. DataCamp practice sessions. Continued Mindshift course. Continued algorithm study.
 
-**Thoughts:** I'm finally using Postman a little to find proper class names to use in the selector method on a response object in Scrapy. 
+**Thoughts:** I'm finally using Postman a little to find proper class names to use in the selector method on a response object in Scrapy.
+
+May 3, 2019
+
+**Today's Progress:** Continued plant spider. Finished Mindshift course. Continued algorithm study. RealPython stuff.
+
+**Thoughts:** I am enjoying doing this other scrapy project right after the last one. It is nice to have to use different approaches to scraping the information from this plant website. I am now trying to build a database of plants that I can have a scheduled smtp script access to generate and send dialy plant emails. 
+
+I'm working on running scraped item dictionaries through the Scrapy pipeline to format or parse certain values before storing using the feed exports. I had been saving scraped items to a json file, which is ok for a few pages of scraped details. If I want to scrape all 500 pages * 10 items/page * 10 attributes/item, those 50k attributes could cause memory problems if stored in a JSON file. JSON Lines, .jl files will just store each of the 5,000 item dictionaries as seperately loaded objects, each with only 10 attributes.
+
+Next up 
 
 # **Links to work:**
 ## Jupyter Notebooks
