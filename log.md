@@ -491,7 +491,14 @@ May 3, 2019
 
 I'm working on running scraped item dictionaries through the Scrapy pipeline to format or parse certain values before storing using the feed exports. I had been saving scraped items to a json file, which is ok for a few pages of scraped details. If I want to scrape all 500 pages * 10 items/page * 10 attributes/item, those 50k attributes could cause memory problems if stored in a JSON file. JSON Lines, .jl files will just store each of the 5,000 item dictionaries as seperately loaded objects, each with only 10 attributes.
 
-Next up 
+May 6, 2019
+
+**Today's Progress:** Continued plant spider. Getting started with MongoDB.
+
+**Thoughts:** The spider is now able to save items to jl file. I added a pipeline function to follow and download the image link associated with each plant. The filenames are set to use the unique titles, but devoid of punctuation. I got the string method translate() to remove punctuation, i'm glad to see how to use this "fastest" punctuation removal method.
+
+I've set up MongoDB so that soon I can try and feed these items into it. 
+ 
 
 # **Links to work:**
 ## Jupyter Notebooks
