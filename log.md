@@ -1,4 +1,4 @@
-s# 100 Days Of Code - Log
+# 100 Days Of Code - Log
 Day 1: January 2, 2019
 
 **Today's Progress:** Watched introduction videos again. Watched videos for first chapter, on datetimes. Wrote detailed notes and example code in a Jupyter notebook.
@@ -499,6 +499,15 @@ May 6, 2019
 
 I've set up MongoDB so that soon I can try and feed these items into it. 
  
+May 7, 2019
+
+**Today's Progress:** Continued plant spider. Started plant mailer. Started UCI project planning course on Coursera. Datacamp practice.
+
+**Thoughts:** The plant spider is ready to save all plants to a jl file and all plant images to the appropriate pictures directory. I'll keep tinkering with it for  a few days to make sure I like how it is set up before scraping everything. I think it will take a long time. I should figure out how long it will take and plan to do it during off hours.
+
+I have the last three pages of plants and their images saved as a test for planning the daily plant mailer script. I've started planning in a notebook. I am considering using the imaging library to add the text over a darkened image. Alternatively I might rebuild the text into html and insert the image. I will send the result with smtp.
+
+UCI project planning course is first of four in a specialization on Coursera. This first course is six weeks. It is not geared for any kind of software development. It sounds like it will be helpful, but I'm not sure yet. I think it will be good to have this industry agnostic version before I get back to learning more about development paradigms.
 
 # **Links to work:**
 ## Jupyter Notebooks
