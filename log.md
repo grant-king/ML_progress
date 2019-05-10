@@ -509,6 +509,20 @@ I have the last three pages of plants and their images saved as a test for plann
 
 UCI project planning course is first of four in a specialization on Coursera. This first course is six weeks. It is not geared for any kind of software development. It sounds like it will be helpful, but I'm not sure yet. I think it will be good to have this industry agnostic version before I get back to learning more about development paradigms.
 
+May 8, 2019
+
+**Today's Progress:** Continued plant mailer. Finished 2nd week UCI PM course. Started Coursera Agile course. 
+
+**Thoughts:** I've started a new Agile specialization to determine if the UCI course is the right thing to take or if I can get by with just the Agile. I will do both until it is clear what should come first or if UCI is unneeded.
+
+I have the feeling it'll be helpful to get both the big picture from the UCI course and the specific software product development workflow and guiding principals from the Agile course.
+
+May 9, 2019
+
+**Today's Progress:** Continued plant mailer. Continued Agile course. 
+
+**Thoughts:** I've been trying to use Pillow to add the scraped details to a unique composite image including the plant image. I also want to use a CV library to extract colors for the palette for background and fonts. Alternatively colormind.io has a service I can use. Generating a gradient or unique design for the background might also be something to add. I'm running into basic problems with alignment and positioning, it may be better to just follow a standard layout template with varying elements.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
