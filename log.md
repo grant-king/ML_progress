@@ -523,6 +523,13 @@ May 9, 2019
 
 **Thoughts:** I've been trying to use Pillow to add the scraped details to a unique composite image including the plant image. I also want to use a CV library to extract colors for the palette for background and fonts. Alternatively colormind.io has a service I can use. Generating a gradient or unique design for the background might also be something to add. I'm running into basic problems with alignment and positioning, it may be better to just follow a standard layout template with varying elements.
 
+
+Day x: May x, 2019
+
+**Today's Progress:** Continued plant mailer. Continued agile course. 
+
+**Thoughts:** I have a working class that solves the text layout issue I was having. Text boxes can be generated, and later scaled and positioned onto the final composition.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
