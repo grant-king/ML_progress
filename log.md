@@ -523,12 +523,19 @@ May 9, 2019
 
 **Thoughts:** I've been trying to use Pillow to add the scraped details to a unique composite image including the plant image. I also want to use a CV library to extract colors for the palette for background and fonts. Alternatively colormind.io has a service I can use. Generating a gradient or unique design for the background might also be something to add. I'm running into basic problems with alignment and positioning, it may be better to just follow a standard layout template with varying elements.
 
-
-Day x: May x, 2019
+May 10, 2019
 
 **Today's Progress:** Continued plant mailer. Continued agile course. 
 
 **Thoughts:** I have a working class that solves the text layout issue I was having. Text boxes can be generated, and later scaled and positioned onto the final composition.
+
+May 13, 2019
+
+**Today's Progress:** Continued agile course. Started new movie scraping Scrapy project. Datacamp practice. TPTM Flask day 1.
+
+**Thoughts:** I'm still having a hard time trying to figure out how to reorganize the titles into their categories after they are scraped. Knowing more about Scrapy hasn't relieved this obstacle; I'll start by just scraping title details and possibly titled images. Maybe after working through it this way the steps to reorganization will become clear.
+
+The agile course is great. The specilization will help me understand the best systematic approach to designing software and will also give me a lot of good general business insight into tech operations. It is definately the right course for me to take right now. I will also continue with the general PM specialization for a more complete understanding of the projet process, from a generic perspective.
 
 # **Links to work:**
 ## Jupyter Notebooks
