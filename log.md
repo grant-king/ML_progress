@@ -537,6 +537,14 @@ May 13, 2019
 
 The agile course is great. The specilization will help me understand the best systematic approach to designing software and will also give me a lot of good general business insight into tech operations. It is definately the right course for me to take right now. I will also continue with the general PM specialization for a more complete understanding of the projet process, from a generic perspective.
 
+May 14, 2019
+
+**Today's Progress:** Continued Agile course. TPTM Flask day 2 and supplement videos from Corey Schafer. 
+
+**Thoughts:** I really like the simplicity of Flask so far. Following TPTM Julian's videos and Corey's more in-depth equivalents to get a primer on the basics and make a simple web app. I can see the situations where I'd prefer it over Django. I won't delve too deep with learning it for now, but it will be a good thing to experiment with more when I get back to doing stuff in Django.
+
+
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
