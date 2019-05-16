@@ -543,7 +543,17 @@ May 14, 2019
 
 **Thoughts:** I really like the simplicity of Flask so far. Following TPTM Julian's videos and Corey's more in-depth equivalents to get a primer on the basics and make a simple web app. I can see the situations where I'd prefer it over Django. I won't delve too deep with learning it for now, but it will be a good thing to experiment with more when I get back to doing stuff in Django.
 
+May 15, 2019
 
+**Today's Progress:** Continued Agile week 2. TPTM Flask day 3. Continued Scrapy movie project.  
+
+**Thoughts:** It is getting easier to build attractive output using Scrapy's feed exports. I'm using JSON lines again for this, and it is currently able to build a complete collection list consisting of each title, blu-ray url, and release year across ~25 pages of categorized titles. 
+
+There's still no clear way to keep them categorized. Each movie is its own table element, only sibling to other movies and the h2's that mark each category. I might be able to record the category of each movie by finding a system that can determine if subsequent sibling elements are going to be a movie or the heading for a new category. I hope there is a simpler way.
+
+I'm considering how to extend this from here. One thought is to get a bunch of user collection url's and scrape similar lists from each. I could then do some potentially interesting analysis across all lists.
+
+The Agile course is demonstrating the basic use of the Venture Design Framework. The document is a cumbersome, unfriendly gdoc that needs to be filled with filler text that is very distracting. It might be something to consider turning into an app if I end up using it a lot.
 
 # **Links to work:**
 ## Jupyter Notebooks
