@@ -555,6 +555,12 @@ I'm considering how to extend this from here. One thought is to get a bunch of u
 
 The Agile course is demonstrating the basic use of the Venture Design Framework. The document is a cumbersome, unfriendly gdoc that needs to be filled with filler text that is very distracting. It might be something to consider turning into an app if I end up using it a lot.
 
+May 16, 2019
+
+**Today's Progress:** Finished week 2 of Agile course. Made small Flask app using movie data from yesterday. Finished week 2 of UCI Project Management course. Continued algorithm study.
+
+**Thoughts:** I will keep taking the UCI course for now as it is the best option for this broader perspective. If nothing else, I'm glad to be easily learning about general project management vocabulary and resources.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
