@@ -561,6 +561,10 @@ May 16, 2019
 
 **Thoughts:** I will keep taking the UCI course for now as it is the best option for this broader perspective. If nothing else, I'm glad to be easily learning about general project management vocabulary and resources.
 
+May 17, 2019
+
+**Today's Progress:** Datacamp importing practice. Khan statistics practice. Continued Algorithm study. Preparing plant scraper for full scrape.  
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
