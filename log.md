@@ -565,6 +565,12 @@ May 17, 2019
 
 **Today's Progress:** Datacamp importing practice. Khan statistics practice. Continued Algorithm study. Preparing plant scraper for full scrape.  
 
+May 20, 2019
+
+**Today's Progress:** Started week 3 of Agile course. Started week 3 of UCI PM course. TPTM SQLite3 day 1. Continued Algorithm tutorial on KhanAcademy.  JavaScript animation challenges from tutorial on Khan Academy.
+
+**Thoughts:** I'm going back through the JavaScript animation tutorials on KhanAcademy so I can start with their advanced JS animation tutorials soon. I haven't looked at JavaScript much in the last 4 years. So far it is easy to skip through and just complete the unit challenges to get a refresher on the basics of Processing JS and JS in general. I hope the advanced animation course will help as I get ready to do more with Pillow, OpenCV, and Pygame.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
