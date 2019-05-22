@@ -571,6 +571,14 @@ May 20, 2019
 
 **Thoughts:** I'm going back through the JavaScript animation tutorials on KhanAcademy so I can start with their advanced JS animation tutorials soon. I haven't looked at JavaScript much in the last 4 years. So far it is easy to skip through and just complete the unit challenges to get a refresher on the basics of Processing JS and JS in general. I hope the advanced animation course will help as I get ready to do more with Pillow, OpenCV, and Pygame.
 
+May 21, 2019
+
+**Today's Progress:** TPTM SQLite3 day 2. Started flower price multi-site Scrapy project. 
+
+**Thoughts:** I started work on the next Scrapy project. This will be the first to have multiple spiders for scraping different domains. I think flower strain names and prices among local dispensaries would be a good multi-site thing to scrape. 
+
+I feel like I'd really benefit from knowing how to use Chrome developer tools better. 
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
