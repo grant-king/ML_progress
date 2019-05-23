@@ -577,7 +577,13 @@ May 21, 2019
 
 **Thoughts:** I started work on the next Scrapy project. This will be the first to have multiple spiders for scraping different domains. I think flower strain names and prices among local dispensaries would be a good multi-site thing to scrape. 
 
-I feel like I'd really benefit from knowing how to use Chrome developer tools better. 
+I feel like I'd really benefit from knowing how to use Chrome developer tools better.
+
+May 22, 2019
+
+**Today's Progress:** Continued Agile course. TPTM SQLite day 3.
+
+**Thoughts:** I'm glad to get this refresher on using SQL and how to use SQLite3 with Python. It was pretty simple to write something to create a database using the plant items in a JSON file. The data is fine to transfer as it was scraped from the mygardenlife site. The data is certianly not at all structured according to best practices but it is good to see how to quickly build a database from this existing data.
 
 # **Links to work:**
 ## Jupyter Notebooks
