@@ -591,6 +591,12 @@ May 23, 2019
 
 **Thoughts:** Almost done with algorithms course. This current module covers graph representation.
 
+May 24, 2019
+
+**Today's Progress:** Finished week 3 Agile course. Finished week 3 UCI PM course. Made a short walkthrough video for Harvest Transcription Colab notebook. Finished graph representation module. Continued JS animation basics review. Continued multisite spider. Dev tool walkthrough.
+
+**Thoughts:** I think I need to find a simpler product for multisite scraping, or to replan my approach. The site uses obfuscated classes that are making it really hard to scrape in an organized way. I think there may be another way to encounter the data at a lower level using Chrome dev tools, but I need more practice. I'll put that project on hold for now and plan another Scrapy multisite thing for next week.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
