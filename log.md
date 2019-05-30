@@ -597,7 +597,7 @@ May 24, 2019
 
 **Thoughts:** I think I need to find a simpler product for multisite scraping, or to replan my approach. The site uses obfuscated classes that are making it really hard to scrape in an organized way. I think there may be another way to encounter the data at a lower level using Chrome dev tools, but I need more practice. I'll put that project on hold for now and plan another Scrapy multisite thing for next week.
 
-May 25, 2019
+May 28, 2019
 
 **Today's Progress:**Continued Agile course, started week 4. Started Rice interactive Python specialization on Coursera. Started U. Michigan Web Data Access Python course on Coursera. TPTM Plotly day 1. 
 
@@ -605,6 +605,11 @@ May 25, 2019
 
 I am taking the U. Michigan Web Data Access course to help me with scraping and data transfer projects. The first week gives an excellent overview of regex.
 
+May 29, 2019
+
+**Today's Progress:**Continued Agile course. Finished week 1 Rice Python course 1. TPTM Plotly day 2. Started modern robotics specilization on coursera. Finished week 4 UCI PM course.
+
+**Thoughts:**
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
