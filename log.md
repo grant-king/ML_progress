@@ -609,7 +609,14 @@ May 29, 2019
 
 **Today's Progress:**Continued Agile course. Finished week 1 Rice Python course 1. TPTM Plotly day 2. Started modern robotics specilization on coursera. Finished week 4 UCI PM course.
 
-**Thoughts:**
+**Thoughts:** The general PM course isn't offering what I expected. The odd presentation hasn't faded with the introductory material, and it is hard to imagine gaining much from several courses worth of material presented this way. I now think the course might just be incredibly drawn out due to poor course planning, rather than to allow for a deeper exploration of the subject. I will stop this course now and find more concise sources for insight into traditional project management techniques.
+
+May 30, 2019
+
+**Today's Progress:** Continued modern robotics course. Continued Agile course. 
+
+**Thoughts:** The robotics courses are going to take significant commitment. I didn't expect to find something with this much depth, but I think it would be good to go through it all to see how that field feels. The specialization covers some programming, but mostly has a lot of theory based in engineering and physics. I haven't thought about robots since I started getting into CS, but it seems like the perfect multidisciplinary outlet to apply many adjacent intrests to.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
