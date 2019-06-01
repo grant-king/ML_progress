@@ -617,6 +617,12 @@ May 30, 2019
 
 **Thoughts:** The robotics courses are going to take significant commitment. I didn't expect to find something with this much depth, but I think it would be good to go through it all to see how that field feels. The specialization covers some programming, but mostly has a lot of theory based in engineering and physics. I haven't thought about robots since I started getting into CS, but it seems like the perfect multidisciplinary outlet to apply many adjacent intrests to.
 
+May 31, 2019
+
+**Today's Progress:** Continued modern robotics course. Finished week 2 of Web Data Access course. Continued Agile course. Exercism Phone Number exercise. 
+
+**Thoughts:**
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
