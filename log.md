@@ -619,9 +619,15 @@ May 30, 2019
 
 May 31, 2019
 
-**Today's Progress:** Continued modern robotics course. Finished week 2 of Web Data Access course. Continued Agile course. Exercism Phone Number exercise. 
+**Today's Progress:** Continued modern robotics course. Finished week 2 of Web Data Access course. Finished first Agile course. Exercism Phone Number exercise. 
 
-**Thoughts:**
+June 3, 2019
+
+**Today's Progress:** Continued modern robotics course week 1. Continued related Queensland Uni Tech "Masterclass" video resources on 2D geometry. Started week 2 of Rice Interactive Computing course.
+
+**Thoughts:** The Rice interactive computing course is now introducing the event-driven paradigm and how it is used in GUI programming. The course uses a custom GUI library that works within their perscribed browser environment. I'll translate the exercises to use the wxPython GUI toolkit so that I can get practice with the real tools.
+
+I am using the video lectures on the Queensland University of Technology Robot Academy site to help remind me of basic physics and help me move through the Modern Robotics course. The course seems to assume that I know a lot more than I do about physics and mechanical engineering. I think the combination of resources will give me the information I need to understand the more mechanical aspects of the Modern Robotics course.
 
 # **Links to work:**
 ## Jupyter Notebooks
@@ -640,7 +646,7 @@ https://exercism.io/tracks/python/exercises/bank-account/solutions/2ef97a17222f4
 
 <!---
 
-Day x: May x, 2019
+Day x: June x, 2019
 
 **Today's Progress:**
 
