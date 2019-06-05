@@ -629,6 +629,12 @@ June 3, 2019
 
 I am using the video lectures on the Queensland University of Technology Robot Academy site to help remind me of basic physics and help me move through the Modern Robotics course. The course seems to assume that I know a lot more than I do about physics and mechanical engineering. I think the combination of resources will give me the information I need to understand the more mechanical aspects of the Modern Robotics course.
 
+June 4, 2019
+
+**Today's Progress:** Continued Rice IPP course. Reproducing event-driven exercises with wxpython.
+
+**Thoughts:** Even though is taking some time to get up to speed with wxpython, it looks like it is a good choice over using the course's custom library. I should be able to reproduce all of the course's practice exercises with wx's tools.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
