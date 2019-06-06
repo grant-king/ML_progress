@@ -635,6 +635,10 @@ June 4, 2019
 
 **Thoughts:** Even though is taking some time to get up to speed with wxpython, it looks like it is a good choice over using the course's custom library. I should be able to reproduce all of the course's practice exercises with wx's tools.
 
+June 5, 2019
+
+**Today's Progress:** Continued Rice IPP course. Continued Modern Robotics course.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
