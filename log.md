@@ -639,6 +639,12 @@ June 5, 2019
 
 **Today's Progress:** Continued Rice IPP course. Continued Modern Robotics course.
 
+June 6, 2019
+
+**Today's Progress:** Finished U. Michigan Web Data Access week 3. Continued Rice IPP course. 
+
+**Thoughts:** The Pythohn Web Data Access course covered web sockets and how to access them by manually sending requests or using python libraries to retrieve and parse data. This week's content is partially review, but includes some new stuff on lower-level workings of the web. The same instructor has another Coursera course that dives deep into web history and technologies, I will start it next.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
