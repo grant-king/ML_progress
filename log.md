@@ -645,6 +645,14 @@ June 6, 2019
 
 **Thoughts:** The Pythohn Web Data Access course covered web sockets and how to access them by manually sending requests or using python libraries to retrieve and parse data. This week's content is partially review, but includes some new stuff on lower-level workings of the web. The same instructor has another Coursera course that dives deep into web history and technologies, I will start it next.
 
+June 7, 2019
+
+**Today's Progress:**  Finished week 1 Modern Robotics and 2D geometry QUT lecture series. Started Linear Algebra on Khan Academy. Finished week 3 Rice interactive programming course. 
+
+**Thoughts:** The math for these robotics courses isn't easy to follow. So far it involves some trig but a lot from linear algebra. I had a bit of linear algebra in the last weeks of college trig, but that was a few years ago. I will pause the robotics courses until I can get a better handle on the math. I am going to take khan academy's linear algebra course to catch up.
+
+I was able to reproduce this week's programming challenge with wxpython for the Rice IPP course. There were some speedbumps trying to figure out some concepts that the Rice course hasn't reached yet, but that are required for a very basic wxpython app. I think the course will get to these, so I figured out what I could to just get it working.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
