@@ -653,6 +653,10 @@ June 7, 2019
 
 I was able to reproduce this week's programming challenge with wxpython for the Rice IPP course. There were some speedbumps trying to figure out some concepts that the Rice course hasn't reached yet, but that are required for a very basic wxpython app. I think the course will get to these, so I figured out what I could to just get it working.
 
+June 10, 2019
+
+**Today's Progress:** Started first week of course 2 of Agile specialization. Started Khan linear algebra course.
+
 # **Links to work:**
 ## Jupyter Notebooks
 #### Movie JSON EDA
