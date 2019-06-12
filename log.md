@@ -657,20 +657,16 @@ June 10, 2019
 
 **Today's Progress:** Started first week of course 2 of Agile specialization. Started Khan linear algebra course.
 
-# **Links to work:**
-## Jupyter Notebooks
-#### Movie JSON EDA
-https://github.com/grant-king/report/blob/master/TPTM_challenges/movie_JSON_EDA.ipynb
 
-## Exercism exercises
-#### Tournament
-https://exercism.io/tracks/python/exercises/tournament/solutions/16a3d12389a84d918344ec6f87ac3caa
+**Thoughts:** This second Agile course focuses on planning and managing design sprints. I still like the instructor. 
 
-#### High Scores
-https://exercism.io/tracks/python/exercises/high-scores/solutions/1225821f040548419cf06c30954780ba
+June 11, 2019
 
-#### Bank account
-https://exercism.io/tracks/python/exercises/bank-account/solutions/2ef97a17222f482cb0e30be054505e0f
+**Today's Progress:** Continued Agile II course. Continued Linear Algebra course. Continued week 4 Rice Interactive Programming course. 
+
+**Thoughts:** The Rice interactive programming course is still covering familiar Python topics, but all of the GUI and event-driven concepts are new to me. This week's unfamiliar concept involves drawing graphics within the gui window. The simplified exercises make sense and involve drawing text and simple shapes to a canvas widget within the codeskulptor environment. 
+
+It is more challenging to translate this outcome to wxpython. I found a helpful tutorial on someone's website but I still haven't quite figured it out. I think translating these exercises to wxpython will get easier as the concepts get more difficult, so hopefully I will not be overwhelmed with both difficulties simultaneously.
 
 <!---
 
