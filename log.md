@@ -668,6 +668,12 @@ June 11, 2019
 
 It is more challenging to translate this outcome to wxpython. I found a helpful tutorial on someone's website but I still haven't quite figured it out. I think translating these exercises to wxpython will get easier as the concepts get more difficult, so hopefully I will not be overwhelmed with both difficulties simultaneously.
 
+June 12, 2019
+
+**Today's Progress:** Continued first section of Linear Algebra course. Continued week 4 Rice Interactive Programming course. 
+
+**Thoughts:** I am switching from wxpython to QT for Python after doing some more research. I am having a hard time tyring to find recent or helpful resources for wxpython. I considered pyqt4 for its better documentation, but it sounds like that is also out of date at this point. The successor is pyqt5. I'm not using that because there's a twin framework with even more support, and that is QT for Python. I am trying to reproduce the stuff what I've done in wxpython, and QT already seems much more friendly.
+
 <!---
 
 Day x: June x, 2019
