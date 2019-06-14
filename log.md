@@ -674,6 +674,11 @@ June 12, 2019
 
 **Thoughts:** I am switching from wxpython to QT for Python after doing some more research. I am having a hard time tyring to find recent or helpful resources for wxpython. I considered pyqt4 for its better documentation, but it sounds like that is also out of date at this point. The successor is pyqt5. I'm not using that because there's a twin framework with even more support, and that is QT for Python. I am trying to reproduce the stuff what I've done in wxpython, and QT already seems much more friendly.
 
+June 13, 2019
+
+**Today's Progress:** Continued catching up with QT for Python. Continued Rice course. Continued Agile II course. 
+
+
 <!---
 
 Day x: June x, 2019
