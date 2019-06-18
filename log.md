@@ -678,6 +678,15 @@ June 13, 2019
 
 **Today's Progress:** Continued catching up with QT for Python. Continued Rice course. Continued Agile II course. 
 
+June 14, 2019
+
+**Today's Progress:** Finished Agile II week 1. Continued Rice course.
+
+**Thoughts:** I had too much to get through this week. I'm moving Rice interactive computing course, U. Michigan web data course, and linear algebra course deadlines to next week. I think it would be a better approach to save Rice course activities for later in the week once I'm done with less sticky things.
+
+June 17, 2019
+
+**Today's Progress:** Continued U. Michigan Access Web Data course week 4. Started Agile II week 2. 
 
 <!---
 
