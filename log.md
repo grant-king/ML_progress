@@ -688,6 +688,14 @@ June 17, 2019
 
 **Today's Progress:** Continued U. Michigan Access Web Data course week 4. Started Agile II week 2. 
 
+June 18, 2019
+
+**Today's Progress:** Finished U. Michigan Access Web Data course week 4. Finished Agile II week 2.
+
+**Thoughts:** I am getting a lot out of this Agile course, but it does refer to many unfamiliar aspects of business operations that I've never encountered before. I think it will be a good plan to achieve a broad overviw of this topic and retake all Agile courses again after I've had more experience in the industry. I think I will be able to absorb more useful subtleties when I can use specific experience to anchor the theory of Agile venture design to something that I've personally worked through.
+
+The Web Data course is a good demonstration of this return-after-experience idea. I learned a lot of this from other sources before I had any experience with it. Now it is much easier to relate these methods to things I've done before in order to absorb a deeper understanding of these fundamental mechanisms for accessing web data. This week explores the urllib library and parsing html with bs4.
+
 <!---
 
 Day x: June x, 2019
