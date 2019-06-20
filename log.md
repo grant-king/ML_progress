@@ -696,6 +696,12 @@ June 18, 2019
 
 The Web Data course is a good demonstration of this return-after-experience idea. I learned a lot of this from other sources before I had any experience with it. Now it is much easier to relate these methods to things I've done before in order to absorb a deeper understanding of these fundamental mechanisms for accessing web data. This week explores the urllib library and parsing html with bs4.
 
+June 19, 2019
+
+**Today's Progress:** Continued Rice Interactive Programming course week 4. 
+
+**Thoughts:** I'm still catching up some with QT for Python.
+
 <!---
 
 Day x: June x, 2019
