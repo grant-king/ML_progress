@@ -702,6 +702,12 @@ June 19, 2019
 
 **Thoughts:** I'm still catching up some with QT for Python.
 
+June 20, 2019
+
+**Today's Progress:** Continued Rice course. Catching up with Pygame.
+
+**Thoughts:** It is too much to try and get up to speed with QT with its current available resources. A lot of the documentation is very recent; I think tere will be more helpful resources in the near future. I'm putting it aside for now. I'm going to try to use Pygame for the remainder of the course.
+
 <!---
 
 Day x: June x, 2019
