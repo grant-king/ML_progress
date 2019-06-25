@@ -708,6 +708,18 @@ June 20, 2019
 
 **Thoughts:** It is too much to try and get up to speed with QT with its current available resources. A lot of the documentation is very recent; I think tere will be more helpful resources in the near future. I'm putting it aside for now. I'm going to try to use Pygame for the remainder of the course.
 
+June 21, 2019
+
+**Today's Progress:** Finished Rice IPP course week 4.
+
+**Thoughts:** I feel adequately caught up in the Rice course with Pygame. It looks like it has the functionality and documentation that I need to reproduce the challenges outside of the course's CodeSkulptor environment. I didn't get to linear algebra this week but I think I will have much more time next week now that I'm up to speed with Pygame.
+
+June 24, 2019
+
+**Today's Progress:** Started Agile II week 3. Started Rice IPP course week 5.
+
+**Thoughts:** I'm really glad I switched to Pygame. This week covers motion control and navigation. It is a good time to be taking linear algebra.
+
 <!---
 
 Day x: June x, 2019
