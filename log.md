@@ -720,6 +720,14 @@ June 24, 2019
 
 **Thoughts:** I'm really glad I switched to Pygame. This week covers motion control and navigation. It is a good time to be taking linear algebra.
 
+June 25, 2019
+
+**Today's Progress:** Continued Agile II week 3. Continued Rice IPP week 5. Continued Linear Algebra Vectors unit. 
+
+**Thoughts:** The more I use Pygame, the happier I am that I'm using it instead of the alternatives that I tried. I'm not sure why I tried the alternatives before trying Pygame.
+
+The Agile course has a lot of helpful ideas, even without much familiarity with traditional project managment. This chapter is delves into principals from Lean Startup and how they can be used to help make the right design decisions.
+
 <!---
 
 Day x: June x, 2019
