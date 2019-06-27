@@ -27,10 +27,29 @@ class Ball(pygame.sprite.Sprite):
         self.surface = pygame.image.load('circle.png').convert()
         self.surface.set_colorkey((255, 255, 255))
         self.position = self.surface.get_rect()
-        self.velocity = [3, 1]
+        self.velocity = [11, 1]
 
-    def update(self):
+    def update(self, pressed_keys):
+        self.control(pressed_keys)
+        self.bounce()
         self.position.move_ip(self.velocity)
+    
+    def control(self, pressed_keys):
+        if pressed_keys[K_RIGHT]:
+            self.velocity[0] += 1
+        if pressed_keys[K_LEFT]:
+            self.velocity[0] += -1
+        if pressed_keys[K_DOWN]:
+            self.velocity[1] += 1
+        if pressed_keys[K_UP]:
+            self.velocity[1] += -1
+
+
+    def bounce(self):
+        if self.position.midleft[0] < 0 or self.position.midright[0] > 500:
+            self.velocity[0] = -self.velocity[0]
+        if self.position.midtop[1] < 0 or self.position.midbottom[1] > 500:
+            self.velocity[1] = -self.velocity[1]           
 
 
 def listen_quit():
@@ -59,7 +78,7 @@ while running:
 
     pressed_keys = pygame.key.get_pressed()
     player.update(pressed_keys)
-    ball.update()
+    ball.update(pressed_keys)
 
     main_window.fill((0, 0, 0))
     main_window.blit(player.surface, player.position)
