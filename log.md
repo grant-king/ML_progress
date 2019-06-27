@@ -728,6 +728,12 @@ June 25, 2019
 
 The Agile course has a lot of helpful ideas, even without much familiarity with traditional project managment. This chapter is delves into principals from Lean Startup and how they can be used to help make the right design decisions.
 
+June 26, 2019
+
+**Today's Progress:** Continued Rice IPP week 5. Continued Linear Algebra Vectors unit.
+
+**Thoughts:** I am all through this week's exercises and am working on the coding challenge to build a pong clone.
+
 <!---
 
 Day x: June x, 2019
