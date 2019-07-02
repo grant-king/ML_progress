@@ -734,6 +734,23 @@ June 26, 2019
 
 **Thoughts:** I am all through this week's exercises and am working on the coding challenge to build a pong clone.
 
+June 27, 2019
+
+**Today's Progress:** Continued Rice IPP week 5. Continued Agile II week 3.
+
+**Thoughts:** I like this Rice course a lot, but I'm really glad to be avoiding the perscribed Python 2 CodeSkulptor environment. The general coding lessons are still very basic while all of the event driven programming concepts are new to me. This class feels like it would be a bad choice for someone just learning how to program. I can imagine starting here and immediately drowning in the lopsided skill requirements. I'm glad the course can be efficiently adapted to my needs. Recreating things in Pygame certainly feels like the most productive use of the course content.
+
+June 28, 2019
+
+**Today's Progress:** Finished Rice IPP week 5 and coding challenge Pong project. Finished Agile II week 3. Continued Khan Linear Algebra, Vectors unit. Finished U. Michigan Web Data Access week 5.
+
+**Thoughts:** The Web Data course is reviewing how to use Python send data across the network to any application while independently validating that data on each side according to a protocol schema. XML/XSD is used to illustrate this point. The material is getting less familiar but is still easy to follow. I'm glad this course exists.
+
+July 1, 2019
+
+**Today's Progress:** Started Rice IPP II week 1 and coding challenge Memory project.
+
+**Thoughts:** I'm having a lot of fun with Pygame.
 <!---
 
 Day x: June x, 2019
