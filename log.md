@@ -751,9 +751,16 @@ July 1, 2019
 **Today's Progress:** Started Rice IPP II week 1 and coding challenge Memory project.
 
 **Thoughts:** I'm having a lot of fun with Pygame.
+
+July 2, 2019
+
+**Today's Progress:** Started UMich Web Data Access course week 6. Started Agile II week 4. Continued Rice IPP II week 1 coding project.
+
+**Thoughts:** This week reviews web services and how it makes it easier for sevices to communicate when they have a service layer can use a standard serialization format. This course delves into the topic more thouroughly than other stuff I've seen related to this topic.
+
 <!---
 
-Day x: June x, 2019
+Day x: July x, 2019
 
 **Today's Progress:**
 
