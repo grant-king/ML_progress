@@ -7,19 +7,20 @@ class Card(pygame.sprite.Sprite):
         super(Card, self).__init__()
         self.max_x = pygame.display.Info().current_h
         self.max_y = pygame.display.Info().current_w
-
-        #self.front_face = pygame.image.load(imagefile)
+        
+        self.front_face = pygame.Surface([60, 60])
         self.back_face = pygame.image.load('cardback.png').convert()
-        self.active_face = self.back_face
+        self.active_face = self.front_face
 
         spawnx = random.randint(0, self.max_x)
         spawny = random.randint(0, self.max_y)
         print(spawnx, spawny)
-        self.rect = self.back_face.get_rect(center=(spawnx, spawny))
+        self.rect = self.active_face.get_rect(center=(spawnx, spawny))
         
         self.velocity = [1, 1]   
 
     def update(self):
+        self.control()
         self.contain()
         self.rect.move_ip(self.velocity)
 
@@ -40,6 +41,20 @@ class Card(pygame.sprite.Sprite):
     def bounce_handler(self):
         self.velocity = [-self.velocity[0], -self.velocity[1]]
 
+class Match:
+    def __init__(self, card_1, card_2):
+        self.found = False
+        self.color = [0, 0, 0]
+        self.card_base = card_1
+        self.card_copy = card_2
+        self.match_maker()
+    
+    def match_maker(self):
+        r, g, b = [random.randint(0, 255) for i in range(3)]
+        self.card_base.front_face.fill((r, g, b))
+        self.card_copy.front_face.fill((r, g, b))
+        self.color = [r, g, b]
+
 def listen_quit():
     #listen for quit
     for event in pygame.event.get():
@@ -53,6 +68,7 @@ def listen_quit():
 pygame.init()
 main_window = pygame.display.set_mode((600, 600))
 cards = [Card() for card in range(16)]
+matches = [Match(cards[i], cards[i+1]) for i in range(16)[::2]]
 all_sprites = pygame.sprite.Group()
 all_sprites.add(cards)
 
