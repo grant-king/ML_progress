@@ -756,7 +756,21 @@ July 2, 2019
 
 **Today's Progress:** Started UMich Web Data Access course week 6. Started Agile II week 4. Continued Rice IPP II week 1 coding project.
 
-**Thoughts:** This week reviews web services and how it makes it easier for sevices to communicate when they have a service layer can use a standard serialization format. This course delves into the topic more thouroughly than other stuff I've seen related to this topic.
+**Thoughts:** This week the UMich course reviews web services. It makes it easier for sevices to communicate when they have a service layer that can use a standard serialization format like XML or JSON. This course delves into the topic more thouroughly than other stuff I've seen related to this topic.
+
+July 3, 2019
+
+**Today's Progress:** Continued UMich Web Data Access week 6. Continued IPP II week 1 coding project. Continued Agile II week 4.
+
+**Thoughts:** I'm almost finished with this week's Memory game coding project. It has come together well but still has a bug. The game is like memory with moving cards. It is comically difficult to play but the code was fun to figure out. The board generates a set number of matched cards that bounce around the screen and off of eachother. Clicking a card reveals its color, clicking another assesses the match, and another to return unmatched to the default card back or keep the match revealed and start another reveal loop.
+
+At this point it feels like this course is just providing starting points for Pygame project ideas. The videos are uneven and it has been a little irritating to listen to long-winded descriptions of things I've heard other people describe efficiently. Reviewing fundamentals doesn't usually feel wasteful. It is hard to want to get through each and every video considering what I'm trying to get out of it. I'm finding more appropriate event-driven instructions from other resources and can glean theory keywords from other course materials. I will try watching every video again when some of the instructors and skill requirements change in courses III to VII of this specialization.
+
+July 4, 2019
+
+**Today's Progress:** Completed Linear Combinations unit of Linear Algebra course on Khan academy. Continued UMich Web Data Access week 6. Finished Agile II week 4.
+
+**Thoughts:**
 
 <!---
 
