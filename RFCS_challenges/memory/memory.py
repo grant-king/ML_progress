@@ -65,9 +65,9 @@ class Match:
         self.card_copy.color = [r, g, b]
         self.color = [r, g, b]
 
-def listen_quit():
+def listen_quit(events_list):
     #listen for quit
-    for event in pygame.event.get():
+    for event in events_list:
         if event.type == KEYDOWN:
             if event.key == K_ESCAPE:
                 return False
@@ -75,49 +75,43 @@ def listen_quit():
             return False
     return True
 
-def get_click_pos():
-    click = pygame.mouse.get_pressed()
-    click_pos = None
-    if click[0]:
-        click_pos = pygame.mouse.get_pos()
-        #wait for mouse up
-        for event in pygame.event.get():
-            while event.type == pygame.MOUSEBUTTONDOWN:
-                print('waiting')
-    return click_pos
-
 def compare(compare_list):
     if compare_list[0].color == compare_list[1].color:
         return True
     return False
 
+match_number = 5
 pygame.init()
 main_window = pygame.display.set_mode((600, 600))
-cards = [Card() for card in range(6)]
+cards = [Card() for card in range(match_number * 2)]
 matches = [Match(cards[i], cards[i+1]) for i in range(len(cards))[::2]]
 all_sprites = pygame.sprite.Group()
 all_sprites.add(cards)
 
 running = True
 
-to_compare = []#up to two cards
-matched = []#all successfully compared, stay face up
+to_compare = [] #up to two cards
+matched = [] #all successfully compared, stay face up
+locked = [] #unmatched to be flipped to cardback after new try
 clock = pygame.time.Clock()
 
 while running:
-    running = listen_quit()
+    events = pygame.event.get()
     clock.tick(60)
     main_window.fill((0, 0, 0))
 
-    click_pos = get_click_pos()
+    click_pos = None
+    for event in events:
+        if event.type == MOUSEBUTTONDOWN:
+            click_pos = event.pos
 
+    running = listen_quit(events)
+    
     for card in all_sprites:
         #check clicks
         if click_pos:
             if card.rect.collidepoint(click_pos):
-                for couples in matched:
-                    if card not in couples:
-                        card.click_handler() 
+                card.click_handler() 
                 if card not in to_compare:
                     to_compare.append(card)
         #check collisions
@@ -138,13 +132,24 @@ while running:
             print(to_compare)
             match = compare(to_compare)
             if match:
-                matched.append(to_compare.copy())
+                _ = [matched.append(item) for item in to_compare]
                 print('match')
             else:
-                to_compare[0].active_face =  to_compare[0].back_face
-                to_compare[1].active_face =  to_compare[1].back_face
+                #save cards to flipped list
+                _ = [locked.append(item) for item in to_compare]
                 print('no match')
+                print(f'flipped cards: {locked}')
             #reset
             to_compare.clear()
-        
+        elif len(to_compare) == 1: 
+        #flip mismatched cards after first new choice
+            if len(locked) == 2:
+                locked[0].active_face =  locked[0].back_face
+                locked[1].active_face =  locked[1].back_face
+                locked.clear()
+        else:
+            pass
+
+if len(matched) == match_number*2:
+    running = False
     
