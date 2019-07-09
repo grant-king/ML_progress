@@ -80,19 +80,40 @@ def compare(compare_list):
         return True
     return False
 
-match_number = 5
+def draw_stats(score, matches):
+    main_window = pygame.display.get_surface()
+    
+    font = pygame.font.Font(None, 50)
+    message = f'{score} clicks and {matches} matches'
+    text = font.render(message, True, (255, 255, 0))
+
+    main_window.blit(text, [main_window.get_rect().width/2-200, 50])
+
+def draw_end():
+    main_window = pygame.display.get_surface()
+    
+    font = pygame.font.Font(None, 150)
+    message = f'You win!'
+    text = font.render(message, True, (255, 55, 55))
+
+    main_window.blit(text, [main_window.get_rect().width/2-200, main_window.get_rect().height/2])
+
+MATCH_NUMBER = 7
+
 pygame.init()
 main_window = pygame.display.set_mode((600, 600))
-cards = [Card() for card in range(match_number * 2)]
+cards = [Card() for card in range(MATCH_NUMBER * 2)]
 matches = [Match(cards[i], cards[i+1]) for i in range(len(cards))[::2]]
 all_sprites = pygame.sprite.Group()
 all_sprites.add(cards)
 
 running = True
 
+score = 0
 to_compare = [] #up to two cards
 matched = [] #all successfully compared, stay face up
 locked = [] #unmatched to be flipped to cardback after new try
+
 clock = pygame.time.Clock()
 
 while running:
@@ -123,15 +144,20 @@ while running:
         card.update()
         main_window.blit(card.active_face, card.rect)
     
+    #draw stats
+    draw_stats(score, len(matched))
+    
     #update display
     pygame.display.flip()
     
     #game logic
     if click_pos != None:
+        score += 1
         if len(to_compare) == 2:
             print(to_compare)
             match = compare(to_compare)
             if match:
+                #save cards to matched list
                 _ = [matched.append(item) for item in to_compare]
                 print('match')
             else:
@@ -150,6 +176,9 @@ while running:
         else:
             pass
 
-if len(matched) == match_number*2:
-    running = False
+    if len(matched) == MATCH_NUMBER*2:
+        draw_end()
+        pygame.display.flip()
+        pygame.time.delay(3500)
+        running = False
     
