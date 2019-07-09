@@ -770,7 +770,21 @@ July 4, 2019
 
 **Today's Progress:** Completed Linear Combinations unit of Linear Algebra course on Khan academy. Continued UMich Web Data Access week 6. Finished Agile II week 4.
 
-**Thoughts:**
+July 5, 2019
+
+**Today's Progress:** Finished final week of UMich Web Data Access course.
+
+**Thoughts** Memory is all finished and the unrealistic movement of the cards makes me want to learn more about how to model particle systems.
+
+July 8, 2019
+
+**Today's Progress:** Started U Mich Databases in Python course. Started U Geneva Natural Models and Simulations course. Started week 2 of Rice IPP II course. 
+
+**Thoughts:** The new U Mich course is on SQL and Databases through Python. It seems like all of the content planned for the next 5 weeks will be review. I havent learned about SQL since before I knew anything about programming. It should be relatively easy to reabsorb the in-depth fundamentals of relational databases this way. The course after this in the specialization will focus on building a robust scraping application. I need to be able to design a relational database for this capstone project, so I'm happy to get the review.
+
+Both this new course and this week's main topic in the Rice course are covering OOP theory fundamentals. It is good, repetitious review that I can just skim through. This week's project for the Rice course is to make a blackjack game that looks like 1995. Their starting code is something I want to try to follow and expand on top of now that they are using a completely object-oriented approach.
+
+To make up for easy SQL course, I started a natural models and simulations course. I think it is a good candidate for a course that would help me get a handle on the various computational science processes that I've been learning piecemeal through other resources. I think the Khan JS animation courses gave me a great foundation for animation and some modeling but didn't provide much theory for being able to simulate anything complicated. This course feels like a good fit for many things i'm trying to learn about now.
 
 <!---
 
