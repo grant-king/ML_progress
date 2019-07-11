@@ -786,6 +786,16 @@ Both this new course and this week's main topic in the Rice course are covering 
 
 To make up for easy SQL course, I started a natural models and simulations course. I think it is a good candidate for a course that would help me get a handle on the various computational science processes that I've been learning piecemeal through other resources. I think the Khan JS animation courses gave me a great foundation for animation and some modeling but didn't provide much theory for being able to simulate anything complicated. This course feels like a good fit for many things i'm trying to learn about now.
 
+July 9, 2019
+
+**Today's Progress:** Finished UMich Databases with Python week 1. Started Agile II week 5. Continued project for Rice IPP II week 2.
+
+July 10, 2019
+
+**Today's Progress:** Finished UG Natural Models and Simulations week 1. 
+
+**Thoughts:**
+
 <!---
 
 Day x: July x, 2019
