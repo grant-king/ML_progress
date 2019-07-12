@@ -794,7 +794,12 @@ July 10, 2019
 
 **Today's Progress:** Finished UG Natural Models and Simulations week 1. 
 
-**Thoughts:**
+July 11, 2019
+
+**Today's Progress:** Finished final week of Agile II course. Continued blackjack project for Rice IPP II week 2.
+
+**Thoughts:** The cards for the blackjack game are in a sprite sheet. This is the first time I've had to write a spritesheet class to return a specified rect of the spritesheet, for drawing each card individually when given a sprite cell index. 
+
 
 <!---
 
