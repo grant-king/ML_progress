@@ -13,7 +13,7 @@ def listen_quit(events_list):
 def hit_handler(player_hand, dealer_hand):
     global deck
     deck.deal(player_hand)
-    print(f'Player: {player_hand.score}')
+    print(f'Player: {player_hand.hand_score}')
 
 def deal_handler(player_hand, dealer_hand):
     global deck
@@ -23,24 +23,23 @@ def deal_handler(player_hand, dealer_hand):
         deck.dealt = True
 
 def stand_handler(player_hand, dealer_hand):
-    while dealer_hand.score < 17:
-        dealer_hit(dealer_hand)
-    get_winner(player_hand, dealer_hand)
-    player_hand.clear_hand()
-    dealer_hand.clear_hand()
+    global deck
+    #fill dealer hand
+    dealer_hit(dealer_hand)
+    
+    #compare hands
+    player_hand.compare(dealer_hand)
 
-def get_winner(player_hand, dealer_hand):
-    #add automatic lose to player > 21 points in hand
-    if player_hand.score > dealer_hand.score:
-        print('you win!')
-    elif player_hand.score == dealer_hand.score:
-        print('tie!')
-    else:
-        print('Dealer wins')
+    #print stats and clear hands
+    for hand in [player_hand, dealer_hand]:
+        print(f'{hand.name}: {hand.win_tally}')
+        hand.clear_hand()
+    deck.dealt = False
     
 def dealer_hit(dealer_hand):
-    deck.deal(dealer_hand)
-    print(f'Dealer: {dealer_hand.score}')
+    while dealer_hand.hand_score < 17:
+        deck.deal(dealer_hand)
+        print(f'Dealer: {dealer_hand.hand_score}')
 
 pygame.init()
 main_window = pygame.display.set_mode((900, 600))
@@ -73,7 +72,7 @@ clock = pygame.time.Clock()
 while running:
     events = pygame.event.get()
     clock.tick(60)
-    main_window.fill((0, 0, 0))
+    main_window.fill((20, 100, 20))
 
     running = listen_quit(events)
 
