@@ -56,7 +56,8 @@ class Hand:
         score = 0
         for card in self.in_hand:
             score += card.points
-            if score > 21:
+        if score > 21:
+            for card in self.in_hand:
                 if card.soften_ace():
                     score -= 10
         return score
@@ -107,7 +108,7 @@ class Deck:
         self.build_deck()
 
     def draw_deck(self):
-        """Draw card from top of Deck stack"""
+        """Render card from top of Deck stack at specified Deck location"""
         try:
             self.deck_contents[-1].draw([100, 300])
         except:
@@ -132,8 +133,8 @@ class Deck:
         except:
             print('new deck')
             self.__init__()
+            self.shuffle()
         
-
 
 class Card(pygame.sprite.Sprite):
     SUITS = ('Clubs', 'Spades', 'Hearts', 'Diamonds')
