@@ -12,14 +12,12 @@ def listen_quit(events_list):
     return True
 
 SCREEN_SIZE = [900, 600]
-BACKGROUND_COLOR = [245, 240, 250]
+BACKGROUND_COLOR = [242, 240, 250]
 
 pygame.init()
 main_window = pygame.display.set_mode(SCREEN_SIZE)
 
-#initialize game objects
-
-#initialize sprites and groups
+ship = Ship()
 
 running = True
 clock = pygame.time.Clock()
@@ -28,7 +26,10 @@ while running:
     events = pygame.event.get()
     clock.tick(60)
     main_window.fill(BACKGROUND_COLOR)
-
     running = listen_quit(events)
 
+    ship.update(events)
+
     pygame.display.flip()
+
+pygame.quit()
