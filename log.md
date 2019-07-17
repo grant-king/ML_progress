@@ -814,6 +814,15 @@ July 15, 2019
 **Thoughts:** This week in UG NMS course is devoted to introducing Python, and is all review. I was interested to see how they would present it, and I'm glad I watched most of the videos. The new lecturer presented the most basic conceipts of working with Python and introduced the Numpy library. It is very apparent that this guy doesn't appreciate consistency or clarity in his code examples, and may have very little experience with Python. I hope that I can remember how Python was presented in case I get frustrated with any other difficult explanations about other stuff, stuff that I don't have experience with.
 
 I started the third of five courses from the Agile Development specialization. I still really like this instructor. This couse focuses on "managing an aglie team" and this week is exploring scrum and xp development approaches. The materials for this week included a great video from Spotify about its development culture and how it continues to evolve. I really like what they had to talk about.
+
+July 16, 2019
+
+**Today's Progress:** Continued Rice IPP II week 3 and started weekly project.  
+
+**Thoughts:** I'm very rusty on the simple physics and trig required for reproducing this week's coding project. I am starting to need to reference the videos more, and I'm trying to get through basic physics course on Khan for general helpful reminding while I'm doing this stuff.
+
+I'm looking ahead in the U Geneva natural models and simulations course, and I'm excited for getting exposure to the theory and methods for lifelike simulations. I'm particularly excited to see their coverage of cellular automata in the next couple of weeks. I'm hoping to be able to implement a configurable, 2d cellular automata in Pygame.
+
 <!---
 
 Day x: July x, 2019
