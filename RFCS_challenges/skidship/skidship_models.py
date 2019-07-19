@@ -7,6 +7,7 @@ class Ship(pygame.sprite.Sprite):
     def __init__(self):
         super(Ship, self).__init__()
         self.ANGLE_INCREMENT = 4
+        self.ORIENTATION = 90 # initial ccw rotation of image from right-facing at 0 degrees
 
         self.max_x = pygame.display.Info().current_w
         self.max_y = pygame.display.Info().current_h
@@ -15,8 +16,6 @@ class Ship(pygame.sprite.Sprite):
         self.pristine_surface.set_colorkey([0, 0, 0])
         
         self.angle = 0
-        #initial ccw rotation of image from right-facing at 0 degrees
-        self.orient = 90
         self.surface = pygame.transform.rotate(self.pristine_surface, self.absolute_rotation)
         
         self.rect = self.surface.get_rect()
@@ -38,7 +37,7 @@ class Ship(pygame.sprite.Sprite):
     @property
     def absolute_rotation(self):
         #absolute clockwise rotation from original heading
-        return -(self.orient + self.angle)
+        return -(self.ORIENTATION + self.angle)
 
     def update(self, events_list):
         self.control(events_list)
@@ -54,8 +53,6 @@ class Ship(pygame.sprite.Sprite):
         #update velocity with friction
         self.velocity[0] *= (1 - self.friction_coeff)
         self.velocity[1] *= (1 - self.friction_coeff)
-
-        ##### fix to work with continuous 3 thruster control scheme
             
         #update acceleration with thrust and add to velocity
         if self.thrusters['thrust']:
@@ -71,8 +68,6 @@ class Ship(pygame.sprite.Sprite):
         if self.thrusters['lthrust']:
             self.angle += self.ANGLE_INCREMENT
             self.surface = pygame.transform.rotate(self.pristine_surface, self.absolute_rotation)
-
-        #####
 
         self.velocity[0] += self.acceleration[0] 
         self.velocity[1] += self.acceleration[1]
@@ -91,30 +86,17 @@ class Ship(pygame.sprite.Sprite):
             if event.type == KEYDOWN or event.type == KEYUP:
                 for key_name in keydown_inputs.keys():
                     if event.key == key_name:
-                        #execute function with command
+                        #execute indicated function with corresponding command
                         keydown_inputs[key_name][0](keydown_inputs[key_name][1])
-                print(self)
-    
-    def rotate_cw(self):
-        ANGLE_INCREMENT = 15
-        self.angle += ANGLE_INCREMENT
-        self.surface = pygame.transform.rotate(self.pristine_surface, self.absolute_rotation)
-
-    def rotate_ccw(self):
-        pass
-        
 
     def toggle_thrust(self, thruster_name):
-        thruster_names = ['thrust', 'rthrust', 'lthrust']
-
-        if thruster_name in thruster_names:
-            for idx, thruster in enumerate(self.thrusters):
-                if self.thrusters[thruster_name] == True:
-                    self.thrusters[thruster_name] = False
-                    print('thruster off')
-                else:
-                    self.thrusters[thruster_name] = True
-                    print('thruster on')
+        if thruster_name in self.thrusters.keys():
+            if self.thrusters[thruster_name] == True:
+                self.thrusters[thruster_name] = False
+                print(f'{thruster_name} off')
+            else:
+                self.thrusters[thruster_name] = True
+                print(f'{thruster_name} on')
 
     def contain(self):
         #portal walls
@@ -131,5 +113,3 @@ class Ship(pygame.sprite.Sprite):
         accx = f'{self.acceleration[0]:.2f}'
         accy = f'{self.acceleration[1]:.2f}'
         return f'acc: {accx, accy} || vel: {self.velocity} || angle: {self.angle} || thrust: {self.thrusters["thrust"]}'
-
-
