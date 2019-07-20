@@ -12,8 +12,8 @@ class Ship(pygame.sprite.Sprite):
         self.max_x = pygame.display.Info().current_w
         self.max_y = pygame.display.Info().current_h
 
-        self.pristine_surface = pygame.image.load('sled.png').convert()
-        self.pristine_surface.set_colorkey([0, 0, 0])
+        self.pristine_surface = pygame.image.load('carrot1.png').convert()
+        self.pristine_surface.set_colorkey([255, 255, 255])
         
         self.angle = 0
         self.surface = pygame.transform.rotate(self.pristine_surface, self.absolute_rotation)
@@ -21,8 +21,8 @@ class Ship(pygame.sprite.Sprite):
         self.rect = self.surface.get_rect()
         self.acceleration = [0, 0]
         self.velocity = [1, 0]
-        self.thrust_coeff = 1.5 #greater than one
-        self.friction_coeff = 0.025 #less than one
+        self.thrust_coeff = 1.5 # greater than one
+        self.friction_coeff = 0.025 # less than one
 
         self.thrusters = {
             'thrust': False,
@@ -36,7 +36,7 @@ class Ship(pygame.sprite.Sprite):
 
     @property
     def absolute_rotation(self):
-        #absolute clockwise rotation from original heading
+        # absolute clockwise rotation from original heading
         return -(self.ORIENTATION + self.angle)
 
     def update(self, events_list):
@@ -113,3 +113,102 @@ class Ship(pygame.sprite.Sprite):
         accx = f'{self.acceleration[0]:.2f}'
         accy = f'{self.acceleration[1]:.2f}'
         return f'acc: {accx, accy} || vel: {self.velocity} || angle: {self.angle} || thrust: {self.thrusters["thrust"]}'
+
+
+class Rock(pygame.sprite.Sprite):
+    def __init__(self):
+        super(Rock, self).__init__()
+        self.ANGLE_INCREMENT = 4
+
+        self.max_x = pygame.display.Info().current_w
+        self.max_y = pygame.display.Info().current_h
+        
+        self.acceleration = [0, 0]
+        self.velocity = [random.randint(4, 10), random.randint(0, 4)]
+        self.friction_coeff = 0.001 # less than one
+        self.angle = 0
+
+        self.spritesheet = Spritesheet('skullchomp.png', 1, 6)
+        self.size = [self.spritesheet.cell_width, self.spritesheet.cell_height]
+        self.surface = pygame.Surface(self.size)
+        self.surface.set_colorkey([0, 0, 0]) 
+        
+        self.rect = self.surface.get_rect()
+        self.current_cell_idx = 0
+        self.spritesheet.stamp_cell(self.surface, self.current_cell_idx, self.rect)
+
+    @property
+    def angle_rads(self):
+        return self.angle * 3.14/180
+
+    def update(self, events_list):
+        self.contain()
+        self.update_vectors()
+        self.update_image()
+        self.draw()
+
+    def update_image(self):
+        #clear surface
+        self.surface.fill([0, 0, 0])
+        #stamp next image to surface
+        self.spritesheet.stamp_cell(self.surface, self.current_cell_idx, [0, 0, 150, 150])
+        
+        #update cell idx in relation to current x position on main screen
+        self.current_cell_idx = (self.rect.x // 20) % self.spritesheet.num_rows
+
+    def draw(self):
+        main_window = pygame.display.get_surface()
+        main_window.blit(self.surface, self.rect)
+
+    def update_vectors(self):
+        #update velocity with friction
+        self.velocity[0] *= (1 - self.friction_coeff)
+        self.velocity[1] *= (1 - self.friction_coeff)
+    
+        self.velocity[0] += self.acceleration[0] 
+        self.velocity[1] += self.acceleration[1]
+
+        #update rectangular position
+        self.rect.move_ip(self.velocity)
+
+    def contain(self):
+        #portal walls
+        if self.rect.centery < 0:
+            self.rect.move_ip(0, self.max_y)
+        if self.rect.centery > self.max_y:
+            self.rect.move_ip(0,  -(self.max_y))
+        if self.rect.centerx < 0:
+            self.rect.move_ip(self.max_x, 0)
+        if self.rect.centerx > self.max_x:
+            self.rect.move_ip(-(self.max_x), 0)    
+
+def __str__(self):
+        accx = f'{self.acceleration[0]:.2f}'
+        accy = f'{self.acceleration[1]:.2f}'
+        return f'acc: {accx, accy} || vel: {self.velocity} || angle: {self.angle} || thrust: {self.thrusters["thrust"]}'
+
+class Spritesheet:
+    def __init__(self, filename, num_cols, num_rows):
+        self.sheet = pygame.image.load(filename).convert_alpha()
+        self.sheet.convert()
+
+        self.num_cols = num_cols
+        self.num_rows = num_rows
+        self.cell_count = num_cols * num_rows
+
+        self.rect = self.sheet.get_rect()
+        self.cell_width = self.rect.width / self.num_cols
+        self.cell_height = self.rect.height / self.num_rows
+
+        #get x y offset for start of each cell
+        self.offset_list = []
+        for index in range(self.cell_count):
+            x_offset = int(index % self.num_cols * self.cell_width)
+            y_offset = int(index // self.num_cols * self.cell_height)
+            #append items as rect constructor
+            self.offset_list.append((x_offset, y_offset, self.cell_width, self.cell_height))
+
+    def stamp_cell(self, destination, cell_index, draw_location):
+        source_area = self.offset_list[cell_index]
+
+        destination.blit(self.sheet, draw_location, area=source_area)
