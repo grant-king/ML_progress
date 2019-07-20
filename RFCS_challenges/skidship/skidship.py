@@ -11,16 +11,18 @@ def listen_quit(events_list):
             return False
     return True
 
-SCREEN_SIZE = [900, 600]
+SCREEN_SIZE = [500, 600]
 BACKGROUND_COLOR = [242, 240, 250]
 
 pygame.init()
 main_window = pygame.display.set_mode(SCREEN_SIZE)
 
 ship = Ship()
+rock_group = pygame.sprite.Group()
 
 running = True
 clock = pygame.time.Clock()
+spawn_tick = 0
 
 while running:
     events = pygame.event.get()
@@ -29,6 +31,15 @@ while running:
     running = listen_quit(events)
 
     ship.update(events)
+
+    for rock in rock_group:
+        rock.update(events)
+
+    if spawn_tick > 300:
+        rock = Rock()
+        rock_group.add(rock)
+        spawn_tick = 0
+    spawn_tick += 1
 
     pygame.display.flip()
 
