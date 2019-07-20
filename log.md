@@ -823,6 +823,21 @@ July 16, 2019
 
 I'm looking ahead in the U Geneva natural models and simulations course, and I'm excited for getting exposure to the theory and methods for lifelike simulations. I'm particularly excited to see their coverage of cellular automata in the next couple of weeks. I'm hoping to be able to implement a configurable, 2d cellular automata in Pygame.
 
+July 17, 2019
+
+**Today's Progress:** Continued Rice IPP II week 3 project. Continued Agile III week 3. Started U Mich Databases with Python week 2.
+
+July 18, 2019
+
+**Today's Progress:** Continued Rice IPP II week 3 project. Continued Agile III week 3.
+
+**Thoughts:** The main Ship class is fully implemented and was working. It is temporarily disabled as I am  attempting to optimize some of the controls code. I'm using a dictionary with button handler values so that I can just iterate through the list of controllable keys rather than having nested if elifs to catch button down events. I am also trying to alter the left/right rotational control to be a continuous instruction when pressed, like how the up arrow toggles the main thrust to accelerate when held down. There is some unexpected behaviour as I am attempting to set the thrust and rotation attributes with a generalized, configurable handler.
+
+July 19, 2019
+
+**Today's Progress:** Continued U Mich Databases with python week 2.
+
+**Thoughts:** 
 <!---
 
 Day x: July x, 2019
