@@ -835,9 +835,20 @@ July 18, 2019
 
 July 19, 2019
 
-**Today's Progress:** Continued U Mich Databases with python week 2.
+**Today's Progress:** Finished U Mich Databases with python week 2. Finished Agile III week 3. Finished first part of Rice IPP II final project, week 3 project. 
 
-**Thoughts:** 
+**Thoughts:** I have written to a good place to end this week's project. The player controlled ship is working with continuous control capabilities. The main window spawns animated enemies with random acceleration. I've reimplemented the Spritesheet class from the Blackjack game to help animate the enemies. I would like to refactor the player Ship and enemy Rock classes to be more DRY by making them inherit from a more general, custom sprite class. The collision detection and projectiles will be implemented in the next stage, for week 4's project.
+
+July 22, 2019
+
+**Today's Progress:** Started UG Natural Models and Simulations week 3. Started Agile III week 4.
+
+July 23, 2019
+
+**Today's Progress:** Started Rice IPP II week 4. Continued UG NMS week 3. Wrote random walk simulation in Pygame. Continued Agile III week 4. 
+
+**Thoughts:** I used an approach outlined in the NMS course to make a random walk simulation animation in Pygame. 
+
 <!---
 
 Day x: July x, 2019
