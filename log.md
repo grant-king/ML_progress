@@ -849,6 +849,11 @@ July 23, 2019
 
 **Thoughts:** I used an approach outlined in the NMS course to make a random walk simulation animation in Pygame. 
 
+July 24, 2019
+
+**Today's Progress:** Continued Rice IPP II week 4. Continued UG NMS week 3. Finished U Mich Databases with python week 3. Continued Agile III week 4. 
+
+
 <!---
 
 Day x: July x, 2019
