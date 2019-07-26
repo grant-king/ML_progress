@@ -851,8 +851,17 @@ July 23, 2019
 
 July 24, 2019
 
-**Today's Progress:** Continued Rice IPP II week 4. Continued UG NMS week 3. Finished U Mich Databases with python week 3. Continued Agile III week 4. 
+**Today's Progress:** Continued Rice IPP II week 4. Continued UG NMS week 3. Finished U Mich Databases with python week 3. Continued Agile III week 4. Made intro demo notebook with simpleaudio library. Forked and continued random walk simulation in new animations folder of pygame repo.
 
+**Thoughts:** I really enjoyed working on the random walk simulation. I'm continuing the project in a new animations folder of my pygame repository. I have made it prettier, and am experimenting with tweaking different parameters to affect the end result. It could benefit from threading. It is very calming to watch, and it makes me want to do something similar with sound at the same time to enhance that effect. 
+
+July 25, 2019
+
+**Today's Progress:** Finished UG Natural Models and Simulations week 3. Continued Agile III week 4. 
+
+**Thoughts:** The math presented with this week's lectures of the simulations course is mostly over my head. It involves some recongnizible calculus and vaguely familiar operations, but for the most part is very dense. Much of this week was exploring specific applications of highly generalized equations all while assuming that the audience must have the same experience as the lecturer. The language barrier certainly doesn't help with the difficult communication. It is helpful to assume that the bulk of this is incomprehensible for the same reasons that this lecturer's introduction to Python programming was mostly just confusing and unhelpful. I watched the exhausting series in hopes that some of this is valid and will somehow seep into my head to help me understand difficult programming obstacles later. 
+
+I am very, very excited for next week's topic on cellular automata. Glancing ahead it already seems infinitely more understandable than this pure, pure math has been.
 
 <!---
 
