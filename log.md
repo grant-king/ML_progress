@@ -863,6 +863,17 @@ July 25, 2019
 
 I am very, very excited for next week's topic on cellular automata. Glancing ahead it already seems infinitely more understandable than this pure, pure math has been.
 
+July 26, 2019
+
+**Today's Progress:** Continued Agile III week 4. 
+
+**Thoughts:** I am still trying to get through the rest of this week's Agile lectures. There are a lot of sections this week, all with very helpful workflow productivity information. I will have to stretch this week's content over two weeks.
+
+July 29, 2019
+
+**Today's Progress:** Continued Agile III week 4. Started UG Natural Models and Simulations week 4.
+
+**Thoughts:** I haven't gotten very far with the lectures, but everything seems clear so far. I can already see a way to implement a simple 2d automaton with the Pygame tools. I've started working on the first script to visiualize this simple version; I was able to reuse a lot of the code structure from the random walk simulation visualization from last week. I am really excited to continue working with CA and hear about all of their useful applications. 
 <!---
 
 Day x: July x, 2019
