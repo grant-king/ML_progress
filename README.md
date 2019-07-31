@@ -13,3 +13,5 @@ PDS_challenges - Small projects and notes for each week's video of Python for Da
 TPTM_challenges - Small projects and notes for each chapter of the 100 Days of Code course by Talk Python to Me Training.
 
 RFCS_challenges - Small projects and notes for the Fundamentals of Computing Specialization by Rice on Coursera.
+
+NMS_challenges - Projects inspired by Simulation and Modeling of Natural Processes course by University of Geneva on Coursera.
