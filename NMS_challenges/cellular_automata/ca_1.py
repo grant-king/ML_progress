@@ -11,7 +11,7 @@ def listen_quit(events_list):
     return True
 
 SCREEN_SIZE = [1280, 720]
-CELL_SIZE = 20
+CELL_SIZE = 30
 BACKGROUND_COLOR = [0, 3, 1]
 
 pygame.init()
@@ -26,17 +26,22 @@ draw_cell = 0
 
 while running:
     events = pygame.event.get()
-    clock.tick(5)
+    clock.tick(2)
     
     running = listen_quit(events)
 
     #interaction logic
     for cell in grid.cells:
+        cidx, ridx = cell.column_idx, cell.row_idx
         neighbors = {
-            'north': grid.get_cell(cell.column_idx, cell.row_idx - 1),
-            'east': grid.get_cell(cell.column_idx + 1, cell.row_idx),
-            'south': grid.get_cell(cell.column_idx, cell.row_idx + 1),
-            'west': grid.get_cell(cell.column_idx - 1, cell.row_idx),
+            'north': grid.get_cell(cidx, ridx - 1),
+            'northeast': grid.get_cell(cidx + 1, ridx - 1),
+            'east': grid.get_cell(cidx + 1, ridx),
+            'southeast': grid.get_cell(cidx + 1, ridx + 1),
+            'south': grid.get_cell(cidx, ridx + 1),
+            'southwest':grid.get_cell(cidx - 1, ridx + 1),
+            'west': grid.get_cell(cidx - 1, ridx),
+            'northwest': grid.get_cell(cidx - 1, ridx - 1)
         }
         try:
             neighborhood = sum([neighbor_cell.alive for neighbor_cell in neighbors.values()])
