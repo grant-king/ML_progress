@@ -11,18 +11,18 @@ def listen_quit(events_list):
     return True
 
 SCREEN_SIZE = [1280, 720]
+CELL_SIZE = 20
 BACKGROUND_COLOR = [0, 3, 1]
 
 pygame.init()
 main_window = pygame.display.set_mode(SCREEN_SIZE)
 main_window.fill(BACKGROUND_COLOR)
 
-#populate array with enough cell objects to fill screen
-cells = [[Cell(x_idx*50, y_idx*50, random.choice([True, False])) for x_idx in range(SCREEN_SIZE[0] // 50)] for y_idx in range(SCREEN_SIZE[1] // 50)]
+grid = Grid(CELL_SIZE)
 
 running = True
 clock = pygame.time.Clock()
-clear_tick = 0
+draw_cell = 0
 
 while running:
     events = pygame.event.get()
@@ -30,9 +30,28 @@ while running:
     
     running = listen_quit(events)
 
-    for row in cells:
-        for cell in row:
-            cell.update(events)
+    #interaction logic
+    for cell in grid.cells:
+        neighbors = {
+            'north': grid.get_cell(cell.column_idx, cell.row_idx - 1),
+            'east': grid.get_cell(cell.column_idx + 1, cell.row_idx),
+            'south': grid.get_cell(cell.column_idx, cell.row_idx + 1),
+            'west': grid.get_cell(cell.column_idx - 1, cell.row_idx),
+        }
+        try:
+            neighborhood = sum([neighbor_cell.alive for neighbor_cell in neighbors.values()])
+            if cell.alive:
+                if neighborhood < 2 or neighborhood > 3:
+                    cell.alive = False
+            else:
+                if neighborhood == 3:
+                    cell.alive = True
+        except:
+            pass
+
+    #update and draw
+    for cell in grid.cells:
+        cell.update(events)
 
     pygame.display.flip()
 
