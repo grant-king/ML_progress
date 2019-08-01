@@ -874,6 +874,18 @@ July 29, 2019
 **Today's Progress:** Continued Agile III week 4. Started UG Natural Models and Simulations week 4.
 
 **Thoughts:** I haven't gotten very far with the lectures, but everything seems clear so far. I can already see a way to implement a simple 2d automaton with the Pygame tools. I've started working on the first script to visiualize this simple version; I was able to reuse a lot of the code structure from the random walk simulation visualization from last week. I am really excited to continue working with CA and hear about all of their useful applications. 
+
+July 30, 2019
+
+**Today's Progress:** Continued Agile III week 4. Continued UG NMS week 4.
+
+**Thoughts:** I've made a working version of Conway's game of life automata. It seems really slow. I'm trying to find and come up with some ways to make it able to run faster.
+
+July 31, 2019
+
+**Today's Progress:** Finished Agile III week 4. Continued UG NMS week 4. 
+
+**Thoughts:** The UG course has talked about several automata I'd like to try to make. One is a competition/inhibition process, another is a traffic model, and the third is a Langton Ant. I'm interested to see if multiple ants could be used to make a larger pattern, possibly a noded web of highways. The automata demonstration videos are really short and the lecturer doesn't mention anything about recreating them. I am curious about how they will incorportate Python in this course.                                                           
 <!---
 
 Day x: July x, 2019
