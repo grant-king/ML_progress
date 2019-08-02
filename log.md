@@ -879,16 +879,22 @@ July 30, 2019
 
 **Today's Progress:** Continued Agile III week 4. Continued UG NMS week 4.
 
-**Thoughts:** I've made a working version of Conway's game of life automata. It seems really slow. I'm trying to find and come up with some ways to make it able to run faster.
+**Thoughts:** I've made a working version of Conway's game of life automaton. It seems really slow. I'm trying to find and come up with some ways to make it able to run faster.
 
 July 31, 2019
 
 **Today's Progress:** Finished Agile III week 4. Continued UG NMS week 4. 
 
-**Thoughts:** The UG course has talked about several automata I'd like to try to make. One is a competition/inhibition process, another is a traffic model, and the third is a Langton Ant. I'm interested to see if multiple ants could be used to make a larger pattern, possibly a noded web of highways. The automata demonstration videos are really short and the lecturer doesn't mention anything about recreating them. I am curious about how they will incorportate Python in this course.                                                           
+**Thoughts:** The UG course has talked about several automata I'd like to try to make. One is a competition/inhibition process, another is a traffic model, and the third is a Langton Ant. I'm interested to see if multiple ants could be used to make a larger pattern, possibly a noded web of highways. The automata demonstration videos are really short and the lecturer doesn't mention anything about recreating them. I am curious about how they will incorportate Python in this course.                                                  
+
+August 1, 2019
+
+**Today's Progress:** Continued UG NMS week 4. Started traffic automaton project. Started UMich Databases with Python week 4.
+
+
 <!---
 
-Day x: July x, 2019
+Day x: August x, 2019
 
 **Today's Progress:**
 
