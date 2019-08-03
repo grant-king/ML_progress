@@ -18,23 +18,23 @@ pygame.init()
 main_window = pygame.display.set_mode(SCREEN_SIZE)
 main_window.fill(BACKGROUND_COLOR)
 
-lane = Lane(CELL_SIZE, 5, 1, 5)
+lanes = []
+total_rows = SCREEN_SIZE[1] // CELL_SIZE
+for lane_row in list(range(0, total_rows))[::2]:
+    lanes.append(Lane(CELL_SIZE, lane_row, 25))
 
 running = True
 clock = pygame.time.Clock()
-draw_cell = 0
 
 while running:
-    events = pygame.event.get()
-    clock.tick(10)
+    clock.tick(5)
     print()
+    events = pygame.event.get()
+
     running = listen_quit(events)
 
-    #interaction logic
-
-    #update and draw
-    for cell in lane.cells:
-        cell.update(events)
+    for lane in lanes:
+        lane.update()
 
     pygame.display.flip()
 
