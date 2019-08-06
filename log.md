@@ -891,6 +891,19 @@ August 1, 2019
 
 **Today's Progress:** Continued UG NMS week 4. Started traffic automaton project. Started UMich Databases with Python week 4.
 
+August 2, 2019
+
+**Today's Progress:** Continued UG NMS week 4. Continued traffic automaton project. 
+
+**Thoughts:** I am really enjoying the content in NMS this week, and would like to make more projects inspired by CA theory. I think I will stretch this week over one to three more weeks in order to dive deeper into this content.
+
+August 5, 2019
+
+**Today's Progress:** Started Rice Principals of Computing I Coursera course. Continued UG NMS week 4 and other resources on CAs. Continued traffic automaton project.
+
+**Thoughts:** I'm starting the next course in the Fundamentals of Computing Specialization. This course still isn't the anticipated algorithmic thinking course, but a prerequisite step. It looks like the content and assignments will be mostly review, but it is time for a refresher on many of the topics. This first week was introductory and light so I hope to get through the second week's content, later this week.
+
+I'm continuing the UG NMS course and closely inspecting the unit on LGAs to try and plan out a Pygame implementation.
 
 <!---
 
