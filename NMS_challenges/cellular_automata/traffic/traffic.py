@@ -10,31 +10,37 @@ def listen_quit(events_list):
             return False
     return True
 
-SCREEN_SIZE = [1280, 720]
-CELL_SIZE = 30
-BACKGROUND_COLOR = [0, 3, 1]
+def increase_tick(events_list):
+    global tick
+    for event in events_list:
+        if event.type == KEYDOWN:
+            if event.key == K_SPACE:
+                tick += 1
+                print(tick)
+
+SCREEN_SIZE = [1920, 1080]
+CELL_SIZE = 15
+BACKGROUND_COLOR = [10, 10, 20]
 
 pygame.init()
 main_window = pygame.display.set_mode(SCREEN_SIZE)
 main_window.fill(BACKGROUND_COLOR)
 
-lanes = []
-total_rows = SCREEN_SIZE[1] // CELL_SIZE
-for lane_row in list(range(0, total_rows))[::2]:
-    lanes.append(Lane(CELL_SIZE, lane_row, 25))
+grid = Grid(CELL_SIZE, 9)
 
 running = True
 clock = pygame.time.Clock()
+tick = 11
+print_tick = 0
 
 while running:
-    clock.tick(5)
-    print()
+    clock.tick(tick)
     events = pygame.event.get()
 
     running = listen_quit(events)
+    increase_tick(events)
 
-    for lane in lanes:
-        lane.update()
+    grid.update()
 
     pygame.display.flip()
 

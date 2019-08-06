@@ -14,8 +14,9 @@ class Cell(pygame.sprite.Sprite):
         self.column_idx = column_idx 
         self.row_idx = row_idx
 
-        blue = random.randint(50, 110)
-        self.color = [255-blue, 80, blue]
+        red = random.randint(10, 50)
+        blue = random.randint(60, 250)
+        self.color = [red, abs(red-blue), blue]
         self.size = [square_size, square_size]
         self.surface = pygame.Surface(self.size)
         self.surface.fill(self.color)
@@ -38,6 +39,7 @@ class Cell(pygame.sprite.Sprite):
             self.surface.fill(self.color)
         else:
             self.surface.fill([0, 0, 0])
+
 
 class Stoplight(Cell):
     def __init__(self, square_size, column_idx, row_idx):
@@ -70,10 +72,16 @@ class Stoplight(Cell):
         else:
             self.surface.fill([240, 240, 60])
 
+
 class Lane:
-    def __init__(self, cell_size, row_idx, num_active, direction=1):
-        self.row_idx = row_idx
+    def __init__(self, cell_size, lane_idx, num_active, direction):
+        
         self.direction = direction
+        self.grid_lane_idx = lane_idx
+        if self.direction == 1:
+            self.row_idx = lane_idx
+        else:
+            self.col_idx = lane_idx
         self.num_active = num_active
         
         self.SCREEN_SIZE = pygame.display.get_surface().get_size()
@@ -82,28 +90,67 @@ class Lane:
         self.total_columns = self.SCREEN_SIZE[0] // self.CELL_SIZE
         self.total_rows = self.SCREEN_SIZE[1] // self.CELL_SIZE
         
-        self.cells = []
+        self.intersection_idxs = [] #fill with cell idx's, bool occupied for each intersection
+        self.moving = 0
         self.build_cells()
 
     def build_cells(self):
         #initialize full row of dead cells
-        for col_idx in range(self.total_columns):
-            self.cells.append(Cell(self.CELL_SIZE, col_idx, self.row_idx))
+        self.cells = []
 
-        #add stoplight
-        light_idx = random.randrange(self.total_columns)
-        self.stoplight = Stoplight(self.CELL_SIZE, light_idx, self.row_idx)
+        if self.direction == 1:
+            for col_idx in range(self.total_columns):
+                self.cells.append(Cell(self.CELL_SIZE, col_idx, self.row_idx))
+        else:
+            for row_idx in range(self.total_rows):
+                self.cells.append(Cell(self.CELL_SIZE, self.col_idx, row_idx))
+
+        #add stoplights, decrease stoplights to add as initial cars increases
+        self.stoplights = []
+        if self.direction == 1:
+            for _ in range(self.total_columns // self.num_active + 1):
+                light_idx = random.randrange(self.total_columns)
+                self.stoplights.append(Stoplight(self.CELL_SIZE, light_idx, self.row_idx))
+        else:
+            for _ in range(self.total_rows // self.num_active + 1):
+                light_idx = random.randrange(self.total_rows)
+                self.stoplights.append(Stoplight(self.CELL_SIZE, self.col_idx, light_idx))
 
         for cell_idx in range(self.num_active):
             self.cells[cell_idx].alive = True
 
-    def redlight(self, idx):
-        if self.stoplight.signal_state == 'red':
-            return idx == self.stoplight.column_idx
-        else:
-            return False
+    @property
+    def traffic_flow(self):
+        density = self.num_active / len(self.cells)
+        average_velocity = self.moving / self.num_active
+        return density * average_velocity
 
-    def update(self):
+    def redlight(self, cell_idx):
+        """return true if passed cell_idx is on a red light"""
+        stoplight_active = False
+        if self.direction == 1:
+            for stoplight in self.stoplights:
+                if cell_idx == stoplight.column_idx:
+                    if stoplight.signal_state == 'red':
+                        stoplight_active = True
+        else:
+            for stoplight in self.stoplights:
+                if cell_idx == stoplight.row_idx:
+                    if stoplight.signal_state == 'red':
+                        stoplight_active = True
+
+        return stoplight_active
+
+    def occupied_intersection(self, cell_idx):
+        """return true if passed cell_idx is in an occupied intersection"""
+        if cell_idx in self.intersection_idxs:
+            #return intersection state at matching intersection index
+            return self.intersection_idxs.index(cell_idx)[1]
+        return False
+
+
+    def update_flow(self):
+        """update cells to activate on next step, return number of moving vehicles"""
         current_states = list([cell.alive for cell in self.cells])
         kill_cells, activate_cells = [], []
 
@@ -114,10 +161,11 @@ class Lane:
             else:
                 forward_neighbor = 0
 
-            #move forward only if space available,  not red light
-            if current_states[idx] and not self.redlight(idx) and not current_states[forward_neighbor]:
-                kill_cells.append(idx)
-                activate_cells.append(forward_neighbor)
+            #move forward only if space available, and not red and not occupied
+            if current_states[idx] and not current_states[forward_neighbor]:
+                if not self.redlight(forward_neighbor) and not self.occupied_intersection(forward_neighbor):
+                    kill_cells.append(idx)
+                    activate_cells.append(forward_neighbor)
         
         for cell_idx in kill_cells:
             self.cells[cell_idx].alive = False
@@ -125,29 +173,67 @@ class Lane:
         for cell_idx in activate_cells:
             self.cells[cell_idx].alive = True
 
+        self.moving = len(activate_cells)
+
+    def update(self):
+        self.update_flow()
+
         #update cells
         for cell in self.cells:
             cell.update()
-        self.stoplight.update()
+        for stoplight in self.stoplights:
+            stoplight.update()
+        
+    def __str__(self):
+        return f'Lane {self.row_idx}, Flow: {self.traffic_flow:.4f}'
+    
+    def __repr__(self):
+        if self.direction == 1:
+            return f'{self.row_idx} of {self.total_rows}'
+        else:
+            return f'{self.col_idx} of {self.total_columns}'
 
 
 class Grid:
-    def __init__(self, cell_size):
+    def __init__(self, cell_size, spacing):
         self.SCREEN_SIZE = pygame.display.get_surface().get_size()
         self.CELL_SIZE = cell_size
-
-        self.cells = []
-        self.columns = self.SCREEN_SIZE[0] // self.CELL_SIZE
-        self.rows = self.SCREEN_SIZE[1] // self.CELL_SIZE
+        self.SPACING = spacing
         
-        self.build_cells()
+        self.lanes = []
+        self.lanes_vert = []
+        self.build_lanes()
+        self.set_intersections()
 
-    def build_cells(self):
-        for col_idx in range(self.columns):
-            for row_idx in range(self.rows):
-                self.cells.append(Cell(self.CELL_SIZE, col_idx, row_idx, random.choice([True, False])))
+    def build_lanes(self):
+        total_rows = self.SCREEN_SIZE[1] // self.CELL_SIZE
+        total_cols = self.SCREEN_SIZE[0] // self.CELL_SIZE
+        for lane_row in list(range(0, total_rows))[::self.SPACING]:
+            self.lanes.append(Lane(self.CELL_SIZE, lane_row, total_cols // self.SPACING, 1))
+
+        for lane_col in list(range(0, total_cols))[::self.SPACING]:
+            self.lanes_vert.append(Lane(self.CELL_SIZE, lane_col, total_rows // self.SPACING, 0))
     
-    def get_cell(self, col_idx, row_idx):
-        for cell in self.cells:
-            if cell.column_idx == col_idx and cell.row_idx == row_idx:
-                    return cell
+    def update_intersections(self):
+        for lane in self.lanes:
+            for intersecting, state in lane.intersection_idxs:
+                
+
+
+    def update(self):
+        for lane in self.lanes:
+            lane.update()
+
+        for lane in self.lanes_vert:
+            lane.update()
+
+        update_intersections()
+            
+    def set_intersections(self):
+        #set location of each intersection, along each lane in grid
+        for lane in self.lanes:
+            lane.intersection_idxs = [[intersecting_lane.grid_lane_idx for intersecting_lane in self.lanes_vert], False]
+        for lane in self.lanes_vert:
+            lane.intersection_idxs = [[intersecting_lane.grid_lane_idx for intersecting_lane in self.lanes], False]
+
+
