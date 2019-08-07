@@ -905,6 +905,12 @@ August 5, 2019
 
 I'm continuing the UG NMS course and closely inspecting the unit on LGAs to try and plan out a Pygame implementation.
 
+August 6, 2019
+
+**Today's Progress:** Continued investigating topics mentioned in UG NMS week 4. Started HPP model Lattice Gas Automaton project. Started Agile III week 3.
+
+**Thoughts:** I am trying to write an optimized implementiation of the HPP model LGA and visualize it in Pygame. I haven't found much accesible information about implementing it, so it may end up unoptimized if I can't translate the description properly. The HPP model is the simplest to start with and I hope it gives me a better grasp on the concepts so that I can try implementing some of the more advanced LGA models.
+
 <!---
 
 Day x: August x, 2019
