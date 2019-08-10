@@ -911,6 +911,20 @@ August 6, 2019
 
 **Thoughts:** I am trying to write an optimized implementiation of the HPP model LGA and visualize it in Pygame. I haven't found much accesible information about implementing it, so it may end up unoptimized if I can't translate the description properly. The HPP model is the simplest to start with and I hope it gives me a better grasp on the concepts so that I can try implementing some of the more advanced LGA models.
 
+August 7, 2019
+
+**Today's Progress:** Continued Agile III week 3. Continued HPP model LGA project.
+
+**Thoughts:** I'm having a hard time trying to figure out how to translate this HPP idea into code. I am trying to start as simply as possible, but I'm having to add a lot of code just to explain what I'm trying to do to myself. I keep forgetting what I'm trying to show vs what I need to keep track of in other respects. I'm deleting a lot of stuff to try and start it running at a simpler step. I think I need more time with simpler CAs before I can think about this more easily.
+
+August 8, 2019
+
+**Today's Progress:** Finished Agile III week 3. Continued Conway's Life simple 2D CA project.
+
+**Thoughts:** Agile III was great this week. I think it was my favorite week out of the specialization so far. There is a lot of good information I was hoping for that relates Agile and this instructor guy's framework to traditional project managment. He interviewd another instructor I watched for an introductory PM course a couple of years ago.
+
+I'm glad I'm going back to this simpler CA. It was sort of working, but very poorly. It is working a lot better now, and it can run larger without stalling. I was very happy to fix some spots where recursive list checking was slowing things down quite a bit.
+
 <!---
 
 Day x: August x, 2019
