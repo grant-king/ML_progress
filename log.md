@@ -931,6 +931,17 @@ August 12, 2019
 
 **Thoughts:** The Rice course is heavy review, but once in a while they say something that makes it worth zipping through. I'm devoting all of my project time to CA studies, but I can incorporate some of the lessons from this Rice course into what I am doing there. This week the lecturers introduce testing, and their solution for practicing it from within their simplified environment. I will use Real Python to help remind me how to use a testing framework in the real world and write some tests for the latest CA project.
 
+August 13, 2019
+
+**Today's Progress:** Finished final week of Agile III course. Continued CA project. 
+
+August 14, 2019
+
+**Today's Progress:** Continued CA project. Reviwed OS module. Reviewing basics of testing and logging. 
+
+**Thoughts:** I am planning out improvements to the ca_1 project. I've moved it to a new folder to make testing easier. The project is ready for writing tests. I need to refine the capturing mechanic to collect less noise. There are several other small improvements I will keep working on this week.
+
+I made some vauge plans for a few side projects for doing some things with all of the captured images. I want to have something to sort images into categories and something else to build an animated video from sequential captures.
 <!---
 
 Day x: August x, 2019
