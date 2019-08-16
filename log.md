@@ -942,6 +942,12 @@ August 14, 2019
 **Thoughts:** I am planning out improvements to the ca_1 project. I've moved it to a new folder to make testing easier. The project is ready for writing tests. I need to refine the capturing mechanic to collect less noise. There are several other small improvements I will keep working on this week.
 
 I made some vauge plans for a few side projects for doing some things with all of the captured images. I want to have something to sort images into categories and something else to build an animated video from sequential captures.
+
+August 15, 2019
+
+**Today's Progress:** Continued CA project. Finished UMich Databases with Python week 4. Started first course of six in UCSD Data Structures and Algorithms Coursera specialization, called Algorithmic Toolbox.
+
+
 <!---
 
 Day x: August x, 2019
