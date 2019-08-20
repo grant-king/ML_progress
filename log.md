@@ -945,8 +945,17 @@ I made some vauge plans for a few side projects for doing some things with all o
 
 August 15, 2019
 
-**Today's Progress:** Continued CA project. Finished UMich Databases with Python week 4. Started first course of six in UCSD Data Structures and Algorithms Coursera specialization, called Algorithmic Toolbox.
+**Today's Progress:** Continued CA project and testing. Finished UMich Databases with Python week 4. Started first course of six in UCSD Data Structures and Algorithms Coursera specialization, called Algorithmic Toolbox. Started CrashCourse Pysics.
 
+**Thoughts:** I'm going to extend the pause on progressing through the UGeneva Natural Models and Simulations course until I finish with a few other items that I need to do first in order to better understand and then implement the more advanced simulations. I am going to continue to do all I can with simpler CAs while I review or learn these relevant subjects. 
+
+It is time to start the UCSD Algorithms specialization. I think a small portion of it will be review, and it will coincide nicely with the Rice specialization topics. The Rice specialization is a trickle of new information at this point, but still provides a nice checklist of things I should know about. It doesn't offer much challenge now that I am comfortable with Pygame library and the basics of event-driven and graphical programming. I will continue to make sure I am overly familiar with everything it teaches, but my projects won't come from there for now.
+
+August 19, 2019
+
+**Today's Progress:** Started coding challenges for week 1 UCSD Algorithmic Toolbox course. Started Rice PoC I week 3.
+
+**Thoughts:** There was some initial setup to get through for the UCSD course. This algorithm was very simple but it gives me a chance to organize files in a way that will make things easier when the problems get complicated. I'm not using their grading system so I am trying to recreate some sort of helpful feedback through Pytest.
 
 <!---
 
