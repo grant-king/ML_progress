@@ -957,6 +957,12 @@ August 19, 2019
 
 **Thoughts:** There was some initial setup to get through for the UCSD course. This algorithm was very simple but it gives me a chance to organize files in a way that will make things easier when the problems get complicated. I'm not using their grading system so I am trying to recreate some sort of helpful feedback through Pytest.
 
+August 20, 2019
+
+**Today's Progress:** Finished UCSD Algorithmic Toolbox week 1. Finished Rice PoC I week 3. Started Monte Carlo Method project.
+
+**Thoughts:** I didn't think it would happen, but the Rice course gave a lot of good project material this week. Along with basic stats review, this week describes how to use the monte carlo method to determine the best next move on a board game. I am writing a generalized tic tac toe game with Pygame library that'll provide a simple setting to visualize and implement this approach.
+
 <!---
 
 Day x: August x, 2019
