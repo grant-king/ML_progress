@@ -4,7 +4,9 @@
 
 This repository is to log learning progress and work on small Python projects. This is organized into folders by topic and learning resource. These 'course' folders are described here:
 
-Applied_ML - Notes and exercises from University of Michigan's Applied Machine Learning course available for audit on Coursera
+DSA_challenges - Exercises from courses in University of California San Diego Data Structures and Algorithms specialization on Coursera.
+
+Applied_ML - Notes and exercises from University of Michigan's Applied Machine Learning course on Coursera.
 
 MOI_challenges - Small projects and notes for each week's video of The Math of Intelligence series by Siraj Raval on YouTube.
 
