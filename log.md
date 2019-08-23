@@ -963,6 +963,16 @@ August 20, 2019
 
 **Thoughts:** I didn't think it would happen, but the Rice course gave a lot of good project material this week. Along with basic stats review, this week describes how to use the monte carlo method to determine the best next move on a board game. I am writing a generalized tic tac toe game with Pygame library that'll provide a simple setting to visualize and implement this approach.
 
+August 21, 2019
+
+**Today's Progress:** Continued MCM project. Started fourth Agile couse, Testing with Agile.
+
+**Thoughts:** I've started the fouth course of five in the Coursera Agile Development Specialization.
+
+August 22, 2019
+
+**Today's Progress:** Continued Agile IV week 1. Continued MCM project. 
+
 <!---
 
 Day x: August x, 2019
