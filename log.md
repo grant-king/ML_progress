@@ -973,6 +973,16 @@ August 22, 2019
 
 **Today's Progress:** Continued Agile IV week 1. Continued MCM project. 
 
+August 23, 2019
+
+**Today's Progress:** Continued Agile IV week 1. Continued MCM project. Exercism practice.
+
+**Thoughts:** I'm challenged tyring to figure out the MCM portion of this MCM project, but a sure plan is forming. It is amazing how much it helps to remember to simplify things beyond what I think I'll need.
+
+I'm only about halfway through the Agigile IV week 1 videos. This course is only in 3 weeks though, so I will stretch this week over two.
+
+Exercisms are getting easier. I got through one I'd been stuck on for a while, having to do with text processing and recursion.
+
 <!---
 
 Day x: August x, 2019
