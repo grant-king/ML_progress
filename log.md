@@ -983,9 +983,15 @@ I'm only about halfway through the Agigile IV week 1 videos. This course is only
 
 Exercisms are getting easier. I got through one I'd been stuck on for a while, having to do with text processing and recursion.
 
+September 3, 2019
+
+**Today's Progress:** Exercism practice. Continued Agile IV week 1. Started UCSD Algorithmic Toolbox week 2.
+
+**Thoughts:** UCSD course has two problems it introduces this week. Today I worked through the first on getting the value of some index from sequence of Fibonacci numbers. I worked through them after watching the description and then watched the demonstrations to see how they approach the problem. The first solution the instructor presented was recursive and the second 'fast' solution was what I thought they'd label slow solution, by iterating through and calculating each in the sequence. The recursive case is rediculous for more than 20 and the faster solution also becomes unrunnable, but not until numbers over 6 digits. It seems like there might be an even faster solution that uses a briefly-mentioned formula, but they didn't present it as a solution. I spent too much time to try and make it work but the numbers are too big for the builtin operators, and my attempts at helper functions are too cumbersome to work quickly. I will see if numpy can help and try again with this potentially-fastest solution if I have extra time this week.
+
 <!---
 
-Day x: August x, 2019
+Day x: September x, 2019
 
 **Today's Progress:**
 
