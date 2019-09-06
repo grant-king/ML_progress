@@ -989,6 +989,15 @@ September 3, 2019
 
 **Thoughts:** UCSD course has two problems it introduces this week. Today I worked through the first on getting the value of some index from sequence of Fibonacci numbers. I worked through them after watching the description and then watched the demonstrations to see how they approach the problem. The first solution the instructor presented was recursive and the second 'fast' solution was what I thought they'd label slow solution, by iterating through and calculating each in the sequence. The recursive case is rediculous for more than 20 and the faster solution also becomes unrunnable, but not until numbers over 6 digits. It seems like there might be an even faster solution that uses a briefly-mentioned formula, but they didn't present it as a solution. I spent too much time to try and make it work but the numbers are too big for the builtin operators, and my attempts at helper functions are too cumbersome to work quickly. I will see if numpy can help and try again with this potentially-fastest solution if I have extra time this week.
 
+September 4, 2019
+
+**Today's Progress:** Continued Agile IV week 1. Continued UCSD Algorithmic Toolbox week 2.
+
+September 5, 2019
+
+**Today's Progress:** Finished UCSD Algorithmic Toolbox week 2. 
+
+**Thoughts:** The last module of the UCSD course focused on a review of Big O and a thurough overview of the rest of the course. I feel like the content will be very well matched to my experience with algorithms so far.
 <!---
 
 Day x: September x, 2019
