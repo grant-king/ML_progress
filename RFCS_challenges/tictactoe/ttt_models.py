@@ -2,12 +2,17 @@ import pygame
 from pygame.locals import *
 import random
 
-class Grid:
+class Board:
     def __init__(self):
         self.ROWS = 3 
         self.COLS = 3
 
         self.cells = [[Cell([row, column]) for row in range(self.ROWS)] for column in range(self.COLS)]
+        #build list of unoccupied cells
+        self.unoccupied_locations = []
+        for cell_row in self.cells:
+            for cell in cell_row:
+                self.unoccupied_locations.append(cell.grid_idx)
 
         self.cell_size = self.cells[0][0].size
         self.size = [self.cell_size[0] * self.COLS, self.cell_size[1] * self.ROWS]
@@ -15,6 +20,26 @@ class Grid:
         self.rect = self.surface.get_rect()
         
         self.generate_overlay()
+
+        self.current_player = 'x'
+
+    def update(self):
+        self.score()
+        self.draw()
+
+    def score(self):
+        pass
+
+    def winner(self):
+        pass
+
+    def copy(self):
+        new_board = Board()
+        for column_idx, cell_row in enumerate(self.cells):
+            for row_idx, cell in enumerate(cell_row):
+                if cell.occupied:
+                    new_board.play(cell.symbol, [column_idx, row_idx])
+        return new_board
 
     def draw(self):
         main_window = pygame.display.get_surface()
@@ -34,6 +59,20 @@ class Grid:
         cell = self.cells[grid_idx[0]][grid_idx[1]]
         cell.occupy(symbol)
 
+    def random_play(self):
+        if len(self.unoccupied_locations) > 0:
+            cell_location = self.unoccupied_locations.pop(random.randrange(len(self.unoccupied_locations)))
+            self.play(self.current_player, cell_location)
+            self.toggle_player()
+        else:
+            print()
+
+    def toggle_player(self):
+        if self.current_player == 'x':
+            self.current_player = 'o'
+        else:
+            self.current_player = 'x'
+        
     def generate_overlay(self):
         overlay_color = [100, 100, 100]
         overlay_surface = pygame.Surface(self.size)
@@ -79,4 +118,17 @@ class Cell:
     def draw(self, grid_surface):
         grid_surface.blit(self.surface, self.rect)
 
+
+class MCMove:
+    """
+    Determine the next best move given the current board 
+    """
+    def __init__(self, board):
+        self.num_trials = 10
+        self.starting_board = board.copy()
+        self.run_trials()
+
+    def run_trials(self):
+        for trial in range(self.num_trials):
+            
 
