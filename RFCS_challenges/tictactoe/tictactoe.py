@@ -16,23 +16,27 @@ BACKGROUND_COLOR = [245, 240, 250]
 pygame.init()
 main_window = pygame.display.set_mode(SCREEN_SIZE)
 
-grid = Grid()
-grid.play('x', [0, 1])
-grid.play('x', [1, 1])
-grid.play('o', [2, 1])
+board = Board()
 
 running = True
 clock = pygame.time.Clock()
 
 while running:
-    events = pygame.event.get()
     clock.tick(60)
-    main_window.fill(BACKGROUND_COLOR)
+
+    events = pygame.event.get()
     #event handlers
     running = listen_quit(events)
+
+    main_window.fill(BACKGROUND_COLOR)
     
-    
-    grid.draw()
+    board.update()
     pygame.display.flip()
 
+    #delay for visual
+    pygame.time.delay(750)
+
+    
+    
 pygame.quit()
+
