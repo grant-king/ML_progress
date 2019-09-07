@@ -998,6 +998,15 @@ September 5, 2019
 **Today's Progress:** Finished UCSD Algorithmic Toolbox week 2. 
 
 **Thoughts:** The last module of the UCSD course focused on a review of Big O and a thurough overview of the rest of the course. I feel like the content will be very well matched to my experience with algorithms so far.
+
+September 6, 2019
+
+**Today's Progress:** Continued Agile IV week 1. Continued MCM project.
+
+**Thoughts:** I'm still not to where I need to be to finish Agile IV week 1 this week. I think it will turn into a three week week, somehow.
+
+I am back to working on the MCM tic tac toe project. I'm amazed at how long it took to get reacquainted with all of the interworkings. It is easier to return to something like this than it once was, but there's still a lot of room for improvment. It really helped having some handwritten notes to look back at, but I should have had some better documented code. I think then I can glance at everything as a whole rather than having to investigate and remember a lot about how things mesh.
+
 <!---
 
 Day x: September x, 2019
