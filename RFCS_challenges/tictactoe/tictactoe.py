@@ -10,7 +10,7 @@ def listen_quit(events_list):
             return False
     return True
 
-SCREEN_SIZE = [900, 900]
+SCREEN_SIZE = [300, 300]
 BACKGROUND_COLOR = [245, 240, 250]
 
 pygame.init()
@@ -29,14 +29,19 @@ while running:
     running = listen_quit(events)
 
     main_window.fill(BACKGROUND_COLOR)
-    
+
+    #game logic
+    board.random_play()
+    if board.finished:
+        pygame.time.delay(1000)
+        board = Board()
+
     board.update()
     pygame.display.flip()
 
     #delay for visual
-    pygame.time.delay(750)
+    pygame.time.delay(100)
 
-    
     
 pygame.quit()
 
