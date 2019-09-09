@@ -32,3 +32,37 @@ def test_board_no_winner():
     board.grader.grade()
     assert board.winner == None
 
+def test_board_score_x_winner():
+    board = Board()
+
+    board.play('x', [0, 0])
+    board.play('x', [1, 1])
+    board.play('x', [2, 2])
+
+    board.play('o', [0, 1])
+    board.play('o', [0, 2])
+    
+    board.grader.grade()
+
+    expected_scores = [[1, -1, -1], [0, 1, 0], [0, 0, 1]]
+    scores = board.score('x')
+
+    assert scores == expected_scores
+
+def test_mcmove_next_move():
+    board = Board()
+
+    board.play('x', [0, 0])
+    board.play('x', [1, 1])
+
+    board.play('o', [0, 1])
+    board.play('o', [0, 2])
+
+    board.current_player = 'x'
+
+    mcmove = MCMove(board)
+    next_location = mcmove.get_next_move()
+    
+    assert next_location == [2, 2]
+
+
