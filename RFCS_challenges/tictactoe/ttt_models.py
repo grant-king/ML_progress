@@ -14,45 +14,68 @@ class Board:
             for cell in cell_row:
                 self.unoccupied_locations.append(cell.grid_idx)
 
-        self.current_player = 'x'
+        self.current_player = 'o'
         self.finished = False
         self.winner = None
+        self.trial_board = False
 
         self.drawer = BoardDrawing(self)
         self.grader = BoardGrading(self)
 
     def update(self):
-        self.grader.grade()
         self.drawer.draw()
 
-    def score(self):
-        #return array of scores relative to winner
-        if self.finished:
-            pass
-    
     def copy(self):
         new_board = Board()
         for column_idx, cell_row in enumerate(self.cells):
             for row_idx, cell in enumerate(cell_row):
                 if cell.occupied:
                     new_board.play(cell.symbol, [column_idx, row_idx])
+                    new_board.unoccupied_locations.pop(new_board.unoccupied_locations.index([column_idx, row_idx]))
         return new_board
 
     def play(self, symbol, grid_idx):
         cell = self.cells[grid_idx[0]][grid_idx[1]]
         cell.occupy(symbol)
+        self.grader.grade()
+        self.toggle_player()
 
     def random_play(self):
         if len(self.unoccupied_locations) > 0:
             cell_location = self.unoccupied_locations.pop(random.randrange(len(self.unoccupied_locations)))
             self.play(self.current_player, cell_location)
-            self.toggle_player()
+            
 
     def toggle_player(self):
         if self.current_player == 'x':
             self.current_player = 'o'
         else:
             self.current_player = 'x'
+
+    def score(self, player_symbol):
+        #return array of scores relative to player_symbol and board winner
+        if self.finished:
+            scores = [[0 for row in range(self.ROWS)] for column in range(self.COLS)]
+            #return array of 0's if tie
+            if self.winner == None:
+                return scores
+            else:
+                #winner's occupied cells count for a point; loser's for negative point; empty no point.
+                if self.winner == player_symbol:
+                    multiplier = 1
+                else:
+                    multiplier = -1
+                score = multiplier * 1
+                #traverse cells, determine score for each if occupied
+                #if player_symbol not winner, score is reversed
+                for row_idx, cell_row in enumerate(self.cells):
+                    for col_idx, cell in enumerate(cell_row):
+                        if cell.occupied:
+                            if cell.symbol == player_symbol:
+                                scores[col_idx][row_idx] = score
+                            else:
+                                scores[col_idx][row_idx] = -score
+                return scores
 
 
 class BoardDrawing:
@@ -107,7 +130,7 @@ class BoardGrading:
         self.board = board
 
     def grade(self):
-    #check for winning conditions
+        #check for winning conditions
         counter = []
 
         #check horizontal matches
@@ -138,14 +161,16 @@ class BoardGrading:
         #check for full board:
         if self.board.winner == None and len(self.board.unoccupied_locations) == 0:
             self.board.finished = True
-            print('Draw')
+            if not self.board.trial_board:
+                print('Draw')
     
     def check_counter(self, counter, direction_str):
         #check to determine if counter pattern contains enough in a row for win
         if counter == ['x' for repeat in range(self.board.COLS)] or counter == ['o' for repeat in range(self.board.COLS)]:
             self.board.winner = counter[0]
             self.board.finished = True
-            print(f'{self.board.winner} wins {direction_str}!')
+            if not self.board.trial_board:
+                print(f'{self.board.winner} wins {direction_str}!')
                     
 
 class Cell:
@@ -181,16 +206,38 @@ class MCMove:
     Determine the next best move given the current board 
     """
     def __init__(self, board):
-        self.num_trials = 10
         self.starting_board = board.copy()
-        self.run_trials()
+        self.player_perspective = self.starting_board.current_player
+        self.board_score_total = [[0 for row in range(self.starting_board.ROWS)] for col in range(self.starting_board.COLS)]
 
-    def run_trials(self):
-        for trial in range(self.num_trials):
+    def add_board(self, score):
+        for row_idx, score_row in enumerate(score):
+            for col_idx, cell_score in enumerate(score_row):
+                self.board_score_total[col_idx][row_idx] += cell_score
+
+    def run_trials(self, num_trials=200):
+        for trial in range(num_trials):
             #start individual games
             game_board = self.starting_board.copy()
-            while game_board.unfinished:
+            game_board.trial_board = True
+            while not game_board.finished:
                 game_board.random_play()
+            self.add_board(game_board.score(self.player_perspective))
 
-            
+    def get_next_move(self):
+        #return 2d index of where best next move for
+        self.run_trials()
 
+        high_score = 0
+        high_score_idx = [0, 0]
+
+        #get unoccupied cell with maximum value
+        for row_idx, score_row in enumerate(self.board_score_total):
+            for col_idx, score in enumerate(score_row):
+                if [col_idx, row_idx] in self.starting_board.unoccupied_locations:
+                    if score > high_score:
+                        high_score = score
+                        high_score_idx[0] = row_idx
+                        high_score_idx[1] = col_idx
+        
+        return high_score_idx
