@@ -45,3 +45,5 @@ RFCS_challenges/asteroids/__pycache__/game_models.cpython-37.pyc
 RFCS_challenges/tictactoe/.vscode/launch.json
 RFCS_challenges/tictactoe/.vscode/settings.json
 RFCS_challenges/tictactoe/__pycache__/ttt_models.cpython-37.pyc
+*.json
+*.pyc
