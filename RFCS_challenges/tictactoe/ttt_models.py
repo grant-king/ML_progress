@@ -31,22 +31,20 @@ class Board:
             for col_idx, cell in enumerate(cell_row):
                 if cell.occupied:
                     new_board.play(cell.symbol, [row_idx, col_idx])
-                    new_board.unoccupied_locations.pop(new_board.unoccupied_locations.index([row_idx, col_idx]))
         return new_board
 
     def play(self, symbol, grid_idx):
-        cell = self.cells[grid_idx[0]][grid_idx[1]]
-        cell.occupy(symbol)
-        self.grader.grade()
-        self.toggle_player()
-        
-
-    def random_play(self):
-        if len(self.unoccupied_locations) > 0:
-            cell_location = self.unoccupied_locations.pop(random.randrange(len(self.unoccupied_locations)))
-            self.play(self.current_player, cell_location)
-        else:
+        if grid_idx in self.unoccupied_locations:
+            self.unoccupied_locations.remove([grid_idx[0], grid_idx[1]])
+            cell = self.cells[grid_idx[0]][grid_idx[1]]
+            cell.occupy(symbol)
             self.grader.grade()
+            self.toggle_player()
+
+    def random_play(self, symbol):
+        cell_location = random.choice(self.unoccupied_locations)
+        self.play(symbol, cell_location)
+        
             
     def toggle_player(self):
         if not self.finished:
@@ -224,11 +222,11 @@ class MCMove:
             game_board = self.starting_board.copy()
             game_board.trial_board = True
             while not game_board.finished:
-                game_board.random_play()
+                game_board.random_play(game_board.current_player)
             self.add_board(game_board.score(self.player_perspective))
 
     def get_next_move(self):
-        if not self.starting_board.finished:
+        if len(self.starting_board.unoccupied_locations) > 0:
             #return 2d index of where best next move for
             self.run_trials()
 
