@@ -31,9 +31,9 @@ def player_input(events_list, board):
                 board.play('x', [2, 1])
             if event.key == K_KP3:
                 board.play('x', [2, 2])
+        
 
-
-SCREEN_SIZE = [300, 300]
+SCREEN_SIZE = [600, 600]
 BACKGROUND_COLOR = [245, 240, 250]
 
 pygame.init()
@@ -56,17 +56,18 @@ while running:
     board.update()
     pygame.display.flip()
 
+    #game logic
+    board.grader.grade()
     if board.finished:
         pygame.time.delay(1000)
         board = Board()
-
-    #game logic
-    if board.current_player == 'o':
-        best_next = MCMove(board).get_next_move()
-        board.play('o', best_next)
     else:
-        player_input(events, board)
-    
+        if board.current_player == 'o':
+            best_next = MCMove(board).get_next_move()
+            board.play('o', best_next)
+        else:
+            player_input(events, board)
+        
     #delay for visual
     pygame.time.delay(100)
 
