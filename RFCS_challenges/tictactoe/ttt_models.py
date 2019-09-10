@@ -27,11 +27,11 @@ class Board:
 
     def copy(self):
         new_board = Board()
-        for column_idx, cell_row in enumerate(self.cells):
-            for row_idx, cell in enumerate(cell_row):
+        for row_idx, cell_row in enumerate(self.cells):
+            for col_idx, cell in enumerate(cell_row):
                 if cell.occupied:
-                    new_board.play(cell.symbol, [column_idx, row_idx])
-                    new_board.unoccupied_locations.pop(new_board.unoccupied_locations.index([column_idx, row_idx]))
+                    new_board.play(cell.symbol, [row_idx, col_idx])
+                    new_board.unoccupied_locations.pop(new_board.unoccupied_locations.index([row_idx, col_idx]))
         return new_board
 
     def play(self, symbol, grid_idx):
@@ -39,18 +39,21 @@ class Board:
         cell.occupy(symbol)
         self.grader.grade()
         self.toggle_player()
+        
 
     def random_play(self):
         if len(self.unoccupied_locations) > 0:
             cell_location = self.unoccupied_locations.pop(random.randrange(len(self.unoccupied_locations)))
             self.play(self.current_player, cell_location)
-            
-
-    def toggle_player(self):
-        if self.current_player == 'x':
-            self.current_player = 'o'
         else:
-            self.current_player = 'x'
+            self.grader.grade()
+            
+    def toggle_player(self):
+        if not self.finished:
+            if self.current_player == 'x':
+                self.current_player = 'o'
+            else:
+                self.current_player = 'x'
 
     def score(self, player_symbol):
         #return array of scores relative to player_symbol and board winner
@@ -72,9 +75,9 @@ class Board:
                     for col_idx, cell in enumerate(cell_row):
                         if cell.occupied:
                             if cell.symbol == player_symbol:
-                                scores[col_idx][row_idx] = score
+                                scores[row_idx][col_idx] = score
                             else:
-                                scores[col_idx][row_idx] = -score
+                                scores[row_idx][col_idx] = -score
                 return scores
 
 
@@ -213,7 +216,7 @@ class MCMove:
     def add_board(self, score):
         for row_idx, score_row in enumerate(score):
             for col_idx, cell_score in enumerate(score_row):
-                self.board_score_total[col_idx][row_idx] += cell_score
+                self.board_score_total[row_idx][col_idx] += cell_score
 
     def run_trials(self, num_trials=200):
         for trial in range(num_trials):
@@ -225,19 +228,21 @@ class MCMove:
             self.add_board(game_board.score(self.player_perspective))
 
     def get_next_move(self):
-        #return 2d index of where best next move for
-        self.run_trials()
+        if not self.starting_board.finished:
+            #return 2d index of where best next move for
+            self.run_trials()
 
-        high_score = 0
-        high_score_idx = [0, 0]
+            high_score = 0
+            high_score_idx = random.choice(self.starting_board.unoccupied_locations)
 
-        #get unoccupied cell with maximum value
-        for row_idx, score_row in enumerate(self.board_score_total):
-            for col_idx, score in enumerate(score_row):
-                if [col_idx, row_idx] in self.starting_board.unoccupied_locations:
-                    if score > high_score:
-                        high_score = score
-                        high_score_idx[0] = row_idx
-                        high_score_idx[1] = col_idx
-        
-        return high_score_idx
+            #get unoccupied cell with maximum value
+            for row_idx, score_row in enumerate(self.board_score_total):
+                for col_idx, score in enumerate(score_row):
+                    if [row_idx, col_idx] in self.starting_board.unoccupied_locations:
+                        if score > high_score:
+                            high_score = score
+                            high_score_idx[0] = row_idx
+                            high_score_idx[1] = col_idx
+            
+            return high_score_idx
+        return None
