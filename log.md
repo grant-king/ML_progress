@@ -1007,6 +1007,12 @@ September 6, 2019
 
 I am back to working on the MCM tic tac toe project. I'm amazed at how long it took to get reacquainted with all of the interworkings. It is easier to return to something like this than it once was, but there's still a lot of room for improvment. It really helped having some handwritten notes to look back at, but I should have had some better documented code. I think then I can glance at everything as a whole rather than having to investigate and remember a lot about how things mesh.
 
+September 9, 2019
+
+**Today's Progress:** Finished MCM project. Started UCSD Algorithmic toolbox week 3. 
+
+**Thoughts:** Finished is too strong of a word, but the MCM tic tac toe porject is to a working final place. It is succesful in the goal of presenting a ttt game and having the machine player make the best moves it can, calculated using very basic Monte Carlo experiments. This works on boards of various sizes. I am pretty happy with it. It is really neat to put this together from the lowest level I'd ever want to, and have it work. Debugging this has certianly helped me learn many new things.
+
 <!---
 
 Day x: September x, 2019
