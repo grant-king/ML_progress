@@ -57,7 +57,6 @@ while running:
     pygame.display.flip()
 
     #game logic
-    board.grader.grade()
     if board.finished:
         pygame.time.delay(1000)
         board = Board()
@@ -65,8 +64,14 @@ while running:
         if board.current_player == 'o':
             best_next = MCMove(board).get_next_move()
             board.play('o', best_next)
-        else:
-            player_input(events, board)
+        else: #less skilled player
+            skilled = [1 for repeat in range(4)]
+            skilled.append(0)
+            if random.choice(skilled):
+                best_next = MCMove(board).get_next_move()
+                board.play('x', best_next)
+            else:
+                board.random_play('x')
         
     #delay for visual
     pygame.time.delay(100)
