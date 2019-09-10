@@ -53,16 +53,35 @@ def test_mcmove_next_move():
     board = Board()
 
     board.play('x', [0, 0])
-    board.play('x', [1, 1])
+    board.play('x', [0, 1])
 
-    board.play('o', [0, 1])
-    board.play('o', [0, 2])
+    board.play('o', [1, 1])
+    board.play('o', [2, 2])
 
     board.current_player = 'x'
 
     mcmove = MCMove(board)
     next_location = mcmove.get_next_move()
     
-    assert next_location == [2, 2]
+    assert next_location == [0, 2]
 
+def test_mcmove_tie():
+    board = Board()
 
+    board.play('o', [0, 1])
+    board.play('x', [0, 0])
+    board.play('o', [1, 0])
+    board.play('x', [0, 2])
+    board.play('o', [1, 1])
+    board.play('x', [1, 2])
+    board.play('o', [2, 0])
+    board.play('x', [2, 1])
+    board.play('o', [2, 2])
+
+    board.grader.grade()
+
+    next_location = MCMove(board).get_next_move()
+
+    assert next_location == None
+
+test_mcmove_tie()
