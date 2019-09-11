@@ -1013,6 +1013,10 @@ September 9, 2019
 
 **Thoughts:** Finished is too strong of a word, but the MCM tic tac toe porject is to a working final place. It is succesful in the goal of presenting a ttt game and having the machine player make the best moves it can, calculated using very basic Monte Carlo experiments. This works on boards of various sizes. I am pretty happy with it. It is really neat to put this together from the lowest level I'd ever want to, and have it work. Debugging this has certianly helped me learn many new things.
 
+September 10, 2019
+
+**Today's Progress:** Continued UCSD Algorithmic Toolbox week 3.
+
 <!---
 
 Day x: September x, 2019
