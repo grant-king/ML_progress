@@ -1015,7 +1015,17 @@ September 9, 2019
 
 September 10, 2019
 
-**Today's Progress:** Continued UCSD Algorithmic Toolbox week 3.
+**Today's Progress:** Continued UCSD Algorithmic Toolbox week 3. 
+
+September 11, 2019
+
+**Today's Progress:** Continued UCSD Algorithmic Toolbox week 3. Started Rice PoC I week 4.
+
+September 12, 2019
+
+**Today's Progress:** Continued UCSD Algorithmic Toolbox week 3. Continued Rice PoC I week 4. Continued Agile IV week 1.
+
+**Thoughts:** I feel like I have too many lectures right now. I am glad the Agile specialization is almost through so I can focus on this other stuff as much as I need to. It is a lot slower to get through the UCSD lectures, probably because I haven't seen much of it before. I will be OK to stretch out weekly deadlines until I get some more time. 
 
 <!---
 
