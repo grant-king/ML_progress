@@ -1037,6 +1037,10 @@ September 16, 2019
 
 **Today's Progress:** Finished Agile IV week 1. Continued UCSD Algorithmic Toolbox week 3.
 
+September 17, 2019
+
+**Today's Progress:** Continued UCSD Algorithmic Toolbox week 3.
+
 <!---
 
 Day x: September x, 2019
