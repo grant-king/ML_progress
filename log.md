@@ -1041,6 +1041,14 @@ September 17, 2019
 
 **Today's Progress:** Continued UCSD Algorithmic Toolbox week 3.
 
+September 18, 2019
+
+**Today's Progress:** Continued UCSD AT week 3. 
+
+September 19, 2019
+
+**Today's Progress:** Continued UCSD AT week 3. Started learning about pyautogui.
+
 <!---
 
 Day x: September x, 2019
