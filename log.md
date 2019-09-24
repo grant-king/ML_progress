@@ -1049,6 +1049,14 @@ September 19, 2019
 
 **Today's Progress:** Continued UCSD AT week 3. Started learning about pyautogui.
 
+September 20, 2019
+
+**Today's Progress:** Finished UCSD AT week 3. Finished Rice PoC week 4. Started small pyautogui and keyboard project.
+
+September x, 2019
+
+**Today's Progress:** Exercism practice. Started UCSD AT week 4. 
+
 <!---
 
 Day x: September x, 2019
