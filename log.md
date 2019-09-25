@@ -1053,10 +1053,17 @@ September 20, 2019
 
 **Today's Progress:** Finished UCSD AT week 3. Finished Rice PoC week 4. Started small pyautogui and keyboard project.
 
-September x, 2019
+September 23, 2019
 
 **Today's Progress:** Exercism practice. Started UCSD AT week 4. 
 
+September 24, 2019
+
+**Today's Progress:**Continued UCSD AT week 4. Started Agile IV week 2. 
+
+**Thoughts:** Again, I will stretch the content for week 2 of this Agile course over 2 weeks.  
+
+UCSD Algorithmic Toolbox is covering divide-and-conquer techniques.
 <!---
 
 Day x: September x, 2019
