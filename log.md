@@ -1064,6 +1064,11 @@ September 24, 2019
 **Thoughts:** Again, I will stretch the content for week 2 of this Agile course over 2 weeks.  
 
 UCSD Algorithmic Toolbox is covering divide-and-conquer techniques.
+
+September 25, 2019
+
+**Today's Progress:** Continued Agile IV week 2. Started Rice FC week 5.
+
 <!---
 
 Day x: September x, 2019
