@@ -1061,13 +1061,27 @@ September 24, 2019
 
 **Today's Progress:**Continued UCSD AT week 4. Started Agile IV week 2. 
 
-**Thoughts:** Again, I will stretch the content for week 2 of this Agile course over 2 weeks.  
+**Thoughts:** Again, I will stretch the content for week 2 of this Agile course over two weeks.  
 
 UCSD Algorithmic Toolbox is covering divide-and-conquer techniques.
 
 September 25, 2019
 
 **Today's Progress:** Continued Agile IV week 2. Started Rice FC week 5.
+
+September 26, 2019
+
+**Today's Progress:** Finished Rice FC week 5. Continued UCSD AT week 5.
+
+**Thoughts:** I think I will have to stretch UCSD AT week 5 over two weeks.
+
+The Rice course didn't offer much helpful content this week. I thought about skipping over a lot of it, but it is too difficult to know exactly what they will cover and if I'll come across another golden piece missing from my fundamentals. This week I didn't, and it felt like I wasted a little bit of time watcing everything. I've thought about doing other courses first and doing this if I have extra time, but I think that has the potential to stretch these painful Rice courses out longer than necessary. I think it is probably best to get through the painful but easy courses in this specialization as quickly as possible, while more slowly absorbing the denser material from the UCSD Algorithms and Agile courses.
+
+September 27, 2019
+
+**Today's Progress:** Continued Agile IV week 2. Continued UCSD AT week 5.
+
+**Thoughts:** I haven't started a new project this week, I think I needed a break to get my bearings and think about what should be next. I want to make a project schedule to help quickly get back on track with specific projects. It would be nice to find a balance and be able to work on both long-term projects and the other immediate projects that turn up like the monte carlo tic tac toe thing.
 
 <!---
 
