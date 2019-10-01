@@ -1071,7 +1071,7 @@ September 25, 2019
 
 September 26, 2019
 
-**Today's Progress:** Finished Rice FC week 5. Continued UCSD AT week 5.
+**Today's Progress:** Finished Rice FC week 5. Continued UCSD AT week 4.
 
 **Thoughts:** I think I will have to stretch UCSD AT week 5 over two weeks.
 
@@ -1079,9 +1079,15 @@ The Rice course didn't offer much helpful content this week. I thought about ski
 
 September 27, 2019
 
-**Today's Progress:** Continued Agile IV week 2. Continued UCSD AT week 5.
+**Today's Progress:** Continued Agile IV week 2. Continued UCSD AT week 4.
 
 **Thoughts:** I haven't started a new project this week, I think I needed a break to get my bearings and think about what should be next. I want to make a project schedule to help quickly get back on track with specific projects. It would be nice to find a balance and be able to work on both long-term projects and the other immediate projects that turn up like the monte carlo tic tac toe thing.
+
+September 30, 2019
+
+**Today's Progress:** Continued UCSD AT week 4.
+
+**Thoughts:** The analysis for these divide and conquer algorithms is pretty dense. The instructor may be going into more detail than is useful for understanding the theory behind designing algorithims with this approach, or maybe I'm overly reluctant to want to think about it that hard. Either way I think I need to be ok just moving through it without exhausting mental resources on completely comprehending unfruitful levels of analysis.
 
 <!---
 
