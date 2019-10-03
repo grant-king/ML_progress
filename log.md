@@ -1089,9 +1089,17 @@ September 30, 2019
 
 **Thoughts:** The analysis for these divide and conquer algorithms is pretty dense. The instructor may be going into more detail than is useful for understanding the theory behind designing algorithims with this approach, or maybe I'm overly reluctant to want to think about it that hard. Either way I think I need to be ok just moving through it without exhausting mental resources on completely comprehending unfruitful levels of analysis.
 
+October 1, 2019
+
+**Today's Progress:** Continued UCSD AT week 4. Finished Rice Principals of Computing II week 1. Started new CA project.
+
+**Thoughts:** This is the first week of the next course in the Rice Fundamentals of Computing Specialization on Coursera. This course is starting out better than the last one, but it is hard to tell just from the first week. There are several good bits of information this week that might help remind me of some graphics fundamentals. The course is finally introducing a grid class that I can use to compare mine against. The weekly project is some game about avoiding certain squares on a grid, but there isn't anything obvious for me to build on from there.  
+
+I will use the oportunity to measure my grid classes against theirs and work on another grid-based CA. I would also like to test performance on very large cell arrays and attempt to improve my implementation.
+
 <!---
 
-Day x: September x, 2019
+October x, 2019
 
 **Today's Progress:**
 
