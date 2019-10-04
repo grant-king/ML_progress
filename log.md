@@ -1097,6 +1097,13 @@ October 1, 2019
 
 I will use the oportunity to measure my grid classes against theirs and work on another grid-based CA. I would also like to test performance on very large cell arrays and attempt to improve my implementation.
 
+October 2, 2019
+
+**Today's Progress:** Continued CA project. Continued Agile IV week 2.
+
+October 3, 2019
+
+**Today's Progress:** Continued Agile IV week 2. Continued UCSD AT week 4.
 <!---
 
 October x, 2019
