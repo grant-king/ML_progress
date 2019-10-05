@@ -1104,6 +1104,15 @@ October 2, 2019
 October 3, 2019
 
 **Today's Progress:** Continued Agile IV week 2. Continued UCSD AT week 4.
+
+October 4, 2019
+
+**Today's Progress:** Finished Agile IV week 2. Continued CA project. 
+
+**Thoughts:** There aren't many places to improve the implementation of this new version of the configurable 2d cellular automaton. I have been able to make some minor improvements by doing away with some mechanics; one that was tied to the cycling of rules and a couple of other minor speed improvments. Now with ~10k cells the simulation runs at about 10 steps per second. 
+
+The next obvious thing to do is to incorporate multiprocessing somehow. I have a vague sense of techniques I need to employ to do this, but just enough to get started for now. I need to do more research to decide how I will reorganize the model to process in chuncks.
+
 <!---
 
 October x, 2019
