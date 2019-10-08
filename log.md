@@ -1113,6 +1113,15 @@ October 4, 2019
 
 The next obvious thing to do is to incorporate multiprocessing somehow. I have a vague sense of techniques I need to employ to do this, but just enough to get started for now. I need to do more research to decide how I will reorganize the model to process in chuncks.
 
+
+October x, 2019
+
+**Today's Progress:** Continued CA project. CUDA experimentation.
+
+**Thoughts:** I think I know what I need to do to greatly speed up some parts of the CA model. It seems like it is a good time to start in on some GPU programming. I am hoping to first make small speed impovments by using numpy arrays where I can and slightly reorganizing the model. Once those speed improvemnts have been tuned, it will be much easier to send some parts of the process to the GPU for more substantial speed improvments.
+
+So far using numpy in place of manually iterated matrix operations hasn't made any noticeable speed improvements. My tests with some libraries yielded frustrating results, but I am finding more actively developed CUDA+Python libraries that I will attempt to use.
+
 <!---
 
 October x, 2019
