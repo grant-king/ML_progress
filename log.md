@@ -1114,13 +1114,21 @@ October 4, 2019
 The next obvious thing to do is to incorporate multiprocessing somehow. I have a vague sense of techniques I need to employ to do this, but just enough to get started for now. I need to do more research to decide how I will reorganize the model to process in chuncks.
 
 
-October x, 2019
+October 7, 2019
 
 **Today's Progress:** Continued CA project. CUDA experimentation.
 
 **Thoughts:** I think I know what I need to do to greatly speed up some parts of the CA model. It seems like it is a good time to start in on some GPU programming. I am hoping to first make small speed impovments by using numpy arrays where I can and slightly reorganizing the model. Once those speed improvemnts have been tuned, it will be much easier to send some parts of the process to the GPU for more substantial speed improvments.
 
 So far using numpy in place of manually iterated matrix operations hasn't made any noticeable speed improvements. My tests with some libraries yielded frustrating results, but I am finding more actively developed CUDA+Python libraries that I will attempt to use.
+
+October 8, 2019
+
+**Today's Progress:** Numpy review with DataCamp. Continued UCSD Algorithmic Toolbox week 4. Started Agile IV week 3. Started Intro to parallel computing on Udacity.
+
+**Thoughts:** This stretched week 4 in UCSD Algorithmic Toolbox is covering several divide and conquer sorting algorithms. I had seen a few of these examples before, but it is good to see the detailed run time analysis. 
+
+I am starting a course on Udacity to help guide parallel/heterogeneous computing theory study and CUDA training. It seems like the course uses C and associated CUDA statements. I think I can get by using Python that calls custom CUDA kernels to follow the course. This course seems like a good starting point as it uses image manipulation examples which seem like they will have lessons that can be easily applied to my CA projects.
 
 <!---
 
