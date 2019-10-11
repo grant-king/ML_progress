@@ -1130,6 +1130,14 @@ October 8, 2019
 
 I am starting a course on Udacity to help guide parallel/heterogeneous computing theory study and CUDA training. It seems like the course uses C and associated CUDA statements. I think I can get by using Python that calls custom CUDA kernels to follow the course. This course seems like a good starting point as it uses image manipulation examples which seem like they will have lessons that can be easily applied to my CA projects.
 
+October 10, 2019
+
+**Today's Progress:** Continued Agile IV week 3. Finished UCSD AT week 4.
+
+**Thoughts:** Many of these algorithm descriptions are very difficult to follow. Luckily the Internet is full of alternative explanations that reveal that many people consistently explain certain ideas in an unintuitive way. After some trouble, I've figured out how to implement quicksort. I have a working version but I feel like something could be wrong with the partition step. It is hard to say if something is wrong as it works, I just think it might be working slightly more slowly than it is supposed to. I could visualize everything to be certain. Either way it is good enough as an exercize to understand the ideas this instructor is attempting to illustrate this week about divide and conquer algorithms.
+
+I would like to be able to get through some of these lessons faster.
+
 <!---
 
 October x, 2019
