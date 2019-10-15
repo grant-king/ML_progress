@@ -1138,6 +1138,12 @@ October 10, 2019
 
 I would like to be able to get through some of these lessons faster.
 
+October 11, 2019
+
+**Today's Progress:** Continued multiprocessing CA project.
+
+**Thoughts:** Considering convolution, I found some more places to optimize my ca model. I am using numpy arrays in a few places, and attempting to separate out the operations that I think I'll be able to vectorize. I'm using a larger np array to hold the current state for all cells on each step, then copying smaller np arrays to represent the neighborhoods around each cell. I should be able to perform these copying and then summing operations as vectorized functions that can be sent to the GPU. After iteratively selecting each cell, I think the operations will be able to run independently, in parallel. I'm not sure if I still will have to manage memory to see performance improvments. It sounds like it will probably be worthwile to investigate the most hands-on CUDA integration methods.
+
 <!---
 
 October x, 2019
