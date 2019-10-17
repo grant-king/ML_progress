@@ -1154,6 +1154,14 @@ I now know why I was getting compile errors with numba before. I just need to fo
 
 I will separate the visual and state logic for the Cell class and then I can use numba jitclass to see what automatic optimizations can be made. Once I get these automatic optimizations working, I can start figuring out the next level of CUDA control for further optimization.
 
+October 16, 2019
+
+**Today's Progress:** Continued multiprocessing CA project.
+
+**Thoughts:** It seems like every day I break this so much that I'm worried I won't be able to get it working again. I am very greatful for communistic debugging tools and version control. I broke everything at one point but it is now running again, although even more slowly than before the past few days of refactoring.
+
+I have switched from trying to use numba to using pytorch for CUDA optimization. I really prefer the pytorch API already; I wish I hadn't tried so hard to make numba work. I will look for a course somewhere. It was fairly easy to get everything running, but my refactoring still hasn't provided any performance improvments. The simulation is quite a bit slower than it was with numpy, without CUDA. It seems like about 1 step per second with 10k cells. Still, it is neat to see the GPU doing some work now.
+
 <!---
 
 October x, 2019
