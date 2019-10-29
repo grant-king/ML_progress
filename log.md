@@ -1162,6 +1162,16 @@ October 16, 2019
 
 I have switched from trying to use numba to using pytorch for CUDA optimization. I really prefer the pytorch API already; I wish I hadn't tried so hard to make numba work. I will look for a course somewhere. It was fairly easy to get everything running, but my refactoring still hasn't provided any performance improvments. The simulation is quite a bit slower than it was with numpy, without CUDA. It seems like about 1 step per second with 10k cells. Still, it is neat to see the GPU doing some work now.
 
+October 28, 2019
+
+**Today's Progress:** Started new CA project.
+
+**Thoughts:** I have read a lot in the last week to try and figure out why my multiprocessing model was working but giving unexpectedly slow results. I have a better idea about how things might be working behind the scenes, and I think I will have to learn how to incorporate C and custom CUDA kernels before I can see any performance progress there.
+
+I am building a CA based on my last two models that uses the layout of the multiprocessing model but is as fast as the other best-working CA arrangment.
+
+I added a capture class to the new models and wrote a small script for compiling the images into a video. It doesn't seem to slow anything down to start several instances. I guess that is a way to cheat multiprocessing for now, if the goal was just to use full resources to generate any output.
+
 <!---
 
 October x, 2019
