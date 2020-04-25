@@ -7,6 +7,7 @@ output: the maximum value that can be obtained by multiplying two different elem
 
 Approach: Iterate through all possible pairs of input elements and find the pair with the largest product.
 """
+
 import sys
 
 def mpp(sequence):

@@ -47,3 +47,5 @@ RFCS_challenges/tictactoe/.vscode/settings.json
 RFCS_challenges/tictactoe/__pycache__/ttt_models.cpython-37.pyc
 *.json
 *.pyc
+*checkpoint.ipynb
+*checkpoint.png

@@ -11,7 +11,7 @@ def listen_quit(events_list):
             return False
     return True
 
-SCREEN_SIZE = [500, 600]
+SCREEN_SIZE = [1500, 600]
 BACKGROUND_COLOR = [242, 240, 250]
 
 pygame.init()

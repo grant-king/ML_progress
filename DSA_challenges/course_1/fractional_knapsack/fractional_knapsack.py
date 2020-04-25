@@ -24,3 +24,10 @@ def maximum_loot_value(sack_weight_capacity, items_list):
     
     return sum([item[0] for item in knapsack])
 
+items = [
+    [2, 1],
+    [3, 2],
+    [4, 3],
+    [5, 4]
+]
+

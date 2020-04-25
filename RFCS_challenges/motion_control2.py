@@ -5,7 +5,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self):
         super(Player, self).__init__()
 
-        self.surface = pygame.image.load('circle.png').convert()
+        self.surface = pygame.image.load('cloud.png').convert()
         self.surface.set_colorkey((255, 255, 255))
         self.position = self.surface.get_rect()
         
@@ -29,9 +29,9 @@ class Ball(pygame.sprite.Sprite):
         self.position = self.surface.get_rect()
         self.velocity = [11, 1]
 
-    def update(self, pressed_keys):
+    def update(self, pressed_keys, window):
         self.control(pressed_keys)
-        self.bounce()
+        self.bounce(window)
         self.position.move_ip(self.velocity)
     
     def control(self, pressed_keys):
@@ -44,11 +44,10 @@ class Ball(pygame.sprite.Sprite):
         if pressed_keys[K_UP]:
             self.velocity[1] += -1
 
-
-    def bounce(self):
-        if self.position.midleft[0] < 0 or self.position.midright[0] > 500:
+    def bounce(self, window):
+        if self.position.midleft[0] < 0 or self.position.midright[0] > window.get_width():
             self.velocity[0] = -self.velocity[0]
-        if self.position.midtop[1] < 0 or self.position.midbottom[1] > 500:
+        if self.position.midtop[1] < 0 or self.position.midbottom[1] > window.get_height():
             self.velocity[1] = -self.velocity[1]           
 
 
@@ -64,7 +63,7 @@ def listen_quit():
     return running
 
 pygame.init()
-main_window = pygame.display.set_mode((500, 500))
+main_window = pygame.display.set_mode((1200, 900))
 
 player = Player()
 ball = Ball()
@@ -78,7 +77,7 @@ while running:
 
     pressed_keys = pygame.key.get_pressed()
     player.update(pressed_keys)
-    ball.update(pressed_keys)
+    ball.update(pressed_keys, main_window)
 
     main_window.fill((0, 0, 0))
     main_window.blit(player.surface, player.position)

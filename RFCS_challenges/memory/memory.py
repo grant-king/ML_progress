@@ -5,8 +5,8 @@ import random
 class Card(pygame.sprite.Sprite):
     def __init__(self):
         super(Card, self).__init__()
-        self.max_x = pygame.display.Info().current_h
-        self.max_y = pygame.display.Info().current_w
+        self.max_x = pygame.display.Info().current_w
+        self.max_y = pygame.display.Info().current_h
         
         self.color = [1, 1, 1]
         self.front_face = pygame.Surface([60, 60])
@@ -93,7 +93,7 @@ def draw_end():
     main_window = pygame.display.get_surface()
     
     font = pygame.font.Font(None, 150)
-    message = f'You win!'
+    message = 'You win!'
     text = font.render(message, True, (255, 55, 55))
 
     main_window.blit(text, [main_window.get_rect().width/2-200, main_window.get_rect().height/2])
@@ -154,7 +154,6 @@ while running:
     if click_pos != None:
         score += 1
         if len(to_compare) == 2:
-            print(to_compare)
             match = compare(to_compare)
             if match:
                 #save cards to matched list
@@ -164,7 +163,6 @@ while running:
                 #save cards to flipped list
                 _ = [locked.append(item) for item in to_compare]
                 print('no match')
-                print(f'flipped cards: {locked}')
             #reset
             to_compare.clear()
         elif len(to_compare) == 1: 

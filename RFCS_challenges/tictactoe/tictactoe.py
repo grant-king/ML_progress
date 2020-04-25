@@ -33,7 +33,7 @@ def player_input(events_list, board):
                 board.play('x', [2, 2])
         
 
-SCREEN_SIZE = [600, 600]
+SCREEN_SIZE = [500, 500]
 BACKGROUND_COLOR = [245, 240, 250]
 
 pygame.init()
@@ -65,8 +65,8 @@ while running:
             best_next = MCMove(board).get_next_move()
             board.play('o', best_next)
         else: #less skilled player
-            skilled = [1 for repeat in range(4)]
-            skilled.append(0)
+            skilled = [0 for repeat in range(5)]
+            skilled.append(1)
             if random.choice(skilled):
                 best_next = MCMove(board).get_next_move()
                 board.play('x', best_next)

@@ -4,8 +4,8 @@ import random
 
 class Board:
     def __init__(self):
-        self.ROWS = 3 
-        self.COLS = 3
+        self.ROWS = 5 
+        self.COLS = 5
 
         self.cells = [[Cell([row, column]) for row in range(self.ROWS)] for column in range(self.COLS)]
         #build list of unoccupied cells
